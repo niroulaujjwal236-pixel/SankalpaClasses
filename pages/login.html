@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Mock Test | Sankalpa Classes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <div class="bg-circle bg-circle-1"></div>
+    <div class="bg-circle bg-circle-2"></div>
+
+    <main class="login-container">
+        <div class="login-card">
+            <header class="card-header">
+                <h1 class="brand-title">Sankalpa Classes</h1>
+                <h2 class="form-title">Start Your Mock Test</h2>
+                <p class="form-subtitle">Please enter your details before starting the exam.</p>
+            </header>
+
+            <div id="messageBanner" class="message-banner hidden"></div>
+
+            <form id="loginForm" novalidate>
+                <div class="input-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="John Doe" required>
+                    <span class="error-text">Please enter your full name.</span>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    <span class="error-text">Please enter a valid email address.</span>
+                </div>
+
+                <div class="input-group">
+                    <label for="mobileNumber">Mobile Number</label>
+                    <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="98XXXXXXXX" pattern="^[0-9]{10}$" required>
+                    <span class="error-text">Please enter a valid 10-digit mobile number.</span>
+                </div>
+
+                <div class="input-group">
+                    <label for="faculty">Faculty</label>
+                    <div class="select-wrapper">
+                        <select id="faculty" name="faculty" required>
+                            <option value="" disabled selected>Select your faculty</option>
+                            <option value="MBBS">MBBS</option>
+                            <option value="BDS">BDS</option>
+                            <option value="BSc Nursing">BSc Nursing</option>
+                            <option value="BPT">BPT</option>
+                            <option value="BASLP">BASLP</option>
+                            <option value="BPH">BPH</option>
+                            <option value="B.Pharmacy">B.Pharmacy</option>
+                        </select>
+                    </div>
+                    <span class="error-text">Please select your faculty.</span>
+                </div>
+
+                <button type="submit" id="submitBtn" class="submit-btn">
+                    <span class="btn-text">Continue</span>
+                    <span class="spinner hidden"></span>
+                </button>
+            </form>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="../supabase/config.js"></script>
+    <script type="module" src="../js/login.js"></script>
+</body>
+</html>
