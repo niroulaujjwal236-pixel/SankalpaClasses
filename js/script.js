@@ -1,3 +1,5 @@
+import { isLoggedIn, getProfile } from './auth.js';
+
 document.addEventListener("DOMContentLoaded", () => {
 const sidebarToggle = document.getElementById('sidebarToggle');
 const sidebar = document.getElementById('sidebar');
@@ -65,11 +67,6 @@ loadTheme();
 // =========================================================================
 // AUTHENTICATION & MOCK TEST ROUTING LOGIC
 // =========================================================================
-
-import { isLoggedIn, getProfile } from './auth.js';
-
-const authenticated = await isLoggedIn();
-console.log("Authenticated:", authenticated);
 /*
  * Initializes the authentication gateway for the mock test.
  */
