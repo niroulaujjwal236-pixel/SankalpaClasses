@@ -1,5 +1,5 @@
 // Import the existing initialized supabase client instance
-import { supabase } from '../supabase/config.js';
+import { supabase } from "/supabase/config.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('loginForm');
@@ -39,63 +39,80 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Generate a secure, cryptographically random string for background Auth password
-            const tempPassword = generateSecurePassword();
+            const password = generateInternalPassword(mobileNumber);
 
-            // Step A: Attempt Account Registration via Supabase Auth
-            const { data: authData, error: authError } = await supabase.auth.signUp({
-                email: email,
-                password: tempPassword
-            });
+            // ----------------------------------------------------
+            // STEP 1
+            // Try logging in first
+            // ----------------------------------------------------
 
-            if (authError) throw authError;
+            let { data: loginData, error: loginError } =
+                await supabase.auth.signInWithPassword({
+                    email,
+                    password,
+                });
 
-            // Handle edge case where email verification could be required but user profile row structure is expected
-            if (!authData?.user) {
-                throw new Error('Registration initiated, but authentication tracking failed. Please try again.');
+            if (!loginError) {
+                window.location.href = "payment.html";
+                setTimeout(() => {
+                    window.location.href = "payment.html";
+                }, 1000);
+                return;
             }
 
-            // Step B: Record user demographics data directly inside the designated 'profiles' table
-            const { error: profileError } = await supabase
-                .from('profiles')
-                .insert([
-                    {
-                        id: authData.user.id,
-                        full_name: fullName,
-                        phone: mobileNumber,
-                        faculty: faculty,
-                        created_at: new Date().toISOString()
-                    }
-                ]);
+            // ----------------------------------------------------
+            // STEP 2
+            // User doesn't exist yet
+            // Create account
+            // ----------------------------------------------------
+    const { data: signupData, error: signupError } =
+        await supabase.auth.signUp({
+            email,
+            password,
+        });
 
-            if (profileError) {
-                // Custom translation fallback structural handling if email tracking constraint flags duplicate entries
-                if (profileError.code === '23505') {
-                    throw new Error('This profile metadata records matching references. Email already linked.');
+    if (signupError) throw signupError;
+
+    // IMPORTANT: Immediately log them in
+    const { error: signInError } =
+        await supabase.auth.signInWithPassword({
+            email,
+            password,
+        });
+
+    if (signInError) throw signInError;
+
+    // Create profile
+    const { error: profileError } =
+        await supabase
+            .from("profiles")
+            .insert([
+                {
+                    id: signupData.user.id,
+                    full_name: fullName,
+                    phone: mobileNumber,
+                    faculty,
+                    created_at: new Date().toISOString()
                 }
+            ]);
+
+            if (profileError && profileError.code !== "23505") {
                 throw profileError;
             }
 
-            // Step C: Execution Success Transition Sequence
-            displayBanner('Registration verification complete! Finalizing test portal access...', 'success');
-            btnText.textContent = 'Success!';
-            spinner.classList.add('hidden');
+            window.location.href = "payment.html";
 
-            // Timeout allowance for structural visibility of user success animation profile updates
-            setTimeout(() => {
-                window.location.href = 'payment.html';
-            }, 1500);
+            } catch (error) {
+                setLoading(false);
+                handleSystemErrors(error);
+            }
+        });
 
-        } catch (error) {
-            setLoading(false);
-            handleSystemErrors(error);
-        }
-    });
-
-    /**
-     * Iterates over UI elements to assert validity checks
-     * @returns {boolean} truth assessment output matches
-     */
-    function validateForm() {
+        /**
+         * Iterates over UI elements to assert validity checks
+         * @returns {boolean} truth assessment output matches
+         */
+        function validateForm() {
         let isFormValid = true;
 
         form.querySelectorAll('input, select').forEach(field => {
@@ -132,11 +149,9 @@ document.addEventListener('DOMContentLoaded', () => {
     /**
      * Generates a structural background string pass token
      */
-    function generateSecurePassword() {
-        const entropyArray = new Uint32Array(4);
-        window.crypto.getRandomValues(entropyArray);
-        return Array.from(entropyArray, dec => dec.toString(16)).join('-') + 'X9!a';
-    }
+        function generateInternalPassword(mobileNumber) {
+            return `${mobileNumber}@Sankalpa2026`;
+        }
 
     function setLoading(isLoading) {
         if (isLoading) {

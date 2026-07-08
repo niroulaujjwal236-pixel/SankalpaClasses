@@ -1,4 +1,5 @@
-import { isLoggedIn, getProfile } from './auth.js';
+import { isLoggedIn, getProfile } from '/js/auth.js';
+import { supabase } from "/supabase/config.js";
 
 document.addEventListener("DOMContentLoaded", () => {
 const sidebarToggle = document.getElementById('sidebarToggle');
@@ -71,46 +72,41 @@ loadTheme();
  * Initializes the authentication gateway for the mock test.
  */
 function initMockTestGateway() {
-    const startBtn = document.getElementById('startMockTestBtn');
-    
-    if (!startBtn) return;
+const startBtn = document.getElementById("startMockTestBtn");
 
-    startBtn.addEventListener('click', async () => {
-        // Cache original button state
-        const originalText = startBtn.textContent;
-        
-        // Step 5: Disable button and update UI state during verification
-        startBtn.disabled = true;
-        startBtn.textContent = 'Checking...';
+startBtn.addEventListener("click", async () => {
+    startBtn.disabled = true;
+    startBtn.textContent = "Checking...";
 
-        try {
-            // Step 1: Check authentication status
-            const authenticated = await isLoggedIn();
-            
-            if (!authenticated) {
-                window.location.href = 'pages/login.html';
-                return; // Immediately stop execution
-            }
+    const { data: { session } } = await supabase.auth.getSession();
 
-            // Step 2: Fetch the user profile from Supabase
-            const profile = await getProfile();
+    // Not logged in
+    if (!session) {
+        window.location.href = "pages/login.html";
+        return;
+    }
 
-            // Step 3: Route based on payment status
-            if (profile && profile.paid === true) {
-                window.location.href = 'pages/exam.html';
-            } else {
-                window.location.href = 'pages/payment.html';
-            }
+    const user = session.user;
 
-        } catch (error) {
-            // Step 6: Gracefully handle Supabase or network exceptions
-            console.error('Authentication routing error:', error);
-            alert('Unable to verify your login. Please try again.');
-            
-            // Restore button UI state so user can retry
-            startBtn.disabled = false;
-            startBtn.textContent = originalText;
-        }
+    const { data: profile, error } = await supabase
+        .from("profiles")
+        .select("paid")
+        .eq("id", user.id)
+        .single();
+
+    if (error) {
+        console.error(error);
+        alert("Unable to load profile.");
+        startBtn.disabled = false;
+        startBtn.textContent = "Start Mock Test";
+        return;
+    }
+
+    if (profile.paid) {
+        window.location.href = "pages/exam.html";
+    } else {
+        window.location.href = "pages/payment.html";
+    }
     });
 }
 

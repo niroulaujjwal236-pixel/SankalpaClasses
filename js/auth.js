@@ -1,25 +1,19 @@
-import { supabase } from "../supabase/config.js";
+import { supabase } from "/supabase/config.js";
 
 export async function getCurrentUser() {
 
-    const { data, error } = await supabase.auth.getUser();
+    const {
+        data: { session }
+    } = await supabase.auth.getSession();
 
-    console.log("getUser() returned:", data);
-    console.log("Error:", error);
+    if (!session) return null;
 
-    if (error) {
-        return null;
-    }
-
-    return data.user;
+    return session.user;
 }
 
 export async function isLoggedIn() {
-    const user = await getCurrentUser();
-
-    console.log("Current User:", user);
-
-    return user !== null;
+    const { data: { session } } = await supabase.auth.getSession();
+    return session !== null;
 }
 
 export async function getProfile() {
