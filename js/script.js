@@ -72,14 +72,13 @@ loadTheme();
  * Initializes the authentication gateway for the mock test.
  */
 function initMockTestGateway() {
-const startBtn = document.getElementById("startMockTestBtn");
+const startBtn = document.querySelector(".startMockTestBtn");
 
 startBtn.addEventListener("click", async () => {
     startBtn.disabled = true;
     startBtn.textContent = "Checking...";
 
     const { data: { session } } = await supabase.auth.getSession();
-
     // Not logged in
     if (!session) {
         window.location.href = "pages/login.html";
@@ -95,10 +94,7 @@ startBtn.addEventListener("click", async () => {
         .single();
 
     if (error) {
-        console.error(error);
-        alert("Unable to load profile.");
-        startBtn.disabled = false;
-        startBtn.textContent = "Start Mock Test";
+        window.location.href = "pages/login.html";
         return;
     }
 

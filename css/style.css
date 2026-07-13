@@ -422,9 +422,11 @@ main {
     background: linear-gradient(180deg, rgba(114, 17, 24, 0.96) 0%, rgba(55, 57, 96, 0.9) 100%);
     box-shadow: var(--shadow);
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
     padding: 2rem;
-    overflow: hidden;
 }
 
 .hero__panel {
@@ -433,6 +435,23 @@ main {
     border-radius: 28px;
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.12);
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.startMockTestBtn{
+ padding: 15px; 
+ background-color: brown; 
+ border: 1px solid white; 
+ border-radius: 20px; 
+ color: white;
+}
+
+.startMockTestBtn:hover{
+    background-color: gray;
+    transform: scale(1.05);
 }
 
 .hero__stat {
