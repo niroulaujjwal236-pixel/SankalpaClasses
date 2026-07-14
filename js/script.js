@@ -75,9 +75,6 @@ function initMockTestGateway() {
 const startBtn = document.querySelector(".startMockTestBtn");
 
 startBtn.addEventListener("click", async () => {
-    startBtn.disabled = true;
-    startBtn.textContent = "Checking...";
-
     const { data: { session } } = await supabase.auth.getSession();
     // Not logged in
     if (!session) {

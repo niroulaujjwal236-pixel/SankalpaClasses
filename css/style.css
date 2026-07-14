@@ -26,13 +26,14 @@
     --accent-dark: #d19c22;
     --primary: #f3b94d;
     --primary-deep: #e4a828;
-    --secondary: #2a284f;
+    --secondary: #494783;
     --border: rgba(255, 255, 255, 0.08);
     --shadow: 0 28px 80px rgba(0, 0, 0, 0.35);
 }
 
-* {
+*{
     box-sizing: border-box;
+    list-style: 1;
 }
 
 html,
@@ -77,7 +78,7 @@ button {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    padding: 1rem 2rem;
+    padding: 12px 8px;
     background: rgba(255, 255, 255, 0.96);
     border-bottom: 1px solid rgba(31, 31, 31, 0.08);
     backdrop-filter: blur(18px);
@@ -91,15 +92,13 @@ button {
 .topbar__brand {
     display: flex;
     align-items: center;
-    gap: 0.9rem;
+    justify-content: space-between;
 }
 
 .brand__logo {
-    width: 60px;
-    height: 77px;
+    width: 100px;
+    height: 85px;
     object-fit: contain;
-    border-radius: 12px;
-    border: 1px solid var(--border);
 }
 
 .brand__label {
@@ -142,7 +141,7 @@ button {
     align-items: center;
     gap: 0.6rem;
     border: none;
-    background: rgba(114, 17, 24, 0.08);
+    background: rgba(177, 19, 29, 0.2);
     color: var(--primary);
     border-radius: 999px;
     padding: 0.8rem 1rem;
@@ -351,7 +350,7 @@ main {
 .hero {
     display: grid;
     grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.8fr);
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     min-height: 80vh;
 }
@@ -361,18 +360,17 @@ main {
 }
 
 .eyebrow {
-    margin: 0 0 1rem;
-    font-size: 0.95rem;
-    letter-spacing: 0.18em;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--accent-dark);
     font-weight: 700;
 }
 
-.hero h1 {
+.hero h3 {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(2.8rem, 3.8vw, 4.8rem);
-    line-height: 1.02;
+    font-size: 32px;
+    line-height: 1;
     margin: 0 0 1.2rem;
     color: var(--secondary);
 }
@@ -676,6 +674,18 @@ main {
     text-align: center;
 }
 
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.social a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media (max-width: 980px) {
     .topbar {
         flex-wrap: wrap;
@@ -720,5 +730,26 @@ main {
 
     .section-header h2 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .topbar{
+        padding: 5px 0px;
+    }
+    .switch-label{
+        display: none;
+    }
+    .topbar__brand {
+        margin-right: 100px;
+    }
+    .theme-switch{
+        position: absolute;
+        right: 15px;
+        top: 35px;
+        width: 73px;
+    }
+    .topbar__actions{
+        padding-bottom: 8px;
     }
 }
