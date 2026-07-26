@@ -98,7 +98,7 @@ startBtn.addEventListener("click", async () => {
     if (profile.paid) {
         window.location.href = "pages/exam.html";
     } else {
-        window.location.href = "pages/payment.html";
+        window.location.href = "pages/exam.html";
     }
     });
 }

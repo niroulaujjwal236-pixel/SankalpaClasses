@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEE Scholars - Mock Examination</title>
+    <link rel="stylesheet" href="../css/exam.css">
+</head>
+<body>
+    <header class="exam-header">
+        <div class="brand">
+            <h1>CEE Scholars</h1>
+            <span class="exam-subtitle">Online Entrance Preparation</span>
+        </div>
+        <div class="controls">
+            <select id="subject-selector" aria-label="Select Subject">
+                <option value="0">Physics (50 Qns)</option>
+                <option value="1">Chemistry (50 Qns)</option>
+                <option value="2">Zoology (40 Qns)</option>
+                <option value="3">Botany (40 Qns)</option>
+                <option value="4">MAT (20 Qns)</option>
+            </select>
+            <button id="submit-exam-btn" class="btn-danger">Submit Exam</button>
+        </div>
+    </header>
+
+    <main class="exam-container" id="exam-container">
+        <!-- Question Card -->
+        <div class="question-card">
+            <div class="question-header">
+                <span id="subject-badge" class="badge">Physics</span>
+                <span id="question-number" class="q-num">Question: 1</span>
+            </div>
+            
+            <div class="question-body">
+                <div id="question-text" class="q-text">Loading question...</div>
+                <img id="question-image" class="q-image" src="" alt="Question figure" hidden>
+            </div>
+
+            <div class="options-grid" id="options-container">
+                <button class="option-btn" data-opt="A"><span class="opt-label">A</span> <span class="opt-text" id="opt-A"></span></button>
+                <button class="option-btn" data-opt="B"><span class="opt-label">B</span> <span class="opt-text" id="opt-B"></span></button>
+                <button class="option-btn" data-opt="C"><span class="opt-label">C</span> <span class="opt-text" id="opt-C"></span></button>
+                <button class="option-btn" data-opt="D"><span class="opt-label">D</span> <span class="opt-text" id="opt-D"></span></button>
+            </div>
+
+            <div class="card-footer">
+                <button id="next-btn" class="btn-success" disabled>Next Question</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Results Section (Hidden initially) -->
+    <main class="result-container" id="result-container" hidden>
+        <h2>Exam Summary & Insights</h2>
+        <div class="score-board">
+            <div class="score-card">
+                <h3>Total Score</h3>
+                <p id="total-score">0 / 200</p>
+            </div>
+            <div class="score-details">
+                <p>Attempted: <span id="res-attempted">0</span></p>
+                <p>Correct: <span id="res-correct">0</span></p>
+                <p>Incorrect: <span id="res-incorrect" class="negative-text">0</span> (-0.25 each)</p>
+            </div>
+        </div>
+        
+        <div class="download-section">
+            <a href="#" download="CEE_Mock_Set.pdf" class="btn-primary" id="download-qns">Download Exam Set (PDF)</a>
+            <a href="#" download="CEE_Mock_Solutions.pdf" class="btn-secondary" id="download-sol">Download Solutions (PDF)</a>
+        </div>
+    </main>
+
+    <!-- Confirmation Modal -->
+    <div id="submit-modal" class="modal" hidden>
+        <div class="modal-content">
+            <h3>Terminate Exam?</h3>
+            <p id="modal-text">You have done 0 questions. Are you sure you want to end the exam?</p>
+            <div class="modal-actions">
+                <button id="modal-no" class="btn-secondary">No, Continue</button>
+                <button id="modal-yes" class="btn-danger">Yes, Terminate</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/exam.js"></script>
+</body>
+</html>

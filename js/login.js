@@ -53,9 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
             if (!loginError) {
-                window.location.href = "payment.html";
+                window.location.href = "exam.html";
                 setTimeout(() => {
-                    window.location.href = "payment.html";
+                    window.location.href = "exam.html";
                 }, 1000);
                 return;
             }
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw profileError;
             }
 
-            window.location.href = "payment.html";
+            window.location.href = "exam.html";
 
             } catch (error) {
                 setLoading(false);

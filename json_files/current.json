@@ -1,0 +1,1812 @@
+[
+    {
+        "1": {
+            "qn": "<p>Consider the system shown in the figure where m<sub>1</sub> = 2 kg and m<sub>2</sub> = 1 kg. The coefficient of kinetic friction between m<sub>1</sub> and the incline is 0.2. What is the acceleration of the system? (Assume ideal string and pulley, g = 10 m/s<sup>2</sup>, θ = 30°)</p>",
+            "A": "<p>Zero</p>",
+            "B": "<p>0.5 m/s<sup>2</sup></p>",
+            "C": "<p>1.1 m/s<sup>2</sup> downwards for m<sub>2</sub></p>",
+            "D": "<p>System moves upwards along incline</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "2": {
+            "qn": "<p>The velocity-time graph of a particle moving in a straight line is given. It is a parabola opening downwards, with vertex at v = 10 m/s and t = 5 s. The acceleration of the particle is:</p>",
+            "A": "<p>Constant and positive</p>",
+            "B": "<p>Constant and negative</p>",
+            "C": "<p>Non-uniform and continuously decreasing</p>",
+            "D": "<p>Zero at t = 0</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "3": {
+            "qn": "<p>A particle of mass m is dropped into a smooth tunnel drilled along the diameter of the Earth (mass M, radius R). If the particle is released from the surface, its speed when it reaches the center of the Earth is:</p>",
+            "A": "<p>√(2GM/R)</p>",
+            "B": "<p>√(GM/R)</p>",
+            "C": "<p>√(GM/2R)</p>",
+            "D": "<p>Zero</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "4": {
+            "qn": "<p>A solid sphere of mass M and radius R is spinning freely about its diameter with angular velocity ω. If its radius suddenly decreases to R/2 due to internal forces without any mass loss, the new angular velocity will be:</p>",
+            "A": "<p>2ω</p>",
+            "B": "<p>4ω</p>",
+            "C": "<p>ω/2</p>",
+            "D": "<p>ω/4</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "5": {
+            "qn": "<p>Water flows through a horizontal pipe of varying cross-section. If the pressure of water equals 2 cm of mercury where the velocity of flow is 35 cm/s, what is the pressure at another point where the velocity is 65 cm/s? (Density of water = 1 g/cm<sup>3</sup>, Density of Hg = 13.6 g/cm<sup>3</sup>)</p>",
+            "A": "<p>1.89 cm of Hg</p>",
+            "B": "<p>2.11 cm of Hg</p>",
+            "C": "<p>1.50 cm of Hg</p>",
+            "D": "<p>Zero</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "6": {
+            "qn": "<p>A simple pendulum of length L has a hollow metal sphere for its bob. The sphere is completely filled with water. A small hole is made at the bottom. As water starts leaking out, the time period of the pendulum will:</p>",
+            "A": "<p>Continuously decrease</p>",
+            "B": "<p>Continuously increase</p>",
+            "C": "<p>First increase and then decrease to its original value</p>",
+            "D": "<p>Remain unchanged</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "7": {
+            "qn": "<p>If the error in the measurement of the length of a pendulum is 2% and the error in the measurement of time period is 3%, then the maximum percentage error in the determination of 'g' is:</p>",
+            "A": "<p>5%</p>",
+            "B": "<p>8%</p>",
+            "C": "<p>7%</p>",
+            "D": "<p>1%</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "8": {
+            "qn": "<p>If force constant of a spring is 100 N/m the PE of string is 0.5J, then extension produced is:</p>",
+            "A": "<p>10cm</p>",
+            "B": "<p>0.1cm</p>",
+            "C": "<p>1cm</p>",
+            "D": "<p>2cm</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "9": {
+            "qn": "<p>A projectile is fired up an inclined plane of angle 30° with an initial velocity v<sub>0</sub> at an angle of 60° with the horizontal. The angle the velocity vector makes with the inclined plane when it strikes the plane is:</p>",
+            "A": "<p>0°</p>",
+            "B": "<p>30°</p>",
+            "C": "<p>60°</p>",
+            "D": "<p>90°</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "10": {
+            "qn": "<p>A monkey of mass 20 kg is holding a vertical rope. The rope can safely withstand a maximum tension of 250 N. The maximum acceleration with which the monkey can climb up the rope is: (g = 10 m/s<sup>2</sup>)</p>",
+            "A": "<p>2.5 m/s<sup>2</sup></p>",
+            "B": "<p>5 m/s<sup>2</sup></p>",
+            "C": "<p>12.5 m/s<sup>2</sup></p>",
+            "D": "<p>25 m/s<sup>2</sup></p>",
+            "image": "",
+            "correct": "A"
+        },
+        "11": {
+            "qn": "<p>An ideal gas undergoes a cyclic process as shown in the P-V diagram. What is the work done by the gas in one complete cycle?</p>",
+            "A": "<p>πP<sub>0</sub>V<sub>0</sub></p>",
+            "B": "<p>2πP<sub>0</sub>V<sub>0</sub></p>",
+            "C": "<p>4πP<sub>0</sub>V<sub>0</sub></p>",
+            "D": "<p>-πP<sub>0</sub>V<sub>0</sub></p>",
+            "image": "",
+            "correct": "A"
+        },
+        "12": {
+            "qn": "<p>Two rods of the same length and cross-sectional area are joined in series. Their thermal conductivities are K and 2K. The temperatures of the free ends are 100°C and 0°C respectively. The temperature of the junction in steady state is:</p>",
+            "A": "<p>33.3°C</p>",
+            "B": "<p>66.7°C</p>",
+            "C": "<p>50°C</p>",
+            "D": "<p>75°C</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "13": {
+            "qn": "<p>An ideal gas undergoes an adiabatic free expansion against a vacuum. Which of the following is true?</p>",
+            "A": "<p>Temperature increases</p>",
+            "B": "<p>Temperature decreases</p>",
+            "C": "<p>Temperature remains constant</p>",
+            "D": "<p>Work done is positive</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "14": {
+            "qn": "<p>50g of ice at 0°C is mixed with 50g of water at 100°C. What is the final temperature of the mixture? (L<sub>f</sub> = 80 cal/g, c<sub>w</sub> = 1 cal/g°C)</p>",
+            "A": "<p>0°C</p>",
+            "B": "<p>10°C</p>",
+            "C": "<p>20°C</p>",
+            "D": "<p>50°C</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "15": {
+            "qn": "<p>According to Wien's displacement law, if the absolute temperature of a black body is doubled, the wavelength corresponding to maximum spectral emissive power will:</p>",
+            "A": "<p>Double</p>",
+            "B": "<p>Halve</p>",
+            "C": "<p>become one-fourth</p>",
+            "D": "<p>Remain unchanged</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "16": {
+            "qn": "<p>For a non-ideal gas, the difference between molar specific heats (C<sub>p</sub> - C<sub>v</sub>) is given by:</p>",
+            "A": "<p>R</p>",
+            "B": "<p>Greater than R</p>",
+            "C": "<p>Less than R</p>",
+            "D": "<p>Zero</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "17": {
+            "qn": "<p>1 kg of water at 0°C is mixed with 1 kg of water at 100°C. The change in entropy of the universe is:</p>",
+            "A": "<p>Zero</p>",
+            "B": "<p>Positive</p>",
+            "C": "<p>Negative</p>",
+            "D": "<p>cannot be determined without atmospheric pressure</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "18": {
+            "qn": "<p>A train moving at 20 m/s towards a stationary observer blows a whistle of frequency 300 Hz. If the wind is blowing at 10 m/s in the same direction as the train, and the speed of sound is 340 m/s, the apparent frequency heard by the observer is:</p>",
+            "A": "<p>318 Hz</p>",
+            "B": "<p>300 Hz</p>",
+            "C": "<p>320 Hz</p>",
+            "D": "<p>310 Hz</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "19": {
+            "qn": "<p>A closed organ pipe and an open organ pipe of same length produce 2 beats per second when they are sounded together in their fundamental mode. If the length of the open pipe is halved, the number of beats produced will be:</p>",
+            "A": "<p>2</p>",
+            "B": "<p>4</p>",
+            "C": "<p>6</p>",
+            "D": "<p>8</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "20": {
+            "qn": "<p>A convex lens made of refractive index 1.5 is immersed into liquid of refractive index 1.65. The lens will behave as:</p>",
+            "A": "<p>Convex lens</p>",
+            "B": "<p>concave lens</p>",
+            "C": "<p>concave mirror</p>",
+            "D": "<p>No effect</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "21": {
+            "qn": "<p>In Young's double slit experiment, a transparent glass slab of refractive index 1.5 and thickness t is placed in front of one of the slits. The central maxima shifts by 3 fringe widths. If the wavelength of light used is λ, the thickness t is:</p>",
+            "A": "<p>3λ</p>",
+            "B": "<p>6λ</p>",
+            "C": "<p>1.5λ</p>",
+            "D": "<p>2λ</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "22": {
+            "qn": "<p>The resolving power of a telescope can be increased by:</p>",
+            "A": "<p>Increasing the focal length of the objective</p>",
+            "B": "<p>Decreasing the diameter of the objective</p>",
+            "C": "<p>Increasing the diameter of the objective</p>",
+            "D": "<p>Using red light instead of blue light</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "23": {
+            "qn": "<p>If luminous energy of lamp is 100w, kept hanging at 5m above the table. Calculate value of intensity at center of table.</p>",
+            "A": "<p>1</p>",
+            "B": "<p>1/4</p>",
+            "C": "<p>1/π</p>",
+            "D": "<p>π</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "24": {
+            "qn": "<p>Two tuning forks A and B produce 4 beats per second. When the prongs of A are filed slightly, the beat frequency becomes 2 beats per second. If the frequency of B is 256 Hz, the original frequency of A was:</p>",
+            "A": "<p>252 Hz</p>",
+            "B": "<p>260 Hz</p>",
+            "C": "<p>254 Hz</p>",
+            "D": "<p>258 Hz</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "25": {
+            "qn": "<p>To remove chromatic aberration in a combination of two thin lenses placed in contact, the lenses must have:</p>",
+            "A": "<p>Same focal length and same dispersive power</p>",
+            "B": "<p>Different focal lengths and same dispersive power</p>",
+            "C": "<p>Ratio of focal lengths equal to negative ratio of dispersive powers</p>",
+            "D": "<p>Zero dispersive powers</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "26": {
+            "qn": "<p>In the given circuit, the capacitor is in steady state. What is the equivalent resistance of the circuit between terminals A and B?</p>",
+            "A": "<p>3.33 Ω</p>",
+            "B": "<p>5 Ω</p>",
+            "C": "<p>10 Ω</p>",
+            "D": "<p>2.5 Ω</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "27": {
+            "qn": "<p>A long straight wire carrying current I is bent into a semicircle of radius R at the center O, as shown. The magnetic field at the center O is:</p>",
+            "A": "<p>μ<sub>0</sub>I/4R</p>",
+            "B": "<p>μ<sub>0</sub>I/2R</p>",
+            "C": "<p>μ<sub>0</sub>I/4R + μ<sub>0</sub>I/2πR</p>",
+            "D": "<p>μ<sub>0</sub>I/4R - μ<sub>0</sub>I/2πR</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "28": {
+            "qn": "<p>In a potentiometer is used to measure the emf of a cell and it is found 50cm as balancing length of 1.5 volt. Now, the battery is removed and balancing length is found to be 75cm. Then calculate the emf of cell.</p>",
+            "A": "<p>1.56 volt</p>",
+            "B": "<p>1.53 volt</p>",
+            "C": "<p>2.25 volt</p>",
+            "D": "<p>3.5 volt</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "29": {
+            "qn": "<p>A copper wire (α = +0.004/°C) of resistance R<sub>1</sub> and a carbon resistor (α = -0.0005/°C) of resistance R<sub>2</sub> are connected in series. For the equivalent resistance to be totally independent of temperature, the ratio R<sub>1</sub>/R<sub>2</sub> must be:</p>",
+            "A": "<p>1/8</p>",
+            "B": "<p>8/1</p>",
+            "C": "<p>1/4</p>",
+            "D": "<p>4/1</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "30": {
+            "qn": "<p>A galvanometer has a resistance of 100 Ω and gives full scale deflection for 10 mA. To convert it into a voltmeter reading up to 10 V, the required series resistance is:</p>",
+            "A": "<p>900 Ω</p>",
+            "B": "<p>990 Ω</p>",
+            "C": "<p>1000 Ω</p>",
+            "D": "<p>1100 Ω</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "31": {
+            "qn": "<p>An electron moving with velocity v passes undeflected through crossed electric (E) and magnetic (B) fields. If the electric field is switched off, the path of the electron will be:</p>",
+            "A": "<p>A straight line</p>",
+            "B": "<p>A parabola</p>",
+            "C": "<p>A circle</p>",
+            "D": "<p>A cycloid</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "32": {
+            "qn": "<p>A conducting rod of length L rotates with angular velocity ω about one of its ends in a uniform magnetic field B directed perpendicular to the plane of rotation. The induced EMF across its ends is:</p>",
+            "A": "<p>BωL<sup>2</sup></p>",
+            "B": "<p>½ BωL<sup>2</sup></p>",
+            "C": "<p>BωL</p>",
+            "D": "<p>Zero</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "33": {
+            "qn": "<p>The quality factor (Q-factor) of an LCR series resonant circuit is defined as:</p>",
+            "A": "<p>(1/R)√(L/C)</p>",
+            "B": "<p>R√(C/L)</p>",
+            "C": "<p>(1/R)√(C/L)</p>",
+            "D": "<p>R√(L/C)</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "34": {
+            "qn": "<p>A step-down transformer transforms 220 V to 11 V. If the primary current is 5 A and efficiency is 80%, the secondary current is:</p>",
+            "A": "<p>80 A</p>",
+            "B": "<p>100 A</p>",
+            "C": "<p>10 A</p>",
+            "D": "<p>125 A</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "35": {
+            "qn": "<p>The electric field intensity E at a distance r (r < R) from the center of a uniformly charged solid non-conducting sphere of radius R is proportional to:</p>",
+            "A": "<p>r</p>",
+            "B": "<p>1/r</p>",
+            "C": "<p>r<sup>2</sup></p>",
+            "D": "<p>1/r<sup>2</sup></p>",
+            "image": "",
+            "correct": "A"
+        },
+        "36": {
+            "qn": "<p>Four equal charges +q are placed at the four corners of a square of side 'a'. The work done in bringing a charge -q from infinity to the center of the square is:</p>",
+            "A": "<p>-4kq<sup>2</sup>/(a√2)</p>",
+            "B": "<p>-4√2kq<sup>2</sup>/a</p>",
+            "C": "<p>Zero</p>",
+            "D": "<p>4√2kq<sup>2</sup>/a</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "37": {
+            "qn": "<p>A parallel plate capacitor has capacitance C in air. A dielectric slab of dielectric constant K = 3 and thickness equal to half the plate separation (d/2) is inserted. The new capacitance is:</p>",
+            "A": "<p>3C/2</p>",
+            "B": "<p>1.5C</p>",
+            "C": "<p>1.2C</p>",
+            "D": "<p>2C/3</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "38": {
+            "qn": "<p>When two bodies are rubbed against each other they are electrified, Which one of the following is correct?</p>",
+            "A": "<p>A glass rod becomes negatively charged if rubbed with a metal.</p>",
+            "B": "<p>A glass rod becomes positively charged if rubbed with a flannel.</p>",
+            "C": "<p>A glass rod becomes positively charged if rubbed with ebonite.</p>",
+            "D": "<p>A glass rod becomes negatively charged if rubbed with another.</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "39": {
+            "qn": "<p>The energy that should be added to an electron to reduce its de-Broglie wavelength from 10<sup>-10</sup> m to 0.5 × 10<sup>-10</sup> m will be,</p>",
+            "A": "<p>Twice initial Energy</p>",
+            "B": "<p>Thrice initial Energy</p>",
+            "C": "<p>Four times initial Energy</p>",
+            "D": "<p>Equal to initial Energy</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "40": {
+            "qn": "<p>The energy required to excite an electron from the ground state to the third excited state of a hydrogen atom is:</p>",
+            "A": "<p>10.2 eV</p>",
+            "B": "<p>12.09 eV</p>",
+            "C": "<p>12.75 eV</p>",
+            "D": "<p>13.6 eV</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "41": {
+            "qn": "<p>The minimum wavelength of X-rays produced in an X-ray tube depends on:</p>",
+            "A": "<p>Nature of target material</p>",
+            "B": "<p>Accelerating potential</p>",
+            "C": "<p>Filament current</p>",
+            "D": "<p>Distance between electrodes</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "42": {
+            "qn": "<p>In a successive radioactive decay series A → B → C (stable), if the decay constants of A and B are λ<sub>A</sub> and λ<sub>B</sub> respectively, the number of nuclei of B reaches a maximum when:</p>",
+            "A": "<p>N<sub>A</sub> = N<sub>B</sub></p>",
+            "B": "<p>λ<sub>A</sub> N<sub>A</sub> = λ<sub>B</sub> N<sub>B</sub></p>",
+            "C": "<p>λ<sub>A</sub> N<sub>B</sub> = λ<sub>B</sub> N<sub>A</sub></p>",
+            "D": "<p>t = 1/(λ<sub>A</sub> - λ<sub>B</sub>)</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "43": {
+            "qn": "<p>If the binding energy per nucleon for a deuteron is 1.1 MeV and for an alpha particle is 7.0 MeV, the energy released when two deuterons fuse to form an alpha particle is:</p>",
+            "A": "<p>23.6 MeV</p>",
+            "B": "<p>5.9 MeV</p>",
+            "C": "<p>28.0 MeV</p>",
+            "D": "<p>11.8 MeV</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "44": {
+            "qn": "<p>The Boolean expression for the NAND output of input A and B is:</p>",
+            "A": "<p>A+B</p>",
+            "B": "<p><span style='text-decoration:overline'>A+B</span></p>",
+            "C": "<p><span style='text-decoration:overline'>AB</span></p>",
+            "D": "<p>AB</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "45": {
+            "qn": "<p>A Zener diode is heavily doped compared to a normal p-n junction diode. This heavy doping is primarily intended to:</p>",
+            "A": "<p>Increase the reverse breakdown voltage</p>",
+            "B": "<p>Decrease the reverse breakdown voltage</p>",
+            "C": "<p>Increase the forward voltage drop</p>",
+            "D": "<p>Make it emit light</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "46": {
+            "qn": "<p>Which of the following particle is composed of quark-antiquark pair.</p>",
+            "A": "<p>Baryon</p>",
+            "B": "<p>Meson</p>",
+            "C": "<p>Neutrino</p>",
+            "D": "<p>Proton</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "47": {
+            "qn": "<p>An electron is accelerated through a potential difference of V volts. If the potential difference is doubled, its de Broglie wavelength becomes:</p>",
+            "A": "<p>Double</p>",
+            "B": "<p>Half</p>",
+            "C": "<p>1/√2 times the original</p>",
+            "D": "<p>√2 times the original</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "48": {
+            "qn": "<p>A stationary nucleus of mass number 220 undergoes alpha decay. The kinetic energy of the emitted alpha particle is E. The recoil energy of the daughter nucleus is:</p>",
+            "A": "<p>E / 216</p>",
+            "B": "<p>4E / 220</p>",
+            "C": "<p>4E / 216</p>",
+            "D": "<p>216E / 4</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "49": {
+            "qn": "<p>The uncertainty principle states that it is impossible to determine simultaneously and exactly the:</p>",
+            "A": "<p>Energy and time of a particle</p>",
+            "B": "<p>Position and momentum of a particle</p>",
+            "C": "<p>Both A and B</p>",
+            "D": "<p>None of the above</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "50": {
+            "qn": "<p>The minimum energy of a gamma-ray photon required for pair production (creation of an electron and a positron) is:</p>",
+            "A": "<p>0.51 MeV</p>",
+            "B": "<p>1.02 MeV</p>",
+            "C": "<p>931.5 MeV</p>",
+            "D": "<p>2.04 MeV</p>",
+            "image": "",
+            "correct": "B"
+        }
+    },
+    {
+        "1": {
+            "qn": "<p>Dalton's atomic theory could not successfully explain which of the following laws?</p>",
+            "A": "<p>Law of conservation of mass</p>",
+            "B": "<p>Law of constant composition</p>",
+            "C": "<p>Law of multiple proportions</p>",
+            "D": "<p>Law of gaseous volumes</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "2": {
+            "qn": "<p>What is the volume of 8.8 g of CO<sub>2</sub> gas at Standard Temperature and Pressure (STP)?</p>",
+            "A": "<p>22.4 L</p>",
+            "B": "<p>2.24 L</p>",
+            "C": "<p>44.8 L</p>",
+            "D": "<p>4.48 L</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "3": {
+            "qn": "<p>The total number of atoms present in 4.25 g of ammonia (NH<sub>3</sub>) is approximately:</p>",
+            "A": "<p>1.5×10<sup>23</sup></p>",
+            "B": "<p>6.02×10<sup>23</sup></p>",
+            "C": "<p>2.25×10<sup>23</sup></p>",
+            "D": "<p>4.5×10<sup>23</sup></p>",
+            "image": "",
+            "correct": "B"
+        },
+        "4": {
+            "qn": "<p>A 20.0 g sample of impure magnesium carbonate on heating gives 8.0 g of magnesium oxide and carbon dioxide gas. What is the percentage purity of the magnesium carbonate in the sample? (Atomic weights: Mg=24, C=12, O=16)</p>",
+            "A": "<p>60%</p>",
+            "B": "<p>75%</p>",
+            "C": "<p>84%</p>",
+            "D": "<p>96%</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "5": {
+            "qn": "<p>10 mL of a gaseous hydrocarbon is mixed with 50 mL of oxygen and exploded in a eudiometer. After cooling, the residual volume is 40 mL. On shaking the mixture with aqueous KOH, the volume further decreases by 20 mL. The molecular formula of the hydrocarbon is:</p>",
+            "A": "<p>CH<sub>4</sub></p>",
+            "B": "<p>C<sub>2</sub>H<sub>6</sub></p>",
+            "C": "<p>C<sub>2</sub>H<sub>4</sub></p>",
+            "D": "<p>C<sub>3</sub>H<sub>8</sub></p>",
+            "image": "",
+            "correct": "C"
+        },
+        "6": {
+            "qn": "<p>0.60 g of a metal reacts with oxygen to give 1.00 g of its oxide. The equivalent weight of the metal is:</p>",
+            "A": "<p>12</p>",
+            "B": "<p>20</p>",
+            "C": "<p>24</p>",
+            "D": "<p>32</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "7": {
+            "qn": "<p>What is the exact molarity of pure liquid water at 4°C?</p>",
+            "A": "<p>1.0 M</p>",
+            "B": "<p>18.0 M</p>",
+            "C": "<p>55.5 M</p>",
+            "D": "<p>100.0 M</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "8": {
+            "qn": "<p>According to thermodynamic conventions, the standard enthalpy of formation of which of the following is taken as zero?</p>",
+            "A": "<p>H<sub>2</sub>O(l)</p>",
+            "B": "<p>CO<sub>2</sub>(g)</p>",
+            "C": "<p>Br<sub>2</sub>(l)</p>",
+            "D": "<p>Br<sub>2</sub>(g)</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "9": {
+            "qn": "<p>For a given reaction A + B → Products, if the concentration of A is doubled, the rate increases four times. If the concentrations of both A and B are doubled, the rate increases eight times. The overall order of the reaction is:</p>",
+            "A": "<p>1</p>",
+            "B": "<p>2</p>",
+            "C": "<p>3</p>",
+            "D": "<p>4</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "10": {
+            "qn": "<p>The half-life period of a first-order chemical reaction is entirely independent of the:</p>",
+            "A": "<p>Temperature of the reaction</p>",
+            "B": "<p>Nature of the reactant</p>",
+            "C": "<p>Initial concentration of the reactant</p>",
+            "D": "<p>Activation energy</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "11": {
+            "qn": "<p>For the given exothermic reaction N<sub>2</sub>(g) + 3H<sub>2</sub>(g) ⇌ 2NH<sub>3</sub>(g), which of the following conditions will shift the equilibrium to the right?</p>",
+            "A": "<p>Increasing the temperature</p>",
+            "B": "<p>Decreasing the pressure</p>",
+            "C": "<p>Removing ammonia as it is formed</p>",
+            "D": "<p>Adding a suitable catalyst</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "12": {
+            "qn": "<p>The exact pH of a 10<sup>-8</sup> M aqueous solution of HCl is:</p>",
+            "A": "<p>8.00</p>",
+            "B": "<p>-8.00</p>",
+            "C": "<p>Between 6.0 and 7.0</p>",
+            "D": "<p>Between 7.0 and 8.0</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "13": {
+            "qn": "<p>What is the oxidation number of Chromium (Cr) in potassium dichromate (K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>)?</p>",
+            "A": "<p>+3</p>",
+            "B": "<p>+6</p>",
+            "C": "<p>+12</p>",
+            "D": "<p>-6</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "14": {
+            "qn": "<p>Which of the following solutions contains the largest amount of dissolved glucose by moles?</p>",
+            "A": "<p>0.25 L of 5 M solution</p>",
+            "B": "<p>0.5 L of 2 M solution</p>",
+            "C": "<p>50 mL of 0.2 M solution</p>",
+            "D": "<p>500 mL of 1 M solution</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "15": {
+            "qn": "<p>According to Bohr's atomic theory, the angular momentum of an electron in the 3rd orbit of a hydrogen atom is:</p>",
+            "A": "<p>1.5 h/π</p>",
+            "B": "<p>3 h/π</p>",
+            "C": "<p>1.5 h/2π</p>",
+            "D": "<p>4.5 h/2π</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "16": {
+            "qn": "<p>The compressibility factor (Z) for an ideal gas is always:</p>",
+            "A": "<p>0</p>",
+            "B": "<p>1</p>",
+            "C": "<p>Greater than 1</p>",
+            "D": "<p>Less than 1</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "17": {
+            "qn": "<p>In a face-centered cubic (fcc) crystal lattice, the total number of atoms effectively present per unit cell is:</p>",
+            "A": "<p>1</p>",
+            "B": "<p>2</p>",
+            "C": "<p>4</p>",
+            "D": "<p>8</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "18": {
+            "qn": "<p>An ionic bond is most likely to form between the atoms of:</p>",
+            "A": "<p>C and Br</p>",
+            "B": "<p>Ca and I</p>",
+            "C": "<p>P and Cl</p>",
+            "D": "<p>C and O</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "19": {
+            "qn": "<p>Which specific gas is evolved when copper metal reacts with dilute nitric acid (HNO<sub>3</sub>)?</p>",
+            "A": "<p>NO<sub>2</sub></p>",
+            "B": "<p>N<sub>2</sub>O</p>",
+            "C": "<p>NO</p>",
+            "D": "<p>N<sub>2</sub></p>",
+            "image": "",
+            "correct": "C"
+        },
+        "20": {
+            "qn": "<p>In metallurgy, the froth flotation process is primarily used for the concentration of:</p>",
+            "A": "<p>Oxide ores</p>",
+            "B": "<p>Sulphide ores</p>",
+            "C": "<p>Carbonate ores</p>",
+            "D": "<p>Nitrate ores</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "21": {
+            "qn": "<p>Which of the following coordination complex ions possesses the highest magnetic moment? (Given atomic numbers: Cr=24, Fe=26, Co=27, Ni=28)</p>",
+            "A": "<p>[Cr(H<sub>2</sub>O)<sub>6</sub>]<sup>3+</sup></p>",
+            "B": "<p>[Fe(H<sub>2</sub>O)<sub>6</sub>]<sup>2+</sup></p>",
+            "C": "<p>[Co(CN)<sub>6</sub>]<sup>3-</sup></p>",
+            "D": "<p>[Ni(CN)<sub>4</sub>]<sup>2-</sup></p>",
+            "image": "",
+            "correct": "B"
+        },
+        "22": {
+            "qn": "<p>Thallium (Tl) exhibits +1 and +3 oxidation states. The +1 oxidation state is highly stable compared to the +3 state primarily due to the:</p>",
+            "A": "<p>Shielding effect</p>",
+            "B": "<p>Lanthanoid contraction</p>",
+            "C": "<p>Inert pair effect</p>",
+            "D": "<p>High electronegativity</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "23": {
+            "qn": "<p>The correct order of solubility of alkaline earth metal sulphates in aqueous medium is:</p>",
+            "A": "<p>BeSO<sub>4</sub>>MgSO<sub>4</sub>>CaSO<sub>4</sub>>SrSO<sub>4</sub>>BaSO<sub>4</sub></p>",
+            "B": "<p>BaSO<sub>4</sub>>SrSO<sub>4</sub>>CaSO<sub>4</sub>>MgSO<sub>4</sub>>BeSO<sub>4</sub></p>",
+            "C": "<p>MgSO<sub>4</sub>>BeSO<sub>4</sub>>CaSO<sub>4</sub>>SrSO<sub>4</sub>>BaSO<sub>4</sub></p>",
+            "D": "<p>CaSO<sub>4</sub>>BaSO<sub>4</sub>>SrSO<sub>4</sub>>MgSO<sub>4</sub>>BeSO<sub>4</sub></p>",
+            "image": "",
+            "correct": "A"
+        },
+        "24": {
+            "qn": "<p>Among the following elements, the first ionization energy is exceptionally highest for:</p>",
+            "A": "<p>Nitrogen</p>",
+            "B": "<p>Oxygen</p>",
+            "C": "<p>Carbon</p>",
+            "D": "<p>Boron</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "25": {
+            "qn": "<p>The permanent hardness of water is generally caused by the presence of:</p>",
+            "A": "<p>Bicarbonates of calcium and magnesium</p>",
+            "B": "<p>Chlorides and sulphates of calcium and magnesium</p>",
+            "C": "<p>Carbonates of sodium and potassium</p>",
+            "D": "<p>Phosphates of calcium and magnesium</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "26": {
+            "qn": "<p>Most transition metal compounds exhibit characteristic distinct colors. This phenomenon is primarily due to:</p>",
+            "A": "<p>Charge transfer transitions</p>",
+            "B": "<p>d-d electron transitions</p>",
+            "C": "<p>High ionization enthalpies</p>",
+            "D": "<p>Complete d-subshells</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "27": {
+            "qn": "<p>Magnetic quantum number is related too:</p>",
+            "A": "<p>shape</p>",
+            "B": "<p>size</p>",
+            "C": "<p>orientation</p>",
+            "D": "<p>spin</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "28": {
+            "qn": "<p>The total number of structural isomers possible for the molecular formula C<sub>4</sub>H<sub>10</sub>O is:</p>",
+            "A": "<p>4</p>",
+            "B": "<p>5</p>",
+            "C": "<p>7</p>",
+            "D": "<p>6</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "29": {
+            "qn": "<p>Ozonolysis of 2-butene followed by reduction with zinc and water yields:</p>",
+            "A": "<p>Methanal and Propanal</p>",
+            "B": "<p>Ethanal only</p>",
+            "C": "<p>Propanone only</p>",
+            "D": "<p>Ethanal and Methanal</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "30": {
+            "qn": "<p>Phenol is used in the preparation of:</p>",
+            "A": "<p>Salol</p>",
+            "B": "<p>Aspirin</p>",
+            "C": "<p>Bakelite</p>",
+            "D": "<p>All</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "31": {
+            "qn": "<p>The fundamental monomer unit of natural rubber is:</p>",
+            "A": "<p>Isoprene</p>",
+            "B": "<p>Chloroprene</p>",
+            "C": "<p>Neoprene</p>",
+            "D": "<p>Styrene</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "32": {
+            "qn": "<p>An organic compound 'X' having the molecular formula C<sub>4</sub>H<sub>8</sub>O yields a positive 2,4-DNP test but fails to give a positive Tollens' test. Furthermore, it reacts with iodine in an alkaline medium to form a yellow precipitate. What is compound 'X'?</p>",
+            "A": "<p>Butanal</p>",
+            "B": "<p>Butanone</p>",
+            "C": "<p>2-Methylpropanal</p>",
+            "D": "<p>Cyclobutanol</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "33": {
+            "qn": "<p>When pinacol (2,3-dimethylbutane-2,3-diol) is treated with dilute sulfuric acid, it undergoes a rearrangement to form pinacolone. The mechanism of this reaction involves the formation of which crucial intermediate?</p>",
+            "A": "<p>A primary carbocation</p>",
+            "B": "<p>A secondary carbanion</p>",
+            "C": "<p>A tertiary carbocation</p>",
+            "D": "<p>A free radical</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "34": {
+            "qn": "<p>The correct order of basicity of methyl-substituted amines in an aqueous solution is:</p>",
+            "A": "<p>NH<sub>3</sub>>CH<sub>3</sub>NH<sub>2</sub>>(CH<sub>3</sub>)<sub>2</sub>NH>(CH<sub>3</sub>)<sub>3</sub>N</p>",
+            "B": "<p>(CH<sub>3</sub>)<sub>3</sub>N>(CH<sub>3</sub>)<sub>2</sub>NH>CH<sub>3</sub>NH<sub>2</sub>>NH<sub>3</sub></p>",
+            "C": "<p>(CH<sub>3</sub>)<sub>2</sub>NH>CH<sub>3</sub>NH<sub>2</sub>>(CH<sub>3</sub>)<sub>3</sub>N>NH<sub>3</sub></p>",
+            "D": "<p>CH<sub>3</sub>NH<sub>2</sub>>(CH<sub>3</sub>)<sub>2</sub>NH>(CH<sub>3</sub>)<sub>3</sub>N>NH<sub>3</sub></p>",
+            "image": "",
+            "correct": "C"
+        },
+        "35": {
+            "qn": "<p>Which of the following phenolic compounds exhibits the highest acidic character?</p>",
+            "A": "<p>Phenol</p>",
+            "B": "<p>p-Nitrophenol</p>",
+            "C": "<p>p-Cresol</p>",
+            "D": "<p>2,4,6-Trinitrophenol (Picric acid)</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "36": {
+            "qn": "<p>Chlorobenzene is significantly less reactive than methyl chloride towards nucleophilic substitution reactions because of:</p>",
+            "A": "<p>The +I inductive effect of the chlorine atom</p>",
+            "B": "<p>Resonance stabilization granting partial double bond character to the C-Cl bond</p>",
+            "C": "<p>Massive steric hindrance in the benzene ring</p>",
+            "D": "<p>The inherent instability of the benzene ring structure</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "37": {
+            "qn": "<p>Benzene reacts with methyl chloride (CH<sub>3</sub>Cl) in the presence of anhydrous AlCl<sub>3</sub> to form toluene. This reaction is a classic example of:</p>",
+            "A": "<p>Friedel-Crafts acylation</p>",
+            "B": "<p>Friedel-Crafts alkylation</p>",
+            "C": "<p>Wurtz-Fittig reaction</p>",
+            "D": "<p>Clemmensen reduction</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "38": {
+            "qn": "<p>The SN<sub>2</sub> mechanism acting on an optically active alkyl halide typically results in:</p>",
+            "A": "<p>Complete retention of configuration</p>",
+            "B": "<p>Complete inversion of configuration</p>",
+            "C": "<p>Racemization</p>",
+            "D": "<p>An elimination product</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "39": {
+            "qn": "<p>When the sodium salt of a carboxylic acid is strongly heated with soda lime (NaOH + CaO), the organic transformation that occurs is called:</p>",
+            "A": "<p>Dehydration</p>",
+            "B": "<p>Decarboxylation</p>",
+            "C": "<p>Dehydrohalogenation</p>",
+            "D": "<p>Hydrogenation</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "40": {
+            "qn": "<p>Proteins are complex biopolymers composed of amino acid monomers seamlessly linked together by:</p>",
+            "A": "<p>Glycosidic bonds</p>",
+            "B": "<p>Phosphodiester bonds</p>",
+            "C": "<p>Peptide bonds</p>",
+            "D": "<p>Hydrogen bonds</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "41": {
+            "qn": "<p>Aspirin, a widely utilized synthetic medicine, acts biologically primarily as an:</p>",
+            "A": "<p>Antibiotic and antacid</p>",
+            "B": "<p>Analgesic and antipyretic</p>",
+            "C": "<p>Antihistamine and tranquilizer</p>",
+            "D": "<p>Antiseptic and disinfectant</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "42": {
+            "qn": "<p>The most highly acidic hydrogen among the following hydrocarbons is present in:</p>",
+            "A": "<p>Ethane</p>",
+            "B": "<p>Ethene</p>",
+            "C": "<p>Ethyne</p>",
+            "D": "<p>Benzene</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "43": {
+            "qn": "<p>Williamson's synthesis is an established laboratory method used exclusively to prepare:</p>",
+            "A": "<p>Primary amines</p>",
+            "B": "<p>Symmetrical and unsymmetrical ethers</p>",
+            "C": "<p>Carboxylic acids</p>",
+            "D": "<p>Aldehydes</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "44": {
+            "qn": "<p>The +I (electron-donating inductive) effect is strongly shown by which of the following groups?</p>",
+            "A": "<p>-NO<sub>2</sub></p>",
+            "B": "<p>-CN</p>",
+            "C": "<p>-CH<sub>3</sub></p>",
+            "D": "<p>-COOH</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "45": {
+            "qn": "<p>In the industrial manufacture of glass, 'cullet' is strategically added to the batch to:</p>",
+            "A": "<p>Increase the overall melting point of the mixture</p>",
+            "B": "<p>Decrease the melting point of the mixture</p>",
+            "C": "<p>Act as a permanent coloring agent</p>",
+            "D": "<p>Prevent the premature crystallization of glass</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "46": {
+            "qn": "<p>A commercial fertilizer bag is visibly labeled with the numbers '10-20-10'. This explicitly indicates the percentage of which primary nutrients, respectively?</p>",
+            "A": "<p>Nitrogen, Phosphorus, Potassium (N, P, K)</p>",
+            "B": "<p>Nitrogen, Potassium, Phosphorus (N, K, P)</p>",
+            "C": "<p>Phosphorus, Nitrogen, Potassium (P, N, K)</p>",
+            "D": "<p>Potassium, Nitrogen, Phosphorus (K, N, P)</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "47": {
+            "qn": "<p>The fundamental purpose of adding gypsum (CaSO<sub>4</sub>·2H<sub>2</sub>O) during the final grinding of Portland cement is to:</p>",
+            "A": "<p>Increase the final tensile strength of the cement</p>",
+            "B": "<p>Retard the initial setting time of the cement</p>",
+            "C": "<p>Provide a uniform grey color to the cement</p>",
+            "D": "<p>Accelerate the curing and setting time</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "48": {
+            "qn": "<p>Phenolphthalein is a widely used synthetic acid-base indicator. Chemically, it is classified as a:</p>",
+            "A": "<p>Weak organic acid</p>",
+            "B": "<p>Strong organic acid</p>",
+            "C": "<p>Weak organic base</p>",
+            "D": "<p>Strong organic base</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "49": {
+            "qn": "<p>Which of the following is a polymer></p>",
+            "A": "<p>CO<sub>2</sub></p>",
+            "B": "<p>SO<sub>2</sub></p>",
+            "C": "<p>PVC</p>",
+            "D": "<p>CH<sub>4</sub></p>",
+            "image": "",
+            "correct": "C"
+        },
+        "50": {
+            "qn": "<p>Which of the following highly pure substances is frequently used as a primary standard in volumetric analysis (titrimetry)?</p>",
+            "A": "<p>Sodium hydroxide</p>",
+            "B": "<p>Potassium permanganate</p>",
+            "C": "<p>Hydrochloric acid</p>",
+            "D": "<p>Oxalic acid</p>",
+            "image": "",
+            "correct": "D"
+        }
+    },
+    {
+        "1": {
+            "qn": "<p>In the Miller-Urey experiment, which of the following atmospheric conditions was implicitly simulated by the strict exclusion of molecular oxygen (O<sub>2</sub>), and what would have been the biochemical consequence if O<sub>2</sub> was present?</p>",
+            "A": "<p>An oxidizing environment; rapid oxidation of organic intermediates.</p>",
+            "B": "<p>A reducing environment; rapid oxidation of organic intermediates.</p>",
+            "C": "<p>A reducing environment; promotion of complex polypeptide formation.</p>",
+            "D": "<p>An oxidizing environment; instantaneous combustion of methane and ammonia.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "2": {
+            "qn": "<p>The presence of a non-functional pelvic girdle in modern cetaceans (whales) serves as morphological evidence of evolution. From a comparative anatomy perspective, this specific vestigial structure indicates that:</p>",
+            "A": "<p>Whales are undergoing convergent evolution towards a fish-like body plan.</p>",
+            "B": "<p>The structure is analogous to the fins of sharks.</p>",
+            "C": "<p>Whales share a terrestrial, quadrupedal mammalian ancestor.</p>",
+            "D": "<p>The pelvic girdle will eventually re-evolve into functional hindlimbs.</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "3": {
+            "qn": "<p>According to Lamarck's theory of evolution, which of these mechanisms is considered the primary, inherent driving force behind the elongation of a giraffe's neck before the concept of environmental inheritance occurs?</p>",
+            "A": "<p>Natural selection acting on random genetic mutations.</p>",
+            "B": "<p>The innate internal vital force and the physiological need created by the environment.</p>",
+            "C": "<p>The differential survival and reproduction of taller individuals.</p>",
+            "D": "<p>Genetic drift leading to the fixation of the long-neck allele.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "4": {
+            "qn": "<p>The peculiar character of Coelenterates is</p>",
+            "A": "<p>Coelenteron</p>",
+            "B": "<p>Presence of Cnidocytes</p>",
+            "C": "<p>Metagenesis</p>",
+            "D": "<p>All of these</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "5": {
+            "qn": "<p>Within the water vascular system of Phylum Echinodermata, which specific structure acts as the primary regulating sieve/valve for the entry of ambient seawater into the coelomic derivative?</p>",
+            "A": "<p>Ampulla</p>",
+            "B": "<p>Ring canal</p>",
+            "C": "<p>Tiedemann's bodies</p>",
+            "D": "<p>Madreporite</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "6": {
+            "qn": "<p>Hemichordates were reclassified from a sub-phylum of Chordata into an independent non-chordate phylum primarily because their defining supportive structure, the stomochord, is:</p>",
+            "A": "<p>A solid, ventral nerve cord.</p>",
+            "B": "<p>Derived from endoderm and is not homologous to mesodermal notochord.</p>",
+            "C": "<p>Formed entirely of cartilaginous ectoderm.</p>",
+            "D": "<p>Found only in the adult stage and lost during embryonic development.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "7": {
+            "qn": "<p>The most important features of class Mastigophora of phylum protozoa is</p>",
+            "A": "<p>Eukaryotic, unicellular organism</p>",
+            "B": "<p>Mixotrophic mode of nutrition</p>",
+            "C": "<p>Locomotion by flagella</p>",
+            "D": "<p>Outer body covering is Pellicle</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "8": {
+            "qn": "<p>Which specific type of epithelial tissue lines the parietal layer of Bowman's capsule in the kidney, being anatomically flattened to optimize its role as a boundary rather than a secretory surface?</p>",
+            "A": "<p>Simple cuboidal epithelium</p>",
+            "B": "<p>Simple squamous epithelium</p>",
+            "C": "<p>Stratified columnar epithelium</p>",
+            "D": "<p>Transitional epithelium</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "9": {
+            "qn": "<p>Connective tissue in which fat is stored and helps in insulation is</p>",
+            "A": "<p>Blood</p>",
+            "B": "<p>Bone</p>",
+            "C": "<p>Adipose tissue</p>",
+            "D": "<p>Areolar tissue</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "10": {
+            "qn": "<p>Keratinized stratified squamous epithelium is found in</p>",
+            "A": "<p>Horns and Nails</p>",
+            "B": "<p>Claws and hair cells</p>",
+            "C": "<p>Epidermis of skin</p>",
+            "D": "<p>All of these</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "11": {
+            "qn": "<p>Which specialized glial cells of the central nervous system extend perivascular feet to help form and maintain the blood-brain barrier, while also regulating extracellular potassium levels?</p>",
+            "A": "<p>Oligodendrocytes</p>",
+            "B": "<p>Microglia</p>",
+            "C": "<p>Astrocytes</p>",
+            "D": "<p>Ependymal cells</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "12": {
+            "qn": "<p>In the life cycle of Plasmodium vivax, which specific morphologic stage is inoculated into the human bloodstream from the salivary glands of an infected female Anopheles mosquito?</p>",
+            "A": "<p>Merozoite</p>",
+            "B": "<p>Sporozoite</p>",
+            "C": "<p>Trophozoite</p>",
+            "D": "<p>Gametocyte</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "13": {
+            "qn": "<p>The toxic pigment responsible for triggering the acute chills and paroxysms of malarial fever is</p>",
+            "A": "<p>Erythrocruorin</p>",
+            "B": "<p>Hemozoin</p>",
+            "C": "<p>Schuffners dots</p>",
+            "D": "<p>All of these</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "14": {
+            "qn": "<p>In Pheretima posthuma, the typhlosole is a highly vascular, glandular fold. What is its exact anatomical location and primary physiological role?</p>",
+            "A": "<p>Ventral wall of the stomach; secretion of calciferous enzymes.</p>",
+            "B": "<p>Dorsal wall of the intestine; increasing the absorptive surface area.</p>",
+            "C": "<p>Lateral wall of the gizzard; mechanical grinding of soil.</p>",
+            "D": "<p>Septal walls; housing nephridia for excretion.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "15": {
+            "qn": "<p>What is the specific function of the chloragogen cells in earthworms, and which human organ are they functionally analogous to?</p>",
+            "A": "<p>Oxygen transport; analogous to lungs</p>",
+            "B": "<p>Excretion, deamination, and glycogen storage; analogous to the liver</p>",
+            "C": "<p>Sensory perception; analogous to the retina</p>",
+            "D": "<p>Mechanical digestion; analogous to teeth</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "16": {
+            "qn": "<p>Neck of frog is absent. This helps frog in?</p>",
+            "A": "<p>Catching prey</p>",
+            "B": "<p>Respiration</p>",
+            "C": "<p>Jumping in ground</p>",
+            "D": "<p>Swimming in water</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "17": {
+            "qn": "<p>A frog tadpole is primarily ammonotelic, whereas the adult frog is ureotelic. This critical biochemical shift during metamorphosis is primarily driven and regulated by which hormone?</p>",
+            "A": "<p>Somatotropin</p>",
+            "B": "<p>Prolactin</p>",
+            "C": "<p>Thyroxine</p>",
+            "D": "<p>Aldosterone</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "18": {
+            "qn": "<p>The enzyme enterokinase plays a master regulatory role in intestinal protein digestion by catalyzing.</p>",
+            "A": "<p>Cleavage of polypeptides into free amino acids.</p>",
+            "B": "<p>Activation of pepsinogen to pepsin in the stomach.</p>",
+            "C": "<p>Conversion of inactive trypsinogen into active trypsin.</p>",
+            "D": "<p>Emulsification of dietary lipids.</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "19": {
+            "qn": "<p>The crypts of Lieberkühn are vital tubular glands in the human alimentary canal. Which specialized cells located at the base of these crypts secrete the antibacterial enzyme lysozyme?</p>",
+            "A": "<p>Goblet cells</p>",
+            "B": "<p>Argentaffin cells</p>",
+            "C": "<p>Paneth cells</p>",
+            "D": "<p>Chief cells</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "20": {
+            "qn": "<p>The human trachea is supported by 16-20 C-shaped cartilaginous rings. What is the functional significance of these rings being structurally incomplete on their posterior (dorsal) aspect?</p>",
+            "A": "<p>It provides a space for the vocal cords to vibrate.</p>",
+            "B": "<p>It allows esophagus to expand anteriorly during the swallowing.</p>",
+            "C": "<p>It facilitates the rapid exchange of gases directly with the blood.</p>",
+            "D": "<p>It prevents the continuous over-inflation of the lungs.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "21": {
+            "qn": "<p>During a forceful expiration, which specific set of muscles is primarily contracted to rapidly decrease the thoracic volume?</p>",
+            "A": "<p>External intercostal muscles and the diaphragm.</p>",
+            "B": "<p>Internal intercostal muscles and the abdominal wall muscles.</p>",
+            "C": "<p>Sternocleidomastoid and scalene muscles.</p>",
+            "D": "<p>Pectoralis major and latissimus dorsi.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "22": {
+            "qn": "<p>In high altitude, RBC</p>",
+            "A": "<p>Decreases in number</p>",
+            "B": "<p>Decreases in size</p>",
+            "C": "<p>Increases in number</p>",
+            "D": "<p>Increases in size</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "23": {
+            "qn": "<p>When the ventricles begin to squeeze (isovolumetric contraction), what is the precise physiological status of the major heart valves?</p>",
+            "A": "<p>AV valves are open; Semilunar valves are closed.</p>",
+            "B": "<p>AV valves are closed; Semilunar valves are open.</p>",
+            "C": "<p>Both AV and Semilunar valves are closed.</p>",
+            "D": "<p>Both AV and Semilunar valves are open.</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "24": {
+            "qn": "<p>In the human arterial system, which of the following is responsible for supplying oxygenated blood to the right arm and the right side of the head and neck?</p>",
+            "A": "<p>Left common carotid artery</p>",
+            "B": "<p>Brachiocephalic artery</p>",
+            "C": "<p>Right subclavian artery</p>",
+            "D": "<p>Left subclavian artery</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "25": {
+            "qn": "<p>In the mechanism of urine formation, the descending limb of the Loop of Henle is essential to the countercurrent multiplier system due to its unique permeability. It is:</p>",
+            "A": "<p>Highly permeable to water, but virtually impermeable to electrolytes (NaCl).</p>",
+            "B": "<p>Highly permeable to electrolytes (NaCl), but virtually impermeable to water.</p>",
+            "C": "<p>Permeable to both water and electrolytes equally.</p>",
+            "D": "<p>Impermeable to both water and electrolytes.</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "26": {
+            "qn": "<p>A patient's urinalysis reveals significant glycosuria and ketonuria, accompanied by polyuria and dehydration. Which specific systemic metabolic disorder is most directly indicated by this renal presentation?</p>",
+            "A": "<p>Diabetes insipidus</p>",
+            "B": "<p>Acute glomerulonephritis</p>",
+            "C": "<p>Diabetes mellitus</p>",
+            "D": "<p>Renal calculus (Nephrolithiasis)</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "27": {
+            "qn": "<p>Within the central nervous system, which specific diencephalic structure acts as the primary sensory relay station, filtering and directing ascending sensory impulses to the appropriate regions of the cerebral cortex?</p>",
+            "A": "<p>Hypothalamus</p>",
+            "B": "<p>Medulla oblongata</p>",
+            "C": "<p>Thalamus</p>",
+            "D": "<p>Corpus callosum</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "28": {
+            "qn": "<p>During the origin and conduction of a nerve impulse, the rapid depolarization phase of an action potential is directly triggered by:</p>",
+            "A": "<p>The opening of voltage-gated potassium (K<sup>+</sup>) channels and K<sup>+</sup> efflux.</p>",
+            "B": "<p>The opening of voltage-gated sodium (Na<sup>+</sup>) channels and rapid Na<sup>+</sup> influx.</p>",
+            "C": "<p>The continuous baseline operation of the Na<sup>+</sup>/K<sup>+</sup> ATPase pump.</p>",
+            "D": "<p>The influx of negatively charged chloride (Cl<sup>-</sup>) ions.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "29": {
+            "qn": "<p>In the fovea centralis of human eye which specific cellular arrangement accounts for sharpest vision?</p>",
+            "A": "<p>It contains a high density of both rods and cones.</p>",
+            "B": "<p>It contains only rods and lacks cones entirely.</p>",
+            "C": "<p>It contains only cones and lacks rods entirely.</p>",
+            "D": "<p>It is the exit point of the optic nerve, devoid of any photoreceptors.</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "30": {
+            "qn": "<p>In the human ear, upon which specific membrane does the Organ of Corti rest?</p>",
+            "A": "<p>Tectorial membrane</p>",
+            "B": "<p>Tympanic membrane</p>",
+            "C": "<p>Reissner's membrane</p>",
+            "D": "<p>Basilar membrane</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "31": {
+            "qn": "<p>Which of the following hormones, secreted by the adrenal cortex, acts heavily on the distal convoluted tubule and collecting duct to stimulate the reabsorption of sodium and the excretion of potassium?</p>",
+            "A": "<p>Antidiuretic hormone</p>",
+            "B": "<p>Aldosterone</p>",
+            "C": "<p>Cortisol</p>",
+            "D": "<p>Atrial natriuretic peptide</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "32": {
+            "qn": "<p>During a normal human menstrual cycle, the sudden, massive mid-cycle surge of which specific hormone directly induces the rupture of the Graafian follicle?</p>",
+            "A": "<p>Progesterone</p>",
+            "B": "<p>Estrogen</p>",
+            "C": "<p>Luteinizing Hormone</p>",
+            "D": "<p>Follicle-Stimulating Hormone</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "33": {
+            "qn": "<p>Which of this medicine is not among the front line of drugs for treatment of tuberculosis.</p>",
+            "A": "<p>Isoniazid</p>",
+            "B": "<p>Streptomycin</p>",
+            "C": "<p>Pyrazinamide</p>",
+            "D": "<p>Rifampicin</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "34": {
+            "qn": "<p>The extreme secretory diarrhea ('rice-water stool') of cholera is due to</p>",
+            "A": "<p>Loss of minerals from body</p>",
+            "B": "<p>Dehydration</p>",
+            "C": "<p>Choleragen (CT toxin)</p>",
+            "D": "<p>Intestinal cramp</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "35": {
+            "qn": "<p>Invasive Candidiasis is caused by</p>",
+            "A": "<p><i>Candida albicans</i></p>",
+            "B": "<p><i>Candida glabarata</i></p>",
+            "C": "<p><i>Candida tropacalis</i></p>",
+            "D": "<p><i>Candida auris</i></p>",
+            "image": "",
+            "correct": "D"
+        },
+        "36": {
+            "qn": "<p>Which of the following is a classic example of a live attenuated vaccine?</p>",
+            "A": "<p>Tetanus toxoid</p>",
+            "B": "<p>Salk polio vaccine</p>",
+            "C": "<p>BCG vaccine</p>",
+            "D": "<p>Hepatitis B recombinant vaccine</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "37": {
+            "qn": "<p>In In-Vitro Fertilization (IVF), which hormone is administrated for ovarian hyper stimulation.</p>",
+            "A": "<p>Oestrogen</p>",
+            "B": "<p>Progestrone</p>",
+            "C": "<p>FSH</p>",
+            "D": "<p>HCG</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "38": {
+            "qn": "<p>During the secondary treatment of municipal sewage and drinking water, what is the critical role of 'flocs' in aeration tanks?</p>",
+            "A": "<p>They are chemical coagulants like alum used to precipitate heavy metals.</p>",
+            "B": "<p>They are mechanical filters that screen out large floating debris.</p>",
+            "C": "<p>They are masses of aerobic bacteria consuming organic matter and reducing BOD.</p>",
+            "D": "<p>They act as anaerobic digesters to produce methane gas.</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "39": {
+            "qn": "<p>A group of aquatic larvae is observed swimming actively in same direction as the rivers flow to disperse new habitats, they are exhibiting</p>",
+            "A": "<p>Positive rheotaxis</p>",
+            "B": "<p>Positive thigmotaxis</p>",
+            "C": "<p>Negative rheotaxis</p>",
+            "D": "<p>Negative thigmotaxis</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "40": {
+            "qn": "<p>Which among these is adaptive features of aves?</p>",
+            "A": "<p>Modification of forelimbs into wings</p>",
+            "B": "<p>Pneumatic bones</p>",
+            "C": "<p>High metabolism</p>",
+            "D": "<p>All of these</p>",
+            "image": "",
+            "correct": "D"
+        }
+    },
+    {
+        "1": {
+            "qn": "<p>In an enzyme reaction, adding an inhibitor increases K<sub>m</sub> but leaves V<sub>max</sub> unchanged. What characterizes this inhibitor?</p>",
+            "A": "<p>It binds exclusively to an allosteric site.</p>",
+            "B": "<p>It competes for the active site directly.</p>",
+            "C": "<p>It covalently and irreversibly modifies the active site.</p>",
+            "D": "<p>It acts as an uncompetitive inhibitor.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "2": {
+            "qn": "<p>Which statement correctly differentiates cellulose and starch structurally?</p>",
+            "A": "<p>Cellulose uses α-D-glucose; starch uses β-D-glucose.</p>",
+            "B": "<p>Cellulose has unbranched β-1,4 bonds; starch has branched α-1,4 and α-1,6 bonds.</p>",
+            "C": "<p>Both form compact helices, but cellulose is heavily branched.</p>",
+            "D": "<p>Cellulose is a fungal reserve; starch is a plant structural element.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "3": {
+            "qn": "<p>In the 3-Domain system, which characteristic justifies separating Archaea from Bacteria?</p>",
+            "A": "<p>The presence of membrane-bound organelles.</p>",
+            "B": "<p>16S rRNA sequences and ether linkages in membrane lipids.</p>",
+            "C": "<p>Distinct sexual reproduction and flagellar structures.</p>",
+            "D": "<p>Extreme sensitivity to penicillin.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "4": {
+            "qn": "<p>When a bacteriophage integrates its viral DNA into the host bacterium's chromosome, what is this dormant viral genome called?</p>",
+            "A": "<p>Virion</p>",
+            "B": "<p>Prion</p>",
+            "C": "<p>Prophage</p>",
+            "D": "<p>Viroid</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "5": {
+            "qn": "<p>In Mucor's life cycle, what is the ploidy and state of a mature zygospore just before germination?</p>",
+            "A": "<p>Haploid (n) and thin-walled.</p>",
+            "B": "<p>Diploid (2n), undergoing meiosis during germination.</p>",
+            "C": "<p>Dikaryotic (n+n), undergoing karyogamy upon germination.</p>",
+            "D": "<p>Haploid (n), functioning strictly as a gametangium.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "6": {
+            "qn": "<p>In Spirogyra scalariform conjugation, if a 20-cell filament mates with a 15-cell filament, what is the maximum number of zygospores formed?</p>",
+            "A": "<p>35</p>",
+            "B": "<p>20</p>",
+            "C": "<p>15</p>",
+            "D": "<p>7</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "7": {
+            "qn": "<p>In the Marchantia sporophyte, what are the sterile, hygroscopic cells that aid in spore dispersal called?</p>",
+            "A": "<p>Pseudoelaters</p>",
+            "B": "<p>Elaters</p>",
+            "C": "<p>Peristome teeth</p>",
+            "D": "<p>Annuli</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "8": {
+            "qn": "<p>How is the prothallus (gametophyte) of Dryopteris morphologically and functionally described?</p>",
+            "A": "<p>Diploid, independent, and autotrophic.</p>",
+            "B": "<p>Haploid, dependent on the sporophyte, and cordate.</p>",
+            "C": "<p>Haploid, independent, autotrophic, and monoecious.</p>",
+            "D": "<p>Diploid, parasitic, and dioecious.</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "9": {
+            "qn": "<p>Why is the nutritive endosperm in gymnosperms (e.g., Pinus) unique compared to angiosperms?</p>",
+            "A": "<p>It forms before fertilization and is haploid (n).</p>",
+            "B": "<p>It forms after fertilization and is triploid (3n).</p>",
+            "C": "<p>It forms before fertilization and is diploid (2n).</p>",
+            "D": "<p>It forms after double fertilization and is diploid (2n).</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "10": {
+            "qn": "<p>A flower has the formula: K<sub>(5)</sub> C<sub>(5)</sub> A<sup>5</sup> G<sub>(2)</sub>. To which family does this plant belong?</p>",
+            "A": "<p>Brassicaceae</p>",
+            "B": "<p>Solanaceae</p>",
+            "C": "<p>Fabaceae</p>",
+            "D": "<p>Liliaceae</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "11": {
+            "qn": "<p>Biologically, what is Ophiocordyceps sinensis (Yarsagumba)?</p>",
+            "A": "<p>A lichenized association of a fungus and alga.</p>",
+            "B": "<p>An entomopathogenic fungus and a moth larva.</p>",
+            "C": "<p>A basidiomycete forming mycorrhizae with plant roots.</p>",
+            "D": "<p>A root-parasitic angiosperm and its host plant.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "12": {
+            "qn": "<p>An epiphytic orchid grows on a mango tree branch without drawing nutrients. What is this interaction?</p>",
+            "A": "<p>Amensalism</p>",
+            "B": "<p>Commensalism</p>",
+            "C": "<p>Mutualism</p>",
+            "D": "<p>Parasitism</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "13": {
+            "qn": "<p>Which compound is directly responsible for catalytic depletion of the stratospheric ozone layer?</p>",
+            "A": "<p>Carbon dioxide (CO<sub>2</sub>)</p>",
+            "B": "<p>Sulfur dioxide (SO<sub>2</sub>)</p>",
+            "C": "<p>Chlorofluorocarbons (CFCs)</p>",
+            "D": "<p>Nitrous oxide (N<sub>2</sub>O)</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "14": {
+            "qn": "<p>In a hydrosere succession, which community directly follows the completely submerged plant stage?</p>",
+            "A": "<p>Phytoplankton stage</p>",
+            "B": "<p>Rooted floating stage</p>",
+            "C": "<p>Reed-swamp stage</p>",
+            "D": "<p>Sedge-meadow stage</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "15": {
+            "qn": "<p>Which forest climax type predominantly thrives in Nepal's tropical zone (below 1000m)?</p>",
+            "A": "<p>Rhododendron forests</p>",
+            "B": "<p>Quercus (Oak) forests</p>",
+            "C": "<p>Shorea robusta (Sal) forests</p>",
+            "D": "<p>Betula utilis (Birch) forests</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "16": {
+            "qn": "<p>Where in a eukaryotic cell does active rRNA synthesis and ribosomal subunit assembly occur?</p>",
+            "A": "<p>Rough Endoplasmic Reticulum (RER)</p>",
+            "B": "<p>Golgi apparatus</p>",
+            "C": "<p>Nucleolus</p>",
+            "D": "<p>Cytosol</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "17": {
+            "qn": "<p>A somatic cell in G<sub>1</sub> has 12 pg DNA and 2n=8. What is its DNA content and chromatid count during metaphase?</p>",
+            "A": "<p>12 pg DNA, 8 chromatids</p>",
+            "B": "<p>24 pg DNA, 16 chromatids</p>",
+            "C": "<p>24 pg DNA, 8 chromatids</p>",
+            "D": "<p>12 pg DNA, 16 chromatids</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "18": {
+            "qn": "<p>During which substage of Prophase I does the physical crossing over between non-sister chromatids occur?</p>",
+            "A": "<p>Zygotene</p>",
+            "B": "<p>Pachytene</p>",
+            "C": "<p>Diplotene</p>",
+            "D": "<p>Diakinesis</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "19": {
+            "qn": "<p>According to the fluid mosaic model, which component mediates active transport as selective channels?</p>",
+            "A": "<p>The phospholipid bilayer core</p>",
+            "B": "<p>Embedded cholesterol molecules</p>",
+            "C": "<p>Integral (transmembrane) proteins</p>",
+            "D": "<p>Peripheral glycoproteins</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "20": {
+            "qn": "<p>Who formalized the cell theory axiom 'Omnis cellula e cellula'?</p>",
+            "A": "<p>Matthias Schleiden and Theodor Schwann</p>",
+            "B": "<p>Rudolf Virchow</p>",
+            "C": "<p>Robert Hooke</p>",
+            "D": "<p>Antonie van Leeuwenhoek</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "21": {
+            "qn": "<p>During DNA replication, which enzyme seals nicks to join Okazaki fragments on the lagging strand?</p>",
+            "A": "<p>DNA Helicase</p>",
+            "B": "<p>DNA Polymerase I</p>",
+            "C": "<p>DNA Ligase</p>",
+            "D": "<p>Primase</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "22": {
+            "qn": "<p>In Mirabilis jalapa, an F<sub>1</sub> pink plant (Rr) is test-crossed. What is the expected phenotypic ratio?</p>",
+            "A": "<p>1 Red: 2 Pink: 1 White</p>",
+            "B": "<p>1 Red: 1 White</p>",
+            "C": "<p>1 Pink: 1 White</p>",
+            "D": "<p>All Pink</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "23": {
+            "qn": "<p>If two genes are tightly linked on an autosome, what is the expected percentage of recombinant offspring in a dihybrid test cross?</p>",
+            "A": "<p>Exactly 50%</p>",
+            "B": "<p>Greater than 50%</p>",
+            "C": "<p>Significantly less than 50%</p>",
+            "D": "<p>100%</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "24": {
+            "qn": "<p>A color-blind man marries a normal-vision woman whose father was color-blind. What is the probability their son is color-blind?</p>",
+            "A": "<p>0%</p>",
+            "B": "<p>25%</p>",
+            "C": "<p>50%</p>",
+            "D": "<p>100%</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "25": {
+            "qn": "<p>What is the definitive sex chromosome karyotype for an individual with Klinefelter's syndrome?</p>",
+            "A": "<p>45, X0</p>",
+            "B": "<p>47, XXY</p>",
+            "C": "<p>47, XYY</p>",
+            "D": "<p>47, XXX</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "26": {
+            "qn": "<p>A point mutation changes an amino-acid codon into a premature stop codon. What is this called?</p>",
+            "A": "<p>Silent mutation</p>",
+            "B": "<p>Missense mutation</p>",
+            "C": "<p>Nonsense mutation</p>",
+            "D": "<p>Frameshift mutation</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "27": {
+            "qn": "<p>In a mature dicot stem transverse section, how are the vascular bundles arranged and described?</p>",
+            "A": "<p>Conjoint, collateral, and closed.</p>",
+            "B": "<p>Conjoint, collateral, and open.</p>",
+            "C": "<p>Radial and exarch.</p>",
+            "D": "<p>Concentric and amphivasal.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "28": {
+            "qn": "<p>Which simple tissue provides mechanical support to growing stems and has localized pectin thickenings?</p>",
+            "A": "<p>Parenchyma</p>",
+            "B": "<p>Collenchyma</p>",
+            "C": "<p>Sclerenchyma</p>",
+            "D": "<p>Xylem</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "29": {
+            "qn": "<p>A root section shows a massive central pith and polyarch xylem (6+ bundles). What is its identity?</p>",
+            "A": "<p>Dicot stem</p>",
+            "B": "<p>Monocot stem</p>",
+            "C": "<p>Dicot root</p>",
+            "D": "<p>Monocot root</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "30": {
+            "qn": "<p>Cell X (OP=10 atm, TP=4 atm) is adjacent to Cell Y (OP=8 atm, TP=3 atm). What is the net direction of osmosis?</p>",
+            "A": "<p>From Cell X to Cell Y</p>",
+            "B": "<p>From Cell Y to Cell X</p>",
+            "C": "<p>No net movement of water</p>",
+            "D": "<p>Water moves out of both cells into the apoplast</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "31": {
+            "qn": "<p>In non-cyclic photophosphorylation, what acts as the ultimate electron donor and final electron acceptor?</p>",
+            "A": "<p>Donor: H<sub>2</sub>O; Acceptor: NADP<sup>+</sup></p>",
+            "B": "<p>Donor: H<sub>2</sub>O; Acceptor: CO<sub>2</sub></p>",
+            "C": "<p>Donor: PS II; Acceptor: PS I</p>",
+            "D": "<p>Donor: NADH; Acceptor: O<sub>2</sub></p>",
+            "image": "",
+            "correct": "A"
+        },
+        "32": {
+            "qn": "<p>In the C<sub>4</sub> cycle, what is the primary 3-carbon CO<sub>2</sub> acceptor molecule in mesophyll cells?</p>",
+            "A": "<p>Ribulose 1,5-bisphosphate (RuBP)</p>",
+            "B": "<p>Phosphoenolpyruvate (PEP)</p>",
+            "C": "<p>Oxaloacetic acid (OAA)</p>",
+            "D": "<p>Malic acid</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "33": {
+            "qn": "<p>Which enzyme complex catalyzes the oxidative decarboxylation of pyruvic acid to form Acetyl CoA?</p>",
+            "A": "<p>Pyruvate kinase</p>",
+            "B": "<p>Pyruvate dehydrogenase</p>",
+            "C": "<p>Citrate synthase</p>",
+            "D": "<p>Hexokinase</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "34": {
+            "qn": "<p>Which combination of environmental factors most drastically accelerates a plant's transpiration rate?</p>",
+            "A": "<p>High humidity, low temperature, still air.</p>",
+            "B": "<p>Low humidity, high temperature, high wind.</p>",
+            "C": "<p>Low humidity, high temperature, dry soil.</p>",
+            "D": "<p>High humidity, high temperature, closed stomata.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "35": {
+            "qn": "<p>Which plant growth regulator is used to induce internodal elongation and delay grape senescence?</p>",
+            "A": "<p>Auxins</p>",
+            "B": "<p>Gibberellins</p>",
+            "C": "<p>Cytokinins</p>",
+            "D": "<p>Abscisic acid (ABA)</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "36": {
+            "qn": "<p>In a typical Polygonum-type angiosperm, what is the mature embryo sac's configuration before fertilization?</p>",
+            "A": "<p>8-celled and 8-nucleate</p>",
+            "B": "<p>7-celled and 8-nucleate</p>",
+            "C": "<p>8-celled and 7-nucleate</p>",
+            "D": "<p>7-celled and 7-nucleate</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "37": {
+            "qn": "<p>In double fertilization, what is the ploidy level of the Primary Endosperm Nucleus (PEN)?</p>",
+            "A": "<p>Haploid (n)</p>",
+            "B": "<p>Diploid (2n)</p>",
+            "C": "<p>Triploid (3n)</p>",
+            "D": "<p>Tetraploid (4n)</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "38": {
+            "qn": "<p>In tissue culture, what is the reversion of a mature cell to a dividing meristematic state called?</p>",
+            "A": "<p>Differentiation</p>",
+            "B": "<p>Dedifferentiation</p>",
+            "C": "<p>Redifferentiation</p>",
+            "D": "<p>Somatic embryogenesis</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "39": {
+            "qn": "<p>The nitrogen-fixing value of the biofertilizer Azolla depends on its symbiosis with which cyanobacterium?</p>",
+            "A": "<p>Rhizobium leguminosarum</p>",
+            "B": "<p>Azotobacter chroococcum</p>",
+            "C": "<p>Anabaena azollae</p>",
+            "D": "<p>Nostoc punctiforme</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "40": {
+            "qn": "<p>What is the exact molecular mechanism of action for restriction endonucleases?</p>",
+            "A": "<p>Synthesize phosphodiester bonds to join DNA.</p>",
+            "B": "<p>Add free nucleotides to the 3' end of DNA.</p>",
+            "C": "<p>Cleave DNA at specific palindromic sequences.</p>",
+            "D": "<p>Break hydrogen bonds to unzip the DNA helix.</p>",
+            "image": "",
+            "correct": "C"
+        }
+    },
+    {
+        "1": {
+            "qn": "<p>Pointing to a photograph, a man said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph was it?</p>",
+            "A": "<p>His own</p>",
+            "B": "<p>His son's</p>",
+            "C": "<p>His father's</p>",
+            "D": "<p>His nephew's</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "2": {
+            "qn": "<p>A doctor walks 5 km towards the South and then turns to the right. After walking 3 km, he turns to the left and walks 5 km. In which direction is he now from his starting place?</p>",
+            "A": "<p>West</p>",
+            "B": "<p>South</p>",
+            "C": "<p>South-West</p>",
+            "D": "<p>North-East</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "3": {
+            "qn": "<p>In a certain code language, if the word 'NURSE' is coded as 'QXUVH', how will the word 'MEDIC' be coded in that language?</p>",
+            "A": "<p>PHGMF</p>",
+            "B": "<p>PFGMF</p>",
+            "C": "<p>PHFLF</p>",
+            "D": "<p>OHELF</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "4": {
+            "qn": "<p>Which of the following Venn diagrams best represents the relationship between: Hospital, Doctors, and Patients in given figure?</p>",
+            "A": "<p></p>",
+            "B": "<p></p>",
+            "C": "<p></p>",
+            "D": "<p></p>",
+            "image": "",
+            "correct": "B"
+        },
+        "5": {
+            "qn": "<p>If the 2nd of a month falls on Sunday, what day will it be on the 31st of that month?</p>",
+            "A": "<p>Monday</p>",
+            "B": "<p>Tuesday</p>",
+            "C": "<p>Thursday</p>",
+            "D": "<p>Friday</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "6": {
+            "qn": "<p>A can complete a piece of work in 15 days and B can do it in 20 days. If they work together on it for 4 days, what fraction of the work is left?</p>",
+            "A": "<p>1/4</p>",
+            "B": "<p>8/15</p>",
+            "C": "<p>7/15</p>",
+            "D": "<p>1/10</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "7": {
+            "qn": "<p>A pharmacy incurs a loss of 5% by selling a medical device for Rs. 1140. At what price should the device be sold to earn a 5% profit?</p>",
+            "A": "<p>Rs. 1200</p>",
+            "B": "<p>Rs. 1260</p>",
+            "C": "<p>Rs. 1320</p>",
+            "D": "<p>Rs. 1180</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "8": {
+            "qn": "<p>The ratio of the present ages of a mother and her daughter is 7:1. Four years ago, the ratio of their ages was 19:1. What will be the mother's age 4 years from now?</p>",
+            "A": "<p>42 years</p>",
+            "B": "<p>38 years</p>",
+            "C": "<p>46 years</p>",
+            "D": "<p>36 years</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "9": {
+            "qn": "<p>At a medical conference, every doctor shook hands with everybody else exactly once. If there were a total of 66 handshakes, how many doctors were present at the conference?</p>",
+            "A": "<p>11</p>",
+            "B": "<p>12</p>",
+            "C": "<p>13</p>",
+            "D": "<p>14</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "10": {
+            "qn": "<p>If 20% of a = b, then b% of 20 is exactly the same as:</p>",
+            "A": "<p>4% of a</p>",
+            "B": "<p>5% of a</p>",
+            "C": "<p>20% of a</p>",
+            "D": "<p>None of these</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "11": {
+            "qn": "<p>Statements: 1. All surgeons are doctors. 2. Some doctors are professors. Conclusions: I. Some professors are surgeons. II. All professors are doctors. Which conclusion follows?</p>",
+            "A": "<p>Only conclusion I follows</p>",
+            "B": "<p>Only conclusion II follows</p>",
+            "C": "<p>Either I or II follows</p>",
+            "D": "<p>Neither I nor II follows</p>",
+            "image": "",
+            "correct": "D"
+        },
+        "12": {
+            "qn": "<p>Statement: Should all the newly synthesized drugs from foreign countries be tested on a local sample population before granting a license for general sale? Arguments: I. Yes. Different populations can possess different genetic metabolisms requiring tailored dosages. II. No. It is not economically feasible and will delay the availability of life-saving drugs.</p>",
+            "A": "<p>Only Argument I is strong</p>",
+            "B": "<p>Only Argument II is strong</p>",
+            "C": "<p>Both Arguments are strong</p>",
+            "D": "<p>Neither Argument is strong</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "13": {
+            "qn": "<p>Statement: 'To keep myself up-to-date with medical advancements, I always read the WHO weekly journal.' - A candidate tells the interview panel. Assumptions: I. The candidate does not read local medical newspapers. II. Recent medical advancements are published in the WHO weekly journal.</p>",
+            "A": "<p>Only assumption I is implicit</p>",
+            "B": "<p>Only assumption II is implicit</p>",
+            "C": "<p>Both I and II are implicit</p>",
+            "D": "<p>Neither I nor II is implicit</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "14": {
+            "qn": "<p>Statements: I. A large number of people in the ward died due to a dengue outbreak during the monsoon. II. The municipal corporation failed to conduct adequate fogging and eradicate stagnant water bodies before the monsoon.</p>",
+            "A": "<p>Statement I is the cause and Statement II is its effect.</p>",
+            "B": "<p>Statement II is the cause and Statement I is its effect.</p>",
+            "C": "<p>Both statements are independent causes.</p>",
+            "D": "<p>Both statements are effects of independent causes.</p>",
+            "image": "",
+            "correct": "B"
+        },
+        "15": {
+            "qn": "<p>Statement: A sudden rise in spurious and counterfeit medicines has been reported in the city pharmacies. Courses of Action: I. The government should immediately form a task force to inspect pharmacies and seize fake drugs. II. Citizens should be advised through media to verify batch numbers and purchase only from authorized dealers.</p>",
+            "A": "<p>Only I follows</p>",
+            "B": "<p>Only II follows</p>",
+            "C": "<p>Both I and II follow</p>",
+            "D": "<p>Neither I nor II follows</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "16": {
+            "qn": "<p>Two positions of a single dice are shown. When the number 4 is at the bottom, what number will be on the top face?</p>",
+            "A": "<p>1</p>",
+            "B": "<p>2</p>",
+            "C": "<p>3</p>",
+            "D": "<p>5</p>",
+            "image": "",
+            "correct": "A"
+        },
+        "17": {
+            "qn": "<p>How many total triangles are embedded within the given figure?</p>",
+            "A": "<p>12</p>",
+            "B": "<p>14</p>",
+            "C": "<p>16</p>",
+            "D": "<p>18</p>",
+            "image": "",
+            "correct": "C"
+        },
+        "18": {
+            "qn": "<p>Analyze the relationship between the first two figures. Applying the same logic, which standard shape corresponds to 'Figure C'?</p>",
+            "A": "<p></p>",
+            "B": "<p></p>",
+            "C": "<p></p>",
+            "D": "<p></p>",
+            "image": "",
+            "correct": "B"
+        },
+        "19": {
+            "qn": "<p>Identify the missing figure in the logical sequence of the 3×3 grid.</p>",
+            "A": "<p></p>",
+            "B": "<p></p>",
+            "C": "<p></p>",
+            "D": "<p></p>",
+            "image": "",
+            "correct": "B"
+        },
+        "20": {
+            "qn": "<p>Which of the following correctly represents the water image of the word CLINIC?</p>",
+            "A": "<p>CΓINIƆ</p>",
+            "B": "<p>CΓINIC</p>",
+            "C": "<p>CГIИIC</p>",
+            "D": "<p>ƆLINIT</p>",
+            "image": "",
+            "correct": "C"
+        }
+    }
+]
