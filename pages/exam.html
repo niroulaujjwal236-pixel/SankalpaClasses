@@ -13,6 +13,9 @@
             <span class="exam-subtitle">Online Entrance Preparation</span>
         </div>
         <div class="controls">
+            <!-- New Timer Badge -->
+            <div id="exam-timer" class="timer-badge">03:00:00</div>
+            
             <select id="subject-selector" aria-label="Select Subject">
                 <option value="0">Physics (50 Qns)</option>
                 <option value="1">Chemistry (50 Qns)</option>
@@ -78,11 +81,12 @@
             <p id="modal-text">You have done 0 questions. Are you sure you want to end the exam?</p>
             <div class="modal-actions">
                 <button id="modal-no" class="btn-secondary">No, Continue</button>
-                <button id="modal-yes" class="btn-danger">Yes, Terminate</button>
+                <button id="modal-yes" class="btn-danger">Yes, Submit</button>
             </div>
         </div>
     </div>
-
-    <script src="../js/exam.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="../js/exam.js"></script>
 </body>
 </html>

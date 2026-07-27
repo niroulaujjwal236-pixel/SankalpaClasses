@@ -42,6 +42,23 @@ body {
     align-items: center;
 }
 
+/* Timer Badge Styles */
+.timer-badge {
+    background-color: var(--card-bg);
+    color: var(--danger);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    border: 2px solid var(--danger);
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 115px;
+    letter-spacing: 1px;
+}
+
 select {
     padding: 0.5rem;
     border-radius: 4px;
@@ -193,7 +210,6 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
     z-index: 1000;
 }
 
-/* Only apply flexbox when the hidden attribute is removed by JavaScript */
 .modal:not([hidden]) {
     display: flex;
     align-items: center;
@@ -218,7 +234,13 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 /* Responsiveness */
 @media (max-width: 600px) {
     .exam-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
-    .controls { width: 100%; justify-content: space-between; }
+    
+    /* Modified controls layout for mobile timer */
+    .controls { width: 100%; flex-wrap: wrap; gap: 0.5rem; }
+    .timer-badge { width: 100%; order: -1; margin-bottom: 0.5rem; font-size: 1.5rem; padding: 0.8rem; }
+    #subject-selector { flex: 1; }
+    #submit-exam-btn { flex: 1; }
+    
     .options-grid { grid-template-columns: 1fr; }
     .download-section { flex-direction: column; }
 }

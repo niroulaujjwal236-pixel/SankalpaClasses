@@ -1,3 +1,9 @@
+import { supabase } from "/supabase/config.js";
+
+// Manually define the exam ID for this weekly exam
+const exam_id = 1;
+const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
+
 // Map index to subjects exactly as described by the structure requirement
 const SUBJECTS = {
     0: { name: "Physics", limit: 50 },
@@ -8,16 +14,21 @@ const SUBJECTS = {
 };
 
 let examData = []; // Will hold the parsed JSON
+let timerInterval; // Global timer reference
 
 // State management
 let state = {
     answers: { 0: {}, 1: {}, 2: {}, 3: {}, 4: {} },
     currentSubj: 0,
-    progress: { 0: 1, 1: 1, 2: 1, 3: 1, 4: 1 } 
+    progress: { 0: 1, 1: 1, 2: 1, 3: 1, 4: 1 },
+    remainingTime: TOTAL_TIME_SECONDS
 };
+
+let isSubmitting = false; // Prevent double-submit
 
 // DOM Elements
 const els = {
+    timerDisplay: document.getElementById('exam-timer'),
     subjectSelector: document.getElementById('subject-selector'),
     subjBadge: document.getElementById('subject-badge'),
     qNum: document.getElementById('question-number'),
@@ -41,18 +52,47 @@ async function initExam() {
     await fetchExamData();
     bindEvents();
     renderQuestion();
+    startTimer();
+}
+
+// Timer Logic
+function startTimer() {
+    updateTimerDisplay(); // Initial draw
+    
+    timerInterval = setInterval(() => {
+        if (state.remainingTime > 0) {
+            state.remainingTime--;
+            updateTimerDisplay();
+            
+            // Save state in the background every 5 seconds to accurately track elapsed time without explicit clicks
+            if (state.remainingTime % 5 === 0) {
+                saveLocalState();
+            }
+        } else {
+            clearInterval(timerInterval);
+            alert("Time is up! Your exam will now be automatically submitted.");
+            calculateResults();
+        }
+    }, 1000);
+}
+
+function updateTimerDisplay() {
+    const hours = Math.floor(state.remainingTime / 3600);
+    const minutes = Math.floor((state.remainingTime % 3600) / 60);
+    const seconds = state.remainingTime % 60;
+    
+    els.timerDisplay.innerText = 
+        `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 }
 
 // Data Fetching
 async function fetchExamData() {
     try {
-        // Points to the JSON source within the project context
         const response = await fetch('../json_files/current.json');
         if (!response.ok) throw new Error("JSON not found");
         examData = await response.json();
     } catch (error) {
         console.error("Failed to fetch JSON, using fallback data format.", error);
-        // Fallback dummy data generation to ensure the code executes if JSON is missing
         examData = Array.from({length: 5}, (_, i) => {
             let limit = SUBJECTS[i].limit;
             let subjObj = {};
@@ -74,7 +114,14 @@ async function fetchExamData() {
 function loadLocalState() {
     const saved = localStorage.getItem('cee_exam_state');
     if (saved) {
-        state = JSON.parse(saved);
+        const parsedState = JSON.parse(saved);
+        
+        // Safely extract existing data and fallback to defaults so we don't break old browser caches
+        state.answers = parsedState.answers || state.answers;
+        state.currentSubj = parsedState.currentSubj !== undefined ? parsedState.currentSubj : state.currentSubj;
+        state.progress = parsedState.progress || state.progress;
+        state.remainingTime = parsedState.remainingTime !== undefined ? parsedState.remainingTime : state.remainingTime;
+        
         els.subjectSelector.value = state.currentSubj;
     }
 }
@@ -100,7 +147,7 @@ function bindEvents() {
             e.currentTarget.classList.add('selected');
             els.nextBtn.disabled = false;
 
-            // Save Answer
+            // Save Answer and Time Snapshot
             const qIndex = state.progress[state.currentSubj];
             state.answers[state.currentSubj][qIndex] = selectedOpt;
             saveLocalState();
@@ -145,7 +192,6 @@ function renderQuestion() {
     els.subjBadge.innerText = SUBJECTS[subj].name;
     els.qNum.innerText = `Question: ${qIndex} / ${SUBJECTS[subj].limit}`;
     
-    // Check if we ran out of data
     if (!qData) {
         els.qText.innerHTML = "Question data unavailable.";
         els.qImage.hidden = true;
@@ -181,7 +227,6 @@ function renderQuestion() {
         els.nextBtn.disabled = true;
     }
 
-    // Disable next button if it's the last question in the section
     if (qIndex >= SUBJECTS[subj].limit) {
         els.nextBtn.innerText = "End of Section";
     } else {
@@ -191,6 +236,12 @@ function renderQuestion() {
 
 // Final Evaluation Logic
 function calculateResults() {
+    if (isSubmitting) return; // Prevent double-submit
+    isSubmitting = true;
+    
+    clearInterval(timerInterval); // Halt the timer countdown
+    els.modal.hidden = true; // Ensure modal is closed if triggered by timeout
+
     let totalScore = 0;
     let attempted = 0;
     let correct = 0;
@@ -217,6 +268,7 @@ function calculateResults() {
     els.examContainer.hidden = true;
     els.subjectSelector.hidden = true;
     els.submitBtn.hidden = true;
+    if (els.timerDisplay) els.timerDisplay.hidden = true;
     els.resultContainer.hidden = false;
 
     // Populate Data
@@ -227,7 +279,62 @@ function calculateResults() {
     
     // Clear Local Storage upon exam submission
     localStorage.removeItem('cee_exam_state');
+
+    // Save results in the background
+    saveExamResult(totalScore, correct, incorrect).finally(() => {
+        isSubmitting = false;
+    });
+}
+
+// Database Save Helper using Upsert
+async function saveExamResult(score, correct, wrong) {
+    try {
+        const { data: { session }, error: authError } = await supabase.auth.getSession();
+        
+        if (authError) throw authError;
+        if (!session) throw new Error("No active session. User is not logged in.");
+
+        const student_id = session.user.id;
+        const submitted_at = new Date().toISOString();
+
+        const resultPayload = {
+            student_id,
+            exam_id,
+            score,
+            correct,
+            wrong,
+            submitted_at
+        };
+
+        const { error: upsertError } = await supabase
+            .from('results')
+            .upsert(resultPayload, { onConflict: 'student_id, exam_id' });
+
+        if (upsertError) throw upsertError;
+
+    } catch (error) {
+        console.error("Failed to save exam result:", error);
+        
+        let errorEl = document.getElementById('save-error-message');
+        if (!errorEl) {
+            errorEl = document.createElement('div');
+            errorEl.id = 'save-error-message';
+            errorEl.style.color = '#d32f2f';
+            errorEl.style.backgroundColor = '#fde0e0';
+            errorEl.style.padding = '12px';
+            errorEl.style.marginTop = '20px';
+            errorEl.style.borderRadius = '6px';
+            errorEl.style.textAlign = 'center';
+            errorEl.style.fontWeight = 'bold';
+            els.resultContainer.appendChild(errorEl);
+        }
+        errorEl.innerText = `Could not save your progress to the database: ${error.message}`;
+    }
 }
 
 // Boot up
-window.addEventListener('DOMContentLoaded', initExam);
+if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', initExam);
+} else {
+    initExam();
+}

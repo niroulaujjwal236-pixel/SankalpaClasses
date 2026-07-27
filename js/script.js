@@ -8,6 +8,8 @@ const sidebarClose = document.getElementById('sidebarClose');
 const overlay = document.getElementById('overlay');
 const themeToggle = document.getElementById('themeToggle');
 const root = document.documentElement;
+const startBtn = document.querySelector(".startMockTestBtn");
+startBtn.textContent = "Start Mock Test";
 
 function openSidebar() {
     sidebar.classList.add('active');
@@ -72,10 +74,10 @@ loadTheme();
  * Initializes the authentication gateway for the mock test.
  */
 function initMockTestGateway() {
-const startBtn = document.querySelector(".startMockTestBtn");
 
 startBtn.addEventListener("click", async () => {
     const { data: { session } } = await supabase.auth.getSession();
+    startBtn.textContent = "Loading....";
     // Not logged in
     if (!session) {
         window.location.href = "pages/login.html";
