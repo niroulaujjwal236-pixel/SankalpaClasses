@@ -14,6 +14,18 @@
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Dark Mode Variables for Login Page */
+:root[data-theme='dark'] {
+    --bg-color: #0e1020;
+    --card-bg: rgba(22, 26, 51, 0.85);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --input-bg: rgba(31, 36, 70, 0.9);
+    --input-border: rgba(255, 255, 255, 0.2);
+    --text-main: #f7f7f7;
+    --text-muted: #c4c4d4;
+    --dark-purple: #f3b94d;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +34,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f9fafb;
+    background-color: var(--bg-color, #f9fafb); /* Updated */
     color: var(--text-main);
     min-height: 100vh;
     display: flex;
@@ -79,10 +91,10 @@ body {
 }
 
 .login-card {
-    background: rgba(255, 255, 255, 0.85);
+    background: var(--card-bg, rgba(255, 255, 255, 0.85)); /* Updated */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--card-border, rgba(255, 255, 255, 0.6)); /* Updated */
     border-radius: var(--border-radius);
     padding: 40px;
     width: 100%;
@@ -144,7 +156,7 @@ body {
 .input-group label {
     font-size: 0.875rem;
     font-weight: 600;
-    color: var(--dark-purple);
+    color: var(--text-main); /* Updated from --dark-purple so it stays readable */
     margin-bottom: 8px;
 }
 
@@ -154,8 +166,8 @@ body {
     padding: 14px 16px;
     font-size: 0.95rem;
     font-family: inherit;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1.5px solid #e5e7eb;
+    background-color: var(--input-bg, rgba(255, 255, 255, 0.9)); /* Updated */
+    border: 1.5px solid var(--input-border, #e5e7eb); /* Updated */
     border-radius: 10px;
     color: var(--text-main);
     outline: none;
@@ -323,4 +335,21 @@ body {
     .form-title {
         font-size: 1.5rem;
     }
+}
+
+/* 1. Tell the browser to use its native dark UI for the dropdown */
+:root[data-theme='dark'] {
+    color-scheme: dark; 
+}
+
+/* 2. Force dark background and light text in dark mode */
+:root[data-theme='dark'] .input-group select option {
+    background-color: #161a33; /* Dark background */
+    color: #f7f7f7; /* White text */
+}
+
+/* 3. Force light background and dark text in standard/light mode */
+:root:not([data-theme='dark']) .input-group select option {
+    background-color: #ffffff; /* White background */
+    color: #1f2937; /* Dark text */
 }

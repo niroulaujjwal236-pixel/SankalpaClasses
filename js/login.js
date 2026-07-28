@@ -7,7 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnText = submitBtn.querySelector('.btn-text');
     const spinner = submitBtn.querySelector('.spinner');
     const messageBanner = document.getElementById('messageBanner');
-
+    // Add this at the very top of both login.js and exam.js
+    (function loadTheme() {
+        const savedTheme = localStorage.getItem('sankalpa-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+        if (theme === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+     }
+    })();
     // Attach immediate validation cleanup on user input
     form.querySelectorAll('input, select').forEach(element => {
         element.addEventListener('input', () => clearFieldValidation(element));

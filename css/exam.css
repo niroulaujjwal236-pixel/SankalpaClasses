@@ -13,6 +13,18 @@
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Dark Mode Variables for Exam Page */
+:root[data-theme='dark'] {
+    --primary: #f3b94d;
+    --secondary: #0e1020;
+    --text-dark: #f7f7f7;
+    --text-muted: #c4c4d4;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --card-bg: #161a33;
+    --option-bg: #1f2446;
+    --option-selected: rgba(243, 185, 77, 0.2);
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -139,7 +151,7 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .option-btn {
     display: flex;
     align-items: center;
-    background: #f8f9fa;
+    background: var(--option-bg, #f8f9fa); /* Updated */
     border: 2px solid var(--border-color);
     color: var(--text-dark);
     text-align: left;
@@ -149,7 +161,7 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .option-btn:hover:not(:disabled) { border-color: var(--primary); }
 .option-btn.selected {
-    background-color: #e2e8f0;
+    background-color: var(--option-selected, #e2e8f0); /* Updated */
     border-color: var(--primary);
 }
 
@@ -217,7 +229,8 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 }
 
 .modal-content {
-    background: white;
+    background: var(--card-bg); /* Updated */
+    color: var(--text-dark); /* Updated */
     padding: 2rem;
     border-radius: 8px;
     text-align: center;

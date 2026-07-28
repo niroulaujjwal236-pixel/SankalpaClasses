@@ -4,6 +4,15 @@ import { supabase } from "/supabase/config.js";
 const exam_id = 1;
 const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
 
+(function loadTheme() {
+    const savedTheme = localStorage.getItem('sankalpa-theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+    if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+})();
+
 // Map index to subjects exactly as described by the structure requirement
 const SUBJECTS = {
     0: { name: "Physics", limit: 50 },
