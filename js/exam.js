@@ -7,7 +7,7 @@ const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
 (function loadTheme() {
     const savedTheme = localStorage.getItem('sankalpa-theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+    const theme = 'dark';
     if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
     }
@@ -214,7 +214,7 @@ function renderQuestion() {
     // Inject Question HTML & Handle Image
     els.qText.innerHTML = qData.qn;
     if (qData.image && qData.image.trim() !== "") {
-        els.qImage.src = qData.image;
+        els.qImage.src = "../json_files/" + qData.image;
         els.qImage.hidden = false;
     } else {
         els.qImage.hidden = true;

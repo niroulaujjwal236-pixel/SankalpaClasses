@@ -1,80 +1,205 @@
+// Import the existing initialized supabase client instance
+import { supabase } from "/supabase/config.js";
+
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Theme Initialization
+    const form = document.getElementById('loginForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const spinner = submitBtn.querySelector('.spinner');
+    const messageBanner = document.getElementById('messageBanner');
+    // Add this at the very top of both login.js and exam.js
     (function loadTheme() {
         const savedTheme = localStorage.getItem('sankalpa-theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+        const theme = 'dark';
         if (theme === 'dark') {
             document.documentElement.setAttribute('data-theme', 'dark');
-        }
+     }
     })();
+    // Attach immediate validation cleanup on user input
+    form.querySelectorAll('input, select').forEach(element => {
+        element.addEventListener('input', () => clearFieldValidation(element));
+        if (element.tagName === 'SELECT') {
+            element.addEventListener('change', () => clearFieldValidation(element));
+        }
+    });
 
-    // 2. Strict Target Date: August 1, 2026 @ 1:00 PM NPT (+05:45)
-    const targetDate = new Date('2026-08-01T13:00:00+05:45').getTime();
+    // Form submission processing
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        hideBanner();
 
-    // 3. DOM Elements
-    const elements = {
-        hours: document.getElementById('hours'),
-        minutes: document.getElementById('minutes'),
-        seconds: document.getElementById('seconds'),
-        statusTitle: document.getElementById('statusTitle'),
-        countdownWrapper: document.getElementById('countdown'),
-        refreshBtn: document.getElementById('refreshBtn'),
-        statusBadge: document.querySelector('.status-badge span:last-child'),
-        pulseDot: document.querySelector('.pulse-dot')
-    };
-
-    // Store previous values for animation logic
-    let prevValues = { hours: -1, minutes: -1, seconds: -1 };
-
-    // 4. Update Function
-    function updateTimer() {
-        const now = new Date().getTime();
-        const distance = targetDate - now;
-
-        // Exam Started State
-        if (distance <= 0) {
-            clearInterval(timerInterval);
-            
-            elements.statusTitle.textContent = "The Mock Test is Now Open";
-            elements.statusTitle.style.color = "var(--success-color)";
-            elements.statusBadge.textContent = "Live Now";
-            elements.pulseDot.style.backgroundColor = "var(--success-color)";
-            elements.pulseDot.style.boxShadow = "0 0 0 0 rgba(22, 163, 74, 0.7)";
-            
-            elements.countdownWrapper.classList.add('hidden');
-            elements.refreshBtn.classList.remove('hidden');
+        // 1. Client side validation check
+        if (!validateForm()) {
+            displayBanner('Please correct the highlighted fields below.', 'error');
             return;
         }
 
-        // Calculations
-        const hours = Math.floor(distance / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Extract native input parameters cleanly
+        const formData = new FormData(form);
+        const fullName = formData.get('fullName').trim();
+        const email = formData.get('email').trim();
+        const mobileNumber = formData.get('mobileNumber').trim();
+        const faculty = formData.get('faculty');
 
-        // Update DOM with leading zeros & slight pop animation on change
-        updateElement(elements.hours, hours, 'hours');
-        updateElement(elements.minutes, minutes, 'minutes');
-        updateElement(elements.seconds, seconds, 'seconds');
+        // 2. Set processing/loading state
+        setLoading(true);
+
+        try {
+            // Generate a secure, cryptographically random string for background Auth password
+            const password = generateInternalPassword(mobileNumber);
+
+            // ----------------------------------------------------
+            // STEP 1
+            // Try logging in first
+            // ----------------------------------------------------
+
+            let { data: loginData, error: loginError } =
+                await supabase.auth.signInWithPassword({
+                    email,
+                    password,
+                });
+
+            if (!loginError) {
+                window.location.href = "exam.html";
+                setTimeout(() => {
+                    window.location.href = "exam.html";
+                }, 1000);
+                return;
+            }
+
+            // ----------------------------------------------------
+            // STEP 2
+            // User doesn't exist yet
+            // Create account
+            // ----------------------------------------------------
+    const { data: signupData, error: signupError } =
+        await supabase.auth.signUp({
+            email,
+            password,
+        });
+
+    if (signupError) throw signupError;
+
+    // IMPORTANT: Immediately log them in
+    const { error: signInError } =
+        await supabase.auth.signInWithPassword({
+            email,
+            password,
+        });
+
+    if (signInError) throw signInError;
+
+    // Create profile
+    const { error: profileError } =
+        await supabase
+            .from("profiles")
+            .insert([
+                {
+                    id: signupData.user.id,
+                    full_name: fullName,
+                    phone: mobileNumber,
+                    faculty,
+                    created_at: new Date().toISOString()
+                }
+            ]);
+
+            if (profileError && profileError.code !== "23505") {
+                throw profileError;
+            }
+
+            window.location.href = "exam.html";
+
+            } catch (error) {
+                setLoading(false);
+                handleSystemErrors(error);
+            }
+        });
+
+        /**
+         * Iterates over UI elements to assert validity checks
+         * @returns {boolean} truth assessment output matches
+         */
+        function validateForm() {
+        let isFormValid = true;
+
+        form.querySelectorAll('input, select').forEach(field => {
+            let isFieldValid = true;
+
+            if (field.hasAttribute('required') && !field.value) {
+                isFieldValid = false;
+            } else if (field.type === 'email' && !validateEmailFormat(field.value)) {
+                isFieldValid = false;
+            } else if (field.id === 'mobileNumber' && !/^[0-9]{10}$/.test(field.value)) {
+                isFieldValid = false;
+            }
+
+            if (!isFieldValid) {
+                field.closest('.input-group').classList.add('invalid');
+                isFormValid = false;
+            }
+        });
+
+        return isFormValid;
     }
 
-    // Helper to update text and animate only if changed
-    function updateElement(el, value, key) {
-        if (prevValues[key] !== value) {
-            el.textContent = String(value).padStart(2, '0');
-            
-            // Add a quick CSS scale effect
-            el.style.transform = 'scale(1.05)';
-            el.style.transition = 'transform 0.1s ease';
-            setTimeout(() => {
-                el.style.transform = 'scale(1)';
-            }, 100);
-
-            prevValues[key] = value;
+    function clearFieldValidation(element) {
+        const inputGroup = element.closest('.input-group');
+        if (inputGroup.classList.contains('invalid')) {
+            inputGroup.classList.remove('invalid');
         }
     }
 
-    // Run immediately, then every second
-    updateTimer();
-    const timerInterval = setInterval(updateTimer, 1000);
+    function validateEmailFormat(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    /**
+     * Generates a structural background string pass token
+     */
+        function generateInternalPassword(mobileNumber) {
+            return `${mobileNumber}@Sankalpa2026`;
+        }
+
+    function setLoading(isLoading) {
+        if (isLoading) {
+            submitBtn.disabled = true;
+            btnText.classList.add('hidden');
+            spinner.classList.remove('hidden');
+        } else {
+            submitBtn.disabled = false;
+            btnText.classList.remove('hidden');
+            spinner.classList.add('hidden');
+            btnText.textContent = 'Continue';
+        }
+    }
+
+    function displayBanner(message, type) {
+        messageBanner.textContent = message;
+        messageBanner.className = `message-banner ${type}`;
+    }
+
+    function hideBanner() {
+        messageBanner.className = 'message-banner hidden';
+        messageBanner.textContent = '';
+    }
+
+    /**
+     * Evaluates error components thrown to emit accurate strings
+     * @param {Object} error 
+     */
+    function handleSystemErrors(error) {
+        console.error('Registration Exception:', error);
+        
+        let message = error.message || 'An unexpected runtime connection loss occurred.';
+
+        // Supabase specific error mappings
+        if (error.status === 422 || message.toLowerCase().includes('already registered')) {
+            message = 'This email configuration address has already been registered with Sankalpa Classes.';
+        } else if (error.code === 'TypeError' || message.toLowerCase().includes('fetch')) {
+            message = 'Network access dropped. Please double check internet connection properties.';
+        }
+
+        displayBanner(message, 'error');
+    }
 });
