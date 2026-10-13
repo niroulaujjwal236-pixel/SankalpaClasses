@@ -3,11 +3,27 @@ import { supabase } from "/supabase/config.js";
 // Manually define the exam ID for this weekly exam
 const exam_id = 1;
 const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
+const { data: { session } } = await supabase.auth.getSession();
+
+if (!session) {
+    window.location.href = "login.html";
+}
+const user = session.user;
+const { data: profile, error } = await supabase.from("profiles").select("paid").eq("id", user.id).single();
+if (error) {
+    window.location.href = "login.html";
+}
+//Change this code after payment integration not right now
+// if (profile.paid) {
+//     window.location.href = "exam.html";
+// } else {
+//     window.location.href = "payment.html";
+// }
 
 (function loadTheme() {
     const savedTheme = localStorage.getItem('sankalpa-theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = 'dark';
+    const theme = savedTheme || (prefersDark ? 'dark' : 'light');
     if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
     }
@@ -37,6 +53,7 @@ let isSubmitting = false; // Prevent double-submit
 
 // DOM Elements
 const els = {
+    questionJumpSelector: document.getElementById('question-jump-selector'),
     timerDisplay: document.getElementById('exam-timer'),
     subjectSelector: document.getElementById('subject-selector'),
     subjBadge: document.getElementById('subject-badge'),
@@ -46,6 +63,7 @@ const els = {
     optContainer: document.getElementById('options-container'),
     optButtons: document.querySelectorAll('.option-btn'),
     nextBtn: document.getElementById('next-btn'),
+    skipBtn: document.getElementById('skip-btn'),
     submitBtn: document.getElementById('submit-exam-btn'),
     modal: document.getElementById('submit-modal'),
     modalText: document.getElementById('modal-text'),
@@ -141,6 +159,19 @@ function saveLocalState() {
 
 // Event Binders
 function bindEvents() {
+    // Jump directly to any question in the current subject
+    els.questionJumpSelector.addEventListener('change', (e) => {
+        const selectedQuestion = parseInt(e.target.value, 10);
+
+        if (
+            selectedQuestion >= 1 &&
+            selectedQuestion <= SUBJECTS[state.currentSubj].limit
+        ) {
+            state.progress[state.currentSubj] = selectedQuestion;
+            saveLocalState();
+            renderQuestion();
+        }
+    });
     els.subjectSelector.addEventListener('change', (e) => {
         state.currentSubj = parseInt(e.target.value);
         saveLocalState();
@@ -174,6 +205,22 @@ function bindEvents() {
         }
     });
 
+    // ADD THIS NEW LISTENER
+    els.skipBtn.addEventListener('click', () => {
+        const currentQIndex = state.progress[state.currentSubj];
+        if (currentQIndex < SUBJECTS[state.currentSubj].limit) {
+            // Remove the answer if the user clicked an option but decided to skip instead
+            if (state.answers[state.currentSubj][currentQIndex]) {
+                delete state.answers[state.currentSubj][currentQIndex];
+            }
+            state.progress[state.currentSubj]++;
+            saveLocalState();
+            renderQuestion();
+        } else {
+            alert(`You have reached the end of the ${SUBJECTS[state.currentSubj].name} section.`);
+        }
+    });
+
     els.submitBtn.addEventListener('click', () => {
         let totalDone = 0;
         for (let s in state.answers) {
@@ -191,10 +238,38 @@ function bindEvents() {
     });
 }
 
+function updateQuestionJumpSelector() {
+    const selector = els.questionJumpSelector;
+    const subj = state.currentSubj;
+    const limit = SUBJECTS[subj].limit;
+
+    // Regenerate options only when the subject changes
+    if (
+        selector.dataset.subject !== String(subj) ||
+        selector.options.length !== limit
+    ) {
+        selector.innerHTML = '';
+
+        for (let i = 1; i <= limit; i++) {
+            const option = document.createElement('option');
+            option.value = String(i);
+            option.textContent = `Question ${i}`;
+            selector.appendChild(option);
+        }
+
+        selector.dataset.subject = String(subj);
+    }
+
+    // Keep the selector synchronized with saved progress
+    selector.value = String(state.progress[subj]);
+}
 // Rendering Logic
 function renderQuestion() {
     const subj = state.currentSubj;
     const qIndex = state.progress[subj];
+
+    updateQuestionJumpSelector();
+
     const qData = examData[subj][qIndex.toString()];
 
     // Update Headers
@@ -238,8 +313,12 @@ function renderQuestion() {
 
     if (qIndex >= SUBJECTS[subj].limit) {
         els.nextBtn.innerText = "End of Section";
+        els.skipBtn.innerText = "End of Section";
+        els.skipBtn.disabled = true;        
     } else {
         els.nextBtn.innerText = "Next Question";
+        els.skipBtn.innerText = "Skip Question";
+        els.skipBtn.disabled = false;
     }
 }
 

@@ -86,22 +86,21 @@ startBtn.addEventListener("click", async () => {
 
     const user = session.user;
 
-    const { data: profile, error } = await supabase
-        .from("profiles")
-        .select("paid")
-        .eq("id", user.id)
-        .single();
+    const { data: profile, error } = await supabase.from("profiles").select("paid").eq("id", user.id).single();
 
     if (error) {
         window.location.href = "pages/login.html";
         return;
     }
-
-    if (profile.paid) {
-        window.location.href = "pages/exam.html";
-    } else {
-        window.location.href = "pages/exam.html";
+    else{
+        window.location.href = "pages/exam.html"
     }
+    // Un-comment this code after payment integration
+    // if (profile.paid) {
+    //     window.location.href = "pages/exam.html";
+    // } else {
+    //     window.location.href = "pages/payment.html";
+    // }
     });
 }
 

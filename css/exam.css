@@ -185,6 +185,7 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .card-footer {
     display: flex;
     justify-content: flex-end;
+    gap: 1rem; /* Added spacing between buttons */
     border-top: 1px solid var(--border-color);
     padding-top: 1rem;
 }
@@ -256,4 +257,17 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
     
     .options-grid { grid-template-columns: 1fr; }
     .download-section { flex-direction: column; }
+}
+#question-jump-selector {
+    min-width: 130px;
+    background-color: var(--card-bg);
+    color: var(--text-dark);
+    border: 1px solid var(--border-color);
+}
+
+@media (max-width: 600px) {
+    #question-jump-selector {
+        flex: 1;
+        min-width: 0;
+    }
 }

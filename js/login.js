@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     (function loadTheme() {
         const savedTheme = localStorage.getItem('sankalpa-theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const theme = 'dark';
+        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
         if (theme === 'dark') {
             document.documentElement.setAttribute('data-theme', 'dark');
      }
@@ -61,7 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
             if (!loginError) {
-                window.location.href = "exam.html";
                 setTimeout(() => {
                     window.location.href = "exam.html";
                 }, 1000);

@@ -343,13 +343,13 @@ body {
 }
 
 /* 2. Force dark background and light text in dark mode */
-:root[data-theme='dark'] .input-group select option {
+:root[data-theme='dark'] .input-group *{
     background-color: #161a33; /* Dark background */
     color: #f7f7f7; /* White text */
 }
 
 /* 3. Force light background and dark text in standard/light mode */
-:root:not([data-theme='dark']) .input-group select option {
+:root:not([data-theme='dark']) .input-group *{
     background-color: #ffffff; /* White background */
     color: #1f2937; /* Dark text */
 }
