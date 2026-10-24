@@ -15,14 +15,14 @@ const exam_id = 1;
 const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
 const { data: { session } } = await supabase.auth.getSession();
 
-if (!session) {
-    window.location.href = "login.html";
-}
-const user = session.user;
-const { data: profile, error } = await supabase.from("profiles").select("paid").eq("id", user.id).single();
-if (error) {
-    window.location.href = "login.html";
-}
+// if (!session) {
+//     window.location.href = "login.html";
+// }
+// const user = session.user;
+// const { data: profile, error } = await supabase.from("profiles").select("paid").eq("id", user.id).single();
+// if (error) {
+//     window.location.href = "login.html";
+// }
 //Change this code after payment integration not right now
 // if (profile.paid) {
 //     window.location.href = "exam.html";
