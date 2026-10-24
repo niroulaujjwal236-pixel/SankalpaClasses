@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw profileError;
             }
 
-            window.location.href = "exam.html";
+            window.location.href = "timer.html";
 
             } catch (error) {
                 setLoading(false);
