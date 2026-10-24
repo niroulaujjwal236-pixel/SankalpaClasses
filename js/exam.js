@@ -13,16 +13,16 @@ const exam_id = 1;
 // =============================================================================
 
 const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
-// const { data: { session } } = await supabase.auth.getSession();
+const { data: { session } } = await supabase.auth.getSession();
 
-// if (!session) {
-//     window.location.href = "login.html";
-// }
-// const user = session.user;
-// const { data: profile, error } = await supabase.from("profiles").select("paid").eq("id", user.id).single();
-// if (error) {
-//     window.location.href = "login.html";
-// }
+if (!session) {
+    window.location.href = "login.html";
+}
+const user = session.user;
+const { data: profile, error } = await supabase.from("profiles").select("paid").eq("id", user.id).single();
+if (error) {
+    window.location.href = "login.html";
+}
 //Change this code after payment integration not right now
 // if (profile.paid) {
 //     window.location.href = "exam.html";
@@ -34,10 +34,8 @@ const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
 //  - a new EXAM_KEY the next day starts completely fresh (no old state/lock), and
 //  - two students sharing one browser don't block each other.
 
-
-//change this place code later ok
-const COMPLETED_KEY = `cee_exam_completed_${EXAM_KEY}_person`;
-const STATE_KEY = `cee_exam_state_${EXAM_KEY}_person`;
+const COMPLETED_KEY = `cee_exam_completed_${EXAM_KEY}_${user.id}`;
+const STATE_KEY = `cee_exam_state_${EXAM_KEY}_${user.id}`;
 
 (function loadTheme() {
     const savedTheme = localStorage.getItem('sankalpa-theme');
