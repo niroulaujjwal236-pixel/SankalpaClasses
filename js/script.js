@@ -93,7 +93,7 @@ startBtn.addEventListener("click", async () => {
         return;
     }
     else{
-        window.location.href = "pages/exam.html"
+        window.location.href = "pages/timer.html"
     }
     // Un-comment this code after payment integration
     // if (profile.paid) {

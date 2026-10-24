@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (!loginError) {
                 setTimeout(() => {
-                    window.location.href = "exam.html";
+                    window.location.href = "timer.html";
                 }, 1000);
                 return;
             }

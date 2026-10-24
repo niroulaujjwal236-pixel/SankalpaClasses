@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEE Model Mock Test - Countdown</title>
+    <link rel="icon" type="image/x-icon" href="../assets/icon.ico">
+    <style>
+        :root {
+            --bg-1: #0f172a;
+            --bg-2: #1e293b;
+            --accent: #38bdf8;
+            --accent-2: #818cf8;
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --card: rgba(255, 255, 255, 0.07);
+            --card-border: rgba(255, 255, 255, 0.14);
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body { height: 100%; }
+
+        body {
+            font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+            background: radial-gradient(circle at 20% 20%, var(--bg-2), var(--bg-1) 70%);
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 24px;
+        }
+
+        .wrapper {
+            width: 100%;
+            max-width: 960px;
+        }
+
+        h1 {
+            font-size: clamp(1.8rem, 5.5vw, 3.8rem);
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            line-height: 1.2;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, var(--accent), var(--accent-2));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 40px;
+        }
+
+        .timer {
+            display: flex;
+            justify-content: center;
+            gap: clamp(10px, 2.5vw, 28px);
+            flex-wrap: wrap;
+            margin-bottom: 44px;
+        }
+
+        .unit {
+            background: var(--card);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: clamp(14px, 3vw, 28px) clamp(14px, 3vw, 30px);
+            min-width: clamp(78px, 17vw, 150px);
+            backdrop-filter: blur(6px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        .unit .value {
+            display: block;
+            font-size: clamp(2.2rem, 8vw, 5rem);
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+            line-height: 1;
+        }
+
+        .unit .label {
+            display: block;
+            margin-top: 10px;
+            font-size: clamp(0.65rem, 1.8vw, 0.95rem);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .conducted {
+            font-size: clamp(1rem, 2.6vw, 1.5rem);
+            color: var(--muted);
+            letter-spacing: 1px;
+        }
+
+        .conducted strong {
+            color: var(--text);
+            letter-spacing: 2px;
+        }
+
+        .config-error {
+            display: none;
+            margin-top: 28px;
+            color: #fecaca;
+            background: rgba(220, 38, 38, 0.18);
+            border: 1px solid rgba(220, 38, 38, 0.5);
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <main class="wrapper">
+        <h1>CEE Model Mock Test Starts In</h1>
+
+        <div class="timer" id="timer" aria-live="off">
+            <div class="unit"><span class="value" id="t-days">00</span><span class="label">Days</span></div>
+            <div class="unit"><span class="value" id="t-hours">00</span><span class="label">Hours</span></div>
+            <div class="unit"><span class="value" id="t-minutes">00</span><span class="label">Minutes</span></div>
+            <div class="unit"><span class="value" id="t-seconds">00</span><span class="label">Seconds</span></div>
+        </div>
+
+        <p class="conducted">Conducted by <strong>SANKALPA CLASSES</strong></p>
+
+        <p class="config-error" id="config-error"></p>
+    </main>
+
+    <script>
+        // =====================================================================
+        //  ADMIN SETTINGS  -  EDIT ONLY THIS SECTION EACH DAY
+        // =====================================================================
+        //  Date of the exam (YYYY-MM-DD). Change this after each day's exam.
+        const EXAM_DATE = "2026-10-24";
+
+        //  Start time in 24-hour format (HH:MM). 7:00 PM = "19:00".
+        const EXAM_START_TIME = "19:00";
+
+        //  Page to open when the countdown ends (or if the time has already passed).
+        const EXAM_PAGE = "exam.html";
+        // =====================================================================
+
+        // Nepal Standard Time is UTC+05:45. Fixed here so the countdown is the
+        // same for every student no matter which time zone their device is in.
+        const NEPAL_UTC_OFFSET = "+05:45";
+
+        const examStart = new Date(`${EXAM_DATE}T${EXAM_START_TIME}:00${NEPAL_UTC_OFFSET}`);
+
+        const dEl = document.getElementById("t-days");
+        const hEl = document.getElementById("t-hours");
+        const mEl = document.getElementById("t-minutes");
+        const sEl = document.getElementById("t-seconds");
+
+        let interval = null;
+        let redirected = false;
+
+        function pad(n) {
+            return String(n).padStart(2, "0");
+        }
+
+        function goToExam() {
+            if (redirected) return;
+            redirected = true;
+            clearInterval(interval);
+            window.location.href = EXAM_PAGE;
+        }
+
+        function tick() {
+            const diff = examStart.getTime() - Date.now();
+
+            // Timer finished (or the page was opened after the start time)
+            if (diff <= 0) {
+                goToExam();
+                return;
+            }
+
+            const totalSeconds = Math.floor(diff / 1000);
+            const days = Math.floor(totalSeconds / 86400);
+            const hours = Math.floor((totalSeconds % 86400) / 3600);
+            const minutes = Math.floor((totalSeconds % 3600) / 60);
+            const seconds = totalSeconds % 60;
+
+            dEl.textContent = pad(days);
+            hEl.textContent = pad(hours);
+            mEl.textContent = pad(minutes);
+            sEl.textContent = pad(seconds);
+        }
+
+        // Guard against a typo in the admin settings (otherwise students would
+        // be sent straight to the exam because NaN comparisons fail silently).
+        if (isNaN(examStart.getTime())) {
+            const err = document.getElementById("config-error");
+            err.textContent = "Timer is not configured correctly. Please contact the administrator.";
+            err.style.display = "block";
+            console.error("Invalid EXAM_DATE / EXAM_START_TIME. Use YYYY-MM-DD and HH:MM.");
+        } else {
+            tick();
+            interval = setInterval(tick, 1000);
+        }
+    </script>
+</body>
+</html>

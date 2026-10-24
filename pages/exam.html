@@ -25,7 +25,7 @@
                 <option value="4">MAT (20 Qns)</option>
             </select>
             <select id="question-jump-selector" aria-label="Jump to question">
-                <option value="1">Question 1</option>
+                <option value="1">Q 1</option>
             </select>
             <button id="submit-exam-btn" class="btn-danger">Submit Exam</button>
         </div>
@@ -61,7 +61,14 @@
     <!-- Results Section (Hidden initially) -->
     <main class="result-container" id="result-container" hidden>
         <h2>Exam Summary & Insights</h2>
-        <div class="score-board">
+
+        <!-- Shown when a student returns after already submitting this exam -->
+        <div class="completed-note" id="already-completed-note" hidden>
+            <span>&#9989;</span>
+            <span>You have already completed this test, so it cannot be taken again. Here is your result.</span>
+        </div>
+
+        <div class="score-board" id="score-board">
             <div class="score-card">
                 <h3>Total Score</h3>
                 <p id="total-score">0 / 200</p>
@@ -72,6 +79,13 @@
                 <p>Incorrect: <span id="res-incorrect" class="negative-text">0</span> (-0.25 each)</p>
             </div>
         </div>
+
+        <!-- Mistakes review: every wrongly answered question with the correct answer -->
+        <section class="review-section" id="review-section" hidden>
+            <h3 class="review-title">Review Your Mistakes</h3>
+            <p class="review-subtitle" id="review-subtitle"></p>
+            <div id="review-list"></div>
+        </section>
         
         <div class="download-section" hidden>
             <a hidden href="#"  class="btn-primary" id="download-qns"></a>
