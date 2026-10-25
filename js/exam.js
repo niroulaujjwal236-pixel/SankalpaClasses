@@ -6,10 +6,10 @@ import { supabase } from "/supabase/config.js";
 //  Unique name for today's exam. Once a student submits, this key is saved in
 //  their browser and they cannot start the same exam again. Change it each day
 //  (e.g. "exam_2026_10_26") so students can take the next day's test.
-const EXAM_KEY = "2026_10_24";
+const EXAM_KEY = "2026_10_25";
 
 //  Exam ID used when saving results in the database.
-const exam_id = 1;
+const exam_id = 2;
 // =============================================================================
 
 const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
