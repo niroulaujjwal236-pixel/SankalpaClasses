@@ -9,7 +9,7 @@ import { supabase } from "/supabase/config.js";
 const EXAM_KEY = "2026_10_26";
 
 //  Exam ID used when saving results in the database.
-const exam_id = 2;
+const exam_id = 3;
 // =============================================================================
 
 const TOTAL_TIME_SECONDS = 3 * 60 * 60; // 3 hours (10800 seconds)
