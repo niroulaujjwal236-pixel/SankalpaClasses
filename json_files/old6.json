@@ -1,0 +1,1812 @@
+[
+    {
+        "1": {
+            "qn": "Two forces of magnitudes 6 N and 8 N act at a point at such an angle that their resultant is perpendicular to the 6 N force. The magnitude of the resultant is",
+            "A": "10 N",
+            "B": "14 N",
+            "C": "2&radic;7 N",
+            "D": "2 N",
+            "image": "",
+            "correct": "C"
+        },
+        "2": {
+            "qn": "Two wires of the same material are stretched by the same force. Wire A has length <i>l</i> and radius <i>r</i>; wire B has length 2<i>l</i> and radius 2<i>r</i>. The ratio of the elastic energy stored in A to that in B is",
+            "A": "2 : 1",
+            "B": "1 : 2",
+            "C": "1 : 1",
+            "D": "4 : 1",
+            "image": "",
+            "correct": "A"
+        },
+        "3": {
+            "qn": "Water flows steadily through a horizontal pipe whose diameter decreases from 10 cm to 5 cm. The speed in the wider section is 2 m s<sup>&minus;1</sup> (density of water = 1000 kg m<sup>&minus;3</sup>). The pressure drop from the wider to the narrower section is",
+            "A": "15 kPa",
+            "B": "32 kPa",
+            "C": "60 kPa",
+            "D": "30 kPa",
+            "image": "",
+            "correct": "D"
+        },
+        "4": {
+            "qn": "The velocity&ndash;time graph of a particle is shown: the velocity rises uniformly from 0 to 20 m s<sup>&minus;1</sup> in 5 s, stays constant for 10 s, then falls uniformly to zero in the next 5 s. The average velocity over the whole 20 s is",
+            "A": "10 m s<sup>&minus;1</sup>",
+            "B": "12.5 m s<sup>&minus;1</sup>",
+            "C": "15 m s<sup>&minus;1</sup>",
+            "D": "20 m s<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "C"
+        },
+        "5": {
+            "qn": "A stone of mass 0.2 kg is whirled on a light string of length 0.5 m in a vertical circle. Taking g = 10 m s<sup>&minus;2</sup>, the minimum speed at the lowest point needed to complete the circle is",
+            "A": "2.2 m s<sup>&minus;1</sup>",
+            "B": "5.0 m s<sup>&minus;1</sup>",
+            "C": "7.1 m s<sup>&minus;1</sup>",
+            "D": "10 m s<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "B"
+        },
+        "6": {
+            "qn": "A satellite orbits the Earth at a height of 3R above the surface, where R = 6400 km is the Earth's radius. Taking g = 10 m s<sup>&minus;2</sup> at the surface, its orbital speed is",
+            "A": "2 km s<sup>&minus;1</sup>",
+            "B": "4 km s<sup>&minus;1</sup>",
+            "C": "5.6 km s<sup>&minus;1</sup>",
+            "D": "8 km s<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "B"
+        },
+        "7": {
+            "qn": "Blocks of mass 2 kg and 3 kg are joined by a light string passing over a smooth light pulley. Taking g = 10 m s<sup>&minus;2</sup>, the tension in the string is",
+            "A": "24 N",
+            "B": "20 N",
+            "C": "25 N",
+            "D": "30 N",
+            "image": "",
+            "correct": "A"
+        },
+        "8": {
+            "qn": "A dancer spinning with arms outstretched has moment of inertia 6 kg m<sup>2</sup> and angular speed 3 rad s<sup>&minus;1</sup>. She pulls her arms in so that the moment of inertia becomes 2 kg m<sup>2</sup>. The work done by her in pulling the arms in is",
+            "A": "27 J",
+            "B": "81 J",
+            "C": "108 J",
+            "D": "54 J",
+            "image": "",
+            "correct": "D"
+        },
+        "9": {
+            "qn": "A wooden block floats in water with 60 % of its volume submerged. In another liquid it floats with 75 % of its volume submerged. The density of that liquid is",
+            "A": "640 kg m<sup>&minus;3</sup>",
+            "B": "750 kg m<sup>&minus;3</sup>",
+            "C": "800 kg m<sup>&minus;3</sup>",
+            "D": "1250 kg m<sup>&minus;3</sup>",
+            "image": "",
+            "correct": "C"
+        },
+        "10": {
+            "qn": "A mass of 0.5 kg is attached to two identical springs, each of force constant 200 N m<sup>&minus;1</sup>, joined end to end (in series). The period of oscillation is approximately",
+            "A": "0.44 s",
+            "B": "0.22 s",
+            "C": "0.31 s",
+            "D": "0.63 s",
+            "image": "",
+            "correct": "A"
+        },
+        "11": {
+            "qn": "On a certain day the temperature on the Fahrenheit scale reads exactly twice the reading on the Celsius scale. The temperature in &deg;C is",
+            "A": "40 &deg;C",
+            "B": "80 &deg;C",
+            "C": "320 &deg;C",
+            "D": "160 &deg;C",
+            "image": "",
+            "correct": "D"
+        },
+        "12": {
+            "qn": "A brass pendulum clock keeps correct time at 20 &deg;C. If the room temperature rises to 30 &deg;C (&alpha; for brass = 19 &times; 10<sup>&minus;6</sup> &deg;C<sup>&minus;1</sup>), the clock will lose approximately",
+            "A": "4.1 s per day",
+            "B": "8.2 s per day",
+            "C": "16.4 s per day",
+            "D": "19 s per day",
+            "image": "",
+            "correct": "B"
+        },
+        "13": {
+            "qn": "20 g of steam at 100 &deg;C is passed into 200 g of water at 20 &deg;C in an insulated vessel (L<sub>v</sub> = 540 cal g<sup>&minus;1</sup>, c<sub>water</sub> = 1 cal g<sup>&minus;1</sup> &deg;C<sup>&minus;1</sup>). The final temperature is approximately",
+            "A": "76 &deg;C",
+            "B": "60 &deg;C",
+            "C": "88 &deg;C",
+            "D": "100 &deg;C",
+            "image": "",
+            "correct": "A"
+        },
+        "14": {
+            "qn": "The internal energy of 2 mol of a rigid diatomic ideal gas at 300 K is approximately (R = 8.3 J mol<sup>&minus;1</sup> K<sup>&minus;1</sup>)",
+            "A": "7.5 kJ",
+            "B": "17.5 kJ",
+            "C": "12.5 kJ",
+            "D": "25 kJ",
+            "image": "",
+            "correct": "C"
+        },
+        "15": {
+            "qn": "A monatomic ideal gas at initial pressure P<sub>0</sub> is compressed adiabatically to 1/8 of its initial volume. Its final pressure is",
+            "A": "8P<sub>0</sub>",
+            "B": "16P<sub>0</sub>",
+            "C": "64P<sub>0</sub>",
+            "D": "32P<sub>0</sub>",
+            "image": "",
+            "correct": "D"
+        },
+        "16": {
+            "qn": "A monatomic ideal gas absorbs 1000 J of heat at constant pressure. The work done by the gas is",
+            "A": "250 J",
+            "B": "400 J",
+            "C": "600 J",
+            "D": "1000 J",
+            "image": "",
+            "correct": "B"
+        },
+        "17": {
+            "qn": "A Carnot engine has an efficiency of 40 % with its sink at 300 K. Keeping the sink temperature unchanged, by how much must the source temperature be raised to make the efficiency 50 %?",
+            "A": "50 K",
+            "B": "150 K",
+            "C": "100 K",
+            "D": "200 K",
+            "image": "",
+            "correct": "C"
+        },
+        "18": {
+            "qn": "A progressive wave on a string is described by y = 0.02 sin(200&pi;t &minus; 10&pi;x) in SI units. The speed of the wave is",
+            "A": "20 m s<sup>&minus;1</sup>",
+            "B": "10 m s<sup>&minus;1</sup>",
+            "C": "63 m s<sup>&minus;1</sup>",
+            "D": "200&pi; m s<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "A"
+        },
+        "19": {
+            "qn": "Ten identical machines, each producing a sound intensity level of 60 dB at a given point, operate together (incoherently). The resulting intensity level at that point is",
+            "A": "61 dB",
+            "B": "80 dB",
+            "C": "600 dB",
+            "D": "70 dB",
+            "image": "",
+            "correct": "D"
+        },
+        "20": {
+            "qn": "In a resonance-tube experiment with a 400 Hz tuning fork, successive resonances occur at air-column lengths of 20 cm and 62 cm. The speed of sound in air is",
+            "A": "168 m s<sup>&minus;1</sup>",
+            "B": "336 m s<sup>&minus;1</sup>",
+            "C": "248 m s<sup>&minus;1</sup>",
+            "D": "400 m s<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "B"
+        },
+        "21": {
+            "qn": "A car approaches a large stationary wall at 20 m s<sup>&minus;1</sup> sounding a horn of frequency 680 Hz. Taking the speed of sound as 340 m s<sup>&minus;1</sup>, the frequency of the echo heard by the driver is",
+            "A": "680 Hz",
+            "B": "720 Hz",
+            "C": "765 Hz",
+            "D": "850 Hz",
+            "image": "",
+            "correct": "C"
+        },
+        "22": {
+            "qn": "Two coherent sources produce waves of intensities in the ratio 9 : 1 at a point. The ratio of maximum to minimum intensity in the resulting interference pattern is",
+            "A": "4 : 1",
+            "B": "2 : 1",
+            "C": "3 : 1",
+            "D": "9 : 1",
+            "image": "",
+            "correct": "A"
+        },
+        "23": {
+            "qn": "A biconvex lens of refractive index 1.5 has radii of curvature 20 cm and 30 cm. When it is immersed in water (n = 4/3), its focal length is",
+            "A": "24 cm",
+            "B": "48 cm",
+            "C": "72 cm",
+            "D": "96 cm",
+            "image": "",
+            "correct": "D"
+        },
+        "24": {
+            "qn": "A prism of refracting angle 60&deg; and refractive index &radic;2 is set at minimum deviation. The angle of minimum deviation is",
+            "A": "15&deg;",
+            "B": "30&deg;",
+            "C": "45&deg;",
+            "D": "60&deg;",
+            "image": "",
+            "correct": "B"
+        },
+        "25": {
+            "qn": "Unpolarised light of intensity I<sub>0</sub> passes through two polaroids whose transmission axes are inclined at 60&deg; to each other. The transmitted intensity is",
+            "A": "I<sub>0</sub>/2",
+            "B": "I<sub>0</sub>/4",
+            "C": "I<sub>0</sub>/8",
+            "D": "3I<sub>0</sub>/8",
+            "image": "",
+            "correct": "C"
+        },
+        "26": {
+            "qn": "Two point charges of 2 &mu;C and 3 &mu;C placed 3 cm apart in air repel each other with a force of 60 N. If they are placed in oil of dielectric constant 2 at a separation of 6 cm, the force becomes",
+            "A": "15 N",
+            "B": "7.5 N",
+            "C": "30 N",
+            "D": "120 N",
+            "image": "",
+            "correct": "B"
+        },
+        "27": {
+            "qn": "Charges +q, +q, &minus;q and +q are placed at four consecutive corners of a square of side a. The electric potential at the centre of the square is",
+            "A": "zero",
+            "B": "4&radic;2 kq/a",
+            "C": "2kq/a",
+            "D": "2&radic;2 kq/a",
+            "image": "",
+            "correct": "D"
+        },
+        "28": {
+            "qn": "A parallel-plate capacitor of capacitance C<sub>0</sub> has plate separation d. A dielectric slab of constant K = 3 and thickness d/2, covering the full plate area, is inserted. The new capacitance is",
+            "A": "1.5C<sub>0</sub>",
+            "B": "0.75C<sub>0</sub>",
+            "C": "2C<sub>0</sub>",
+            "D": "3C<sub>0</sub>",
+            "image": "",
+            "correct": "A"
+        },
+        "29": {
+            "qn": "A 2 &mu;F and a 3 &mu;F capacitor in parallel are connected in series with a 5 &mu;F capacitor, and a 10 V battery is connected across the whole combination. The total energy stored is",
+            "A": "62.5 &mu;J",
+            "B": "250 &mu;J",
+            "C": "125 &mu;J",
+            "D": "500 &mu;J",
+            "image": "",
+            "correct": "C"
+        },
+        "30": {
+            "qn": "A uniform wire is stretched to 1.1 times its original length with no change in its volume or resistivity. The percentage increase in its resistance is",
+            "A": "10 %",
+            "B": "11 %",
+            "C": "21 %",
+            "D": "20 %",
+            "image": "",
+            "correct": "C"
+        },
+        "31": {
+            "qn": "A cell of emf 6 V and internal resistance 1 &Omega; is connected across a parallel combination of 3 &Omega; and 6 &Omega; resistors. The current through the 3 &Omega; resistor is",
+            "A": "1.33 A",
+            "B": "0.67 A",
+            "C": "1.0 A",
+            "D": "2.0 A",
+            "image": "",
+            "correct": "A"
+        },
+        "32": {
+            "qn": "A heater rated 2 kW at 220 V is operated on a 110 V supply to heat 1 kg of water through 10 &deg;C (specific heat 4200 J kg<sup>&minus;1</sup> K<sup>&minus;1</sup>, no heat loss). The time required is",
+            "A": "21 s",
+            "B": "42 s",
+            "C": "168 s",
+            "D": "84 s",
+            "image": "",
+            "correct": "D"
+        },
+        "33": {
+            "qn": "A thermocouple has a neutral temperature of 250 &deg;C when its cold junction is at 0 &deg;C. If the cold junction is raised to 50 &deg;C, the temperature of inversion becomes",
+            "A": "400 &deg;C",
+            "B": "450 &deg;C",
+            "C": "500 &deg;C",
+            "D": "550 &deg;C",
+            "image": "",
+            "correct": "B"
+        },
+        "34": {
+            "qn": "A coil of resistance 30 &Omega; and inductive reactance 40 &Omega; is connected across a 100 V ac source. The average power consumed is",
+            "A": "100 W",
+            "B": "160 W",
+            "C": "120 W",
+            "D": "200 W",
+            "image": "",
+            "correct": "C"
+        },
+        "35": {
+            "qn": "A material suitable for making a permanent magnet should have retentivity and coercivity respectively that are",
+            "A": "high, high",
+            "B": "high, low",
+            "C": "low, low",
+            "D": "low, high",
+            "image": "",
+            "correct": "A"
+        },
+        "36": {
+            "qn": "A circular coil of 50 turns and radius 10 cm carries a current of 2 A. The magnetic field at its centre is approximately (&mu;<sub>0</sub> = 4&pi; &times; 10<sup>&minus;7</sup> T m A<sup>&minus;1</sup>)",
+            "A": "3.1 &times; 10<sup>&minus;4</sup> T",
+            "B": "1.3 &times; 10<sup>&minus;3</sup> T",
+            "C": "6.3 &times; 10<sup>&minus;3</sup> T",
+            "D": "6.3 &times; 10<sup>&minus;4</sup> T",
+            "image": "",
+            "correct": "D"
+        },
+        "37": {
+            "qn": "A coil of 100 turns and area 0.02 m<sup>2</sup> rotates at 3000 revolutions per minute in a uniform magnetic field of 0.5 T perpendicular to its axis. The peak emf induced is approximately",
+            "A": "31.4 V",
+            "B": "314 V",
+            "C": "157 V",
+            "D": "628 V",
+            "image": "",
+            "correct": "B"
+        },
+        "38": {
+            "qn": "An inductor of 0.5 H is connected in series with a 10 &Omega; resistor to a 20 V battery. The current in the circuit 0.05 s after the switch is closed is approximately",
+            "A": "0.74 A",
+            "B": "1.58 A",
+            "C": "2.00 A",
+            "D": "1.26 A",
+            "image": "",
+            "correct": "D"
+        },
+        "39": {
+            "qn": "The radius of a <sup>27</sup>Al nucleus is 3.6 fm. Using R = R<sub>0</sub>A<sup>1/3</sup>, the radius of a <sup>64</sup>Cu nucleus is",
+            "A": "4.8 fm",
+            "B": "3.6 fm",
+            "C": "6.0 fm",
+            "D": "9.6 fm",
+            "image": "",
+            "correct": "A"
+        },
+        "40": {
+            "qn": "The activity of a radioactive sample falls from 1600 Bq to 100 Bq in 6 hours. Its half-life is",
+            "A": "1 h",
+            "B": "2 h",
+            "C": "1.5 h",
+            "D": "3 h",
+            "image": "",
+            "correct": "C"
+        },
+        "41": {
+            "qn": "When light of frequency &nu; falls on a metal, the stopping potential is 3 V; when the frequency is 2&nu;, it is 8 V. The work function of the metal is",
+            "A": "1 eV",
+            "B": "2 eV",
+            "C": "3 eV",
+            "D": "5 eV",
+            "image": "",
+            "correct": "B"
+        },
+        "42": {
+            "qn": "A photon and an electron have the same wavelength of 0.1 nm. The ratio of the photon's energy to the electron's kinetic energy is approximately",
+            "A": "41",
+            "B": "120",
+            "C": "164",
+            "D": "82",
+            "image": "",
+            "correct": "D"
+        },
+        "43": {
+            "qn": "The energy required to remove the electron from the n = 3 state of a He<sup>+</sup> ion is approximately",
+            "A": "6.04 eV",
+            "B": "1.51 eV",
+            "C": "3.02 eV",
+            "D": "13.6 eV",
+            "image": "",
+            "correct": "A"
+        },
+        "44": {
+            "qn": "In a common-emitter transistor circuit the current gain factor &alpha; = 0.98. The current gain &beta; is",
+            "A": "0.98",
+            "B": "50",
+            "C": "49",
+            "D": "98",
+            "image": "",
+            "correct": "C"
+        },
+        "45": {
+            "qn": "Each input A and B is first inverted by a NOT gate, and the two inverted signals are then fed to a NOR gate. The overall circuit is equivalent to a",
+            "A": "OR gate",
+            "B": "AND gate",
+            "C": "NAND gate",
+            "D": "NOR gate",
+            "image": "",
+            "correct": "B"
+        },
+        "46": {
+            "qn": "The K<sub>&alpha;</sub> wavelength of copper (Z = 29) is 154 pm. Using Moseley's law (&radic;&nu; &prop; Z &minus; 1), the K<sub>&alpha;</sub> wavelength of molybdenum (Z = 42) is approximately",
+            "A": "54 pm",
+            "B": "105 pm",
+            "C": "220 pm",
+            "D": "72 pm",
+            "image": "",
+            "correct": "D"
+        },
+        "47": {
+            "qn": "Hubble's constant is 70 km s<sup>&minus;1</sup> Mpc<sup>&minus;1</sup> (1 Mpc = 3.09 &times; 10<sup>19</sup> km). The corresponding Hubble time 1/H<sub>0</sub>, an estimate of the age of the universe, is approximately",
+            "A": "14 billion years",
+            "B": "1.4 billion years",
+            "C": "4.4 billion years",
+            "D": "140 billion years",
+            "image": "",
+            "correct": "A"
+        },
+        "48": {
+            "qn": "Using atomic masses <sup>1</sup>H = 1.007825 u and <sup>4</sup>He = 4.002603 u (1 u = 931.5 MeV c<sup>&minus;2</sup>), the energy released when four hydrogen atoms fuse into one helium atom is approximately",
+            "A": "7.1 MeV",
+            "B": "13.4 MeV",
+            "C": "26.7 MeV",
+            "D": "28.3 MeV",
+            "image": "",
+            "correct": "C"
+        },
+        "49": {
+            "qn": "A nuclear reactor produces 100 MW of power, each fission releasing 200 MeV (1 eV = 1.6 &times; 10<sup>&minus;19</sup> J). The number of fissions per second is approximately",
+            "A": "3.1 &times; 10<sup>16</sup>",
+            "B": "3.1 &times; 10<sup>18</sup>",
+            "C": "6.3 &times; 10<sup>18</sup>",
+            "D": "3.1 &times; 10<sup>20</sup>",
+            "image": "",
+            "correct": "B"
+        },
+        "50": {
+            "qn": "An &alpha;-particle of kinetic energy 5 MeV is fired head-on at a gold nucleus (Z = 79). The distance of closest approach is approximately (1/4&pi;&epsilon;<sub>0</sub> = 9 &times; 10<sup>9</sup> N m<sup>2</sup> C<sup>&minus;2</sup>)",
+            "A": "4.6 &times; 10<sup>&minus;15</sup> m",
+            "B": "9.1 &times; 10<sup>&minus;14</sup> m",
+            "C": "4.6 &times; 10<sup>&minus;13</sup> m",
+            "D": "4.6 &times; 10<sup>&minus;14</sup> m",
+            "image": "",
+            "correct": "D"
+        }
+    },
+    {
+        "1": {
+            "qn": "Among the hydrogen halides, which bond has the greatest ionic character?",
+            "A": "HCl",
+            "B": "HBr",
+            "C": "HF",
+            "D": "HI",
+            "image": "",
+            "correct": "C"
+        },
+        "2": {
+            "qn": "Which statement about liquid crystals is correct?",
+            "A": "They melt sharply from a solid directly to a clear liquid with no intermediate state",
+            "B": "They flow like liquids but are anisotropic in some physical properties like crystals",
+            "C": "They are isotropic in all physical properties",
+            "D": "They possess complete three-dimensional positional order of molecules",
+            "image": "",
+            "correct": "B"
+        },
+        "3": {
+            "qn": "Which one of the following is a secondary standard substance?",
+            "A": "Anhydrous sodium carbonate",
+            "B": "Potassium dichromate",
+            "C": "Oxalic acid dihydrate",
+            "D": "Sodium hydroxide",
+            "image": "",
+            "correct": "D"
+        },
+        "4": {
+            "qn": "The solubility product of Mg(OH)<sub>2</sub> is 4.0 &times; 10<sup>&minus;12</sup> at 25 &deg;C. Its molar solubility in pure water is:",
+            "A": "1.0 &times; 10<sup>&minus;4</sup> mol L<sup>&minus;1</sup>",
+            "B": "1.6 &times; 10<sup>&minus;4</sup> mol L<sup>&minus;1</sup>",
+            "C": "2.0 &times; 10<sup>&minus;6</sup> mol L<sup>&minus;1</sup>",
+            "D": "4.0 &times; 10<sup>&minus;12</sup> mol L<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "A"
+        },
+        "5": {
+            "qn": "According to collision theory, a 10 K rise in temperature roughly doubles the rate of reaction mainly because:",
+            "A": "the collision frequency doubles",
+            "B": "the fraction of molecules having energy &ge; E<sub>a</sub> increases markedly",
+            "C": "the activation energy is halved",
+            "D": "all collisions acquire the correct orientation",
+            "image": "",
+            "correct": "B"
+        },
+        "6": {
+            "qn": "In the Leclanch&eacute; dry cell, MnO<sub>2</sub> is added mainly to:",
+            "A": "act as the anode",
+            "B": "serve as the electrolyte",
+            "C": "reduce Zn<sup>2+</sup> ions",
+            "D": "oxidise the hydrogen formed at the cathode (act as a depolariser)",
+            "image": "",
+            "correct": "D"
+        },
+        "7": {
+            "qn": "Given: &Delta;H<sub>c</sub>(CH<sub>4</sub>) = &minus;890.3 kJ mol<sup>&minus;1</sup>, &Delta;H<sub>f</sub>(CO<sub>2</sub>) = &minus;393.5 kJ mol<sup>&minus;1</sup> and &Delta;H<sub>f</sub>(H<sub>2</sub>O, l) = &minus;285.8 kJ mol<sup>&minus;1</sup>. The standard enthalpy of formation of CH<sub>4</sub>(g) is:",
+            "A": "+74.8 kJ mol<sup>&minus;1</sup>",
+            "B": "&minus;965.1 kJ mol<sup>&minus;1</sup>",
+            "C": "&minus;74.8 kJ mol<sup>&minus;1</sup>",
+            "D": "&minus;1855.4 kJ mol<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "C"
+        },
+        "8": {
+            "qn": "In which of the following is the carbon&ndash;carbon bond length the shortest?",
+            "A": "Ethyne",
+            "B": "Ethane",
+            "C": "Ethene",
+            "D": "Benzene",
+            "image": "",
+            "correct": "A"
+        },
+        "9": {
+            "qn": "On opening a bottle of a soft drink, bubbles of gas rush out because:",
+            "A": "the temperature of the drink suddenly rises",
+            "B": "the solubility of CO<sub>2</sub> falls as the pressure above the liquid decreases",
+            "C": "CO<sub>2</sub> reacts further with water",
+            "D": "the water in the drink evaporates rapidly",
+            "image": "",
+            "correct": "B"
+        },
+        "10": {
+            "qn": "According to the law of equivalence, how many grams of oxygen (equivalent mass = 8) combine with 2.4 g of a metal M of equivalent mass 12?",
+            "A": "0.8 g",
+            "B": "3.2 g",
+            "C": "1.6 g",
+            "D": "2.4 g",
+            "image": "",
+            "correct": "C"
+        },
+        "11": {
+            "qn": "Which application of the common ion effect explains why H<sub>2</sub>S is passed in the presence of dilute HCl for precipitating Group II cations?",
+            "A": "HCl increases [S<sup>2&minus;</sup>] so that all groups precipitate together",
+            "B": "HCl oxidises H<sub>2</sub>S to sulphur",
+            "C": "HCl converts the Group II cations into soluble chlorides",
+            "D": "H<sup>+</sup> suppresses the ionisation of H<sub>2</sub>S, lowering [S<sup>2&minus;</sup>] so that only the sulphides with very low K<sub>sp</sub> precipitate",
+            "image": "",
+            "correct": "D"
+        },
+        "12": {
+            "qn": "The rate constant of a reaction doubles when the temperature is raised from 300 K to 310 K. The activation energy is approximately (R = 8.314 J K<sup>&minus;1</sup> mol<sup>&minus;1</sup>, ln 2 = 0.693):",
+            "A": "53.6 kJ mol<sup>&minus;1</sup>",
+            "B": "26.8 kJ mol<sup>&minus;1</sup>",
+            "C": "107.2 kJ mol<sup>&minus;1</sup>",
+            "D": "5.36 kJ mol<sup>&minus;1</sup>",
+            "image": "",
+            "correct": "A"
+        },
+        "13": {
+            "qn": "Which of the following is true when a lead&ndash;acid storage battery (a secondary cell) is discharging?",
+            "A": "The concentration of H<sub>2</sub>SO<sub>4</sub> increases",
+            "B": "PbO<sub>2</sub> is regenerated at the cathode",
+            "C": "PbSO<sub>4</sub> is formed at both electrodes",
+            "D": "Pb is regenerated at the anode",
+            "image": "",
+            "correct": "C"
+        },
+        "14": {
+            "qn": "The standard enthalpy of combustion of graphite is equal to the standard enthalpy of formation of:",
+            "A": "CO(g)",
+            "B": "CO<sub>2</sub>(g)",
+            "C": "C(diamond)",
+            "D": "CH<sub>4</sub>(g)",
+            "image": "",
+            "correct": "B"
+        },
+        "15": {
+            "qn": "Which of the following is steam volatile because of intramolecular hydrogen bonding?",
+            "A": "<i>o</i>-Nitrophenol",
+            "B": "<i>p</i>-Nitrophenol",
+            "C": "<i>m</i>-Nitrophenol",
+            "D": "Phenol",
+            "image": "",
+            "correct": "A"
+        },
+        "16": {
+            "qn": "On the solubility curve of a salt, a point lying above the curve represents:",
+            "A": "an unsaturated solution",
+            "B": "a saturated solution",
+            "C": "a pure solvent",
+            "D": "a supersaturated solution",
+            "image": "",
+            "correct": "D"
+        },
+        "17": {
+            "qn": "How many mL of 0.5 N HCl are required to neutralise 25 mL of 0.1 M Ba(OH)<sub>2</sub>?",
+            "A": "5 mL",
+            "B": "10 mL",
+            "C": "20 mL",
+            "D": "25 mL",
+            "image": "",
+            "correct": "B"
+        },
+        "18": {
+            "qn": "In the cyanide process for silver, the metal is precipitated from sodium argentocyanide solution by:",
+            "A": "roasting in air",
+            "B": "heating with coke",
+            "C": "adding dilute HCl",
+            "D": "adding zinc dust",
+            "image": "",
+            "correct": "D"
+        },
+        "19": {
+            "qn": "In the blast furnace extraction of iron, the slag formed is:",
+            "A": "CaSiO<sub>3</sub>",
+            "B": "FeSiO<sub>3</sub>",
+            "C": "CaCO<sub>3</sub>",
+            "D": "Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>",
+            "image": "",
+            "correct": "A"
+        },
+        "20": {
+            "qn": "When excess KI solution is added to an aqueous solution of blue vitriol, the products include:",
+            "A": "Cu(OH)<sub>2</sub> and HI",
+            "B": "brown CuI<sub>2</sub> only",
+            "C": "a white precipitate of Cu<sub>2</sub>I<sub>2</sub> and liberated I<sub>2</sub>",
+            "D": "metallic Cu and I<sub>2</sub>",
+            "image": "",
+            "correct": "C"
+        },
+        "21": {
+            "qn": "Which statement is correct when aqueous white vitriol is treated with NaOH solution?",
+            "A": "A blue precipitate of Zn(OH)<sub>2</sub> forms",
+            "B": "A white precipitate of Zn(OH)<sub>2</sub> forms, which dissolves in excess NaOH",
+            "C": "A white precipitate forms which is insoluble in excess NaOH",
+            "D": "A black precipitate of ZnO forms",
+            "image": "",
+            "correct": "B"
+        },
+        "22": {
+            "qn": "Calomel turns black on treatment with aqueous ammonia because of the formation of:",
+            "A": "finely divided mercury together with Hg(NH<sub>2</sub>)Cl",
+            "B": "Hg(NH<sub>2</sub>)Cl only",
+            "C": "HgS",
+            "D": "HgO",
+            "image": "",
+            "correct": "A"
+        },
+        "23": {
+            "qn": "On adding excess SnCl<sub>2</sub> solution to corrosive sublimate, the final precipitate obtained is:",
+            "A": "white Hg<sub>2</sub>Cl<sub>2</sub>",
+            "B": "yellow HgO",
+            "C": "black HgS",
+            "D": "grey metallic mercury",
+            "image": "",
+            "correct": "D"
+        },
+        "24": {
+            "qn": "Which statement correctly describes the basic oxygen (LD) process of steel making?",
+            "A": "Air is blown through molten pig iron from the bottom of an acid-lined converter",
+            "B": "Producer gas and air are preheated regeneratively to heat the charge on a shallow hearth",
+            "C": "Pure oxygen is blown at high speed through a water-cooled lance onto molten pig iron in a basic-lined converter, with CaO as flux",
+            "D": "Wrought iron is heated with charcoal in closed fireclay boxes",
+            "image": "",
+            "correct": "C"
+        },
+        "25": {
+            "qn": "The high temperature (about 1600 &deg;C) in the open-hearth process for steel is attained mainly by:",
+            "A": "regenerative preheating of air and producer gas using hot waste gases",
+            "B": "blowing pure oxygen through a water-cooled lance",
+            "C": "striking an electric arc between graphite electrodes",
+            "D": "blowing air through the bottom of the converter",
+            "image": "",
+            "correct": "A"
+        },
+        "26": {
+            "qn": "In the electrochemical corrosion of iron, the anodic reaction is:",
+            "A": "O<sub>2</sub> + 2H<sub>2</sub>O + 4e<sup>&minus;</sup> &rarr; 4OH<sup>&minus;</sup>",
+            "B": "Fe &rarr; Fe<sup>2+</sup> + 2e<sup>&minus;</sup>",
+            "C": "2H<sup>+</sup> + 2e<sup>&minus;</sup> &rarr; H<sub>2</sub>",
+            "D": "Fe<sup>3+</sup> + 3e<sup>&minus;</sup> &rarr; Fe",
+            "image": "",
+            "correct": "B"
+        },
+        "27": {
+            "qn": "The intense heat of the atomic hydrogen (Langmuir) torch arises from:",
+            "A": "the combustion of H<sub>2</sub> in oxygen",
+            "B": "the reaction of H<sub>2</sub> with N<sub>2</sub>",
+            "C": "the ionisation of hydrogen atoms to H<sup>+</sup>",
+            "D": "the recombination of hydrogen atoms into H<sub>2</sub> on the metal surface",
+            "image": "",
+            "correct": "D"
+        },
+        "28": {
+            "qn": "Hydration of propyne in the presence of HgSO<sub>4</sub> and dilute H<sub>2</sub>SO<sub>4</sub> gives:",
+            "A": "Propanal",
+            "B": "Propan-2-ol",
+            "C": "Propanone",
+            "D": "Propanoic acid",
+            "image": "",
+            "correct": "C"
+        },
+        "29": {
+            "qn": "Ethanoic acid reacts with chlorine in the presence of red phosphorus to give:",
+            "A": "Chloroethanoic acid",
+            "B": "Ethanoyl chloride",
+            "C": "Chloroethane",
+            "D": "Chloromethane",
+            "image": "",
+            "correct": "A"
+        },
+        "30": {
+            "qn": "A blue colour is obtained when the product of a nitroalkane with HNO<sub>2</sub> is treated with NaOH. The nitroalkane is:",
+            "A": "Nitromethane",
+            "B": "Nitroethane",
+            "C": "2-Methyl-2-nitropropane",
+            "D": "2-Nitropropane",
+            "image": "",
+            "correct": "D"
+        },
+        "31": {
+            "qn": "Which of the following is an organocopper compound (Gilman reagent)?",
+            "A": "(CH<sub>3</sub>)<sub>2</sub>Zn",
+            "B": "(CH<sub>3</sub>)<sub>2</sub>CuLi",
+            "C": "(C<sub>2</sub>H<sub>5</sub>)<sub>2</sub>Cd",
+            "D": "CH<sub>3</sub>MgBr",
+            "image": "",
+            "correct": "B"
+        },
+        "32": {
+            "qn": "Which of the following groups is an aryl group?",
+            "A": "Benzyl (C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>&ndash;)",
+            "B": "Isopropyl ((CH<sub>3</sub>)<sub>2</sub>CH&ndash;)",
+            "C": "Phenyl (C<sub>6</sub>H<sub>5</sub>&ndash;)",
+            "D": "Vinyl (CH<sub>2</sub>=CH&ndash;)",
+            "image": "",
+            "correct": "C"
+        },
+        "33": {
+            "qn": "The antiknock quality of gasoline is improved by:",
+            "A": "increasing the proportion of branched-chain alkanes and aromatic hydrocarbons",
+            "B": "increasing the straight-chain alkane content",
+            "C": "increasing the cetane number",
+            "D": "removing branched alkanes and aromatics",
+            "image": "",
+            "correct": "A"
+        },
+        "34": {
+            "qn": "Which isomer of C<sub>4</sub>H<sub>9</sub>Br has the lowest boiling point?",
+            "A": "1-Bromobutane",
+            "B": "2-Bromobutane",
+            "C": "1-Bromo-2-methylpropane",
+            "D": "2-Bromo-2-methylpropane",
+            "image": "",
+            "correct": "D"
+        },
+        "35": {
+            "qn": "Ethanol heated with excess concentrated H<sub>2</sub>SO<sub>4</sub> at 443 K (170 &deg;C) gives mainly:",
+            "A": "Diethyl ether",
+            "B": "Ethene",
+            "C": "Ethanal",
+            "D": "Ethane",
+            "image": "",
+            "correct": "B"
+        },
+        "36": {
+            "qn": "The best Williamson synthesis route for <i>tert</i>-butyl methyl ether is:",
+            "A": "(CH<sub>3</sub>)<sub>3</sub>CONa + CH<sub>3</sub>I",
+            "B": "(CH<sub>3</sub>)<sub>3</sub>CBr + CH<sub>3</sub>ONa",
+            "C": "(CH<sub>3</sub>)<sub>3</sub>COH + CH<sub>3</sub>ONa",
+            "D": "(CH<sub>3</sub>)<sub>3</sub>CCl + CH<sub>3</sub>OH (heat)",
+            "image": "",
+            "correct": "A"
+        },
+        "37": {
+            "qn": "Which of the following gives a positive iodoform test?",
+            "A": "Pentan-3-one",
+            "B": "Propanal",
+            "C": "Pentan-2-one",
+            "D": "Benzaldehyde",
+            "image": "",
+            "correct": "C"
+        },
+        "38": {
+            "qn": "Which of the following is most reactive towards nucleophilic acyl substitution?",
+            "A": "CH<sub>3</sub>CONH<sub>2</sub>",
+            "B": "CH<sub>3</sub>COOC<sub>2</sub>H<sub>5</sub>",
+            "C": "(CH<sub>3</sub>CO)<sub>2</sub>O",
+            "D": "CH<sub>3</sub>COCl",
+            "image": "",
+            "correct": "D"
+        },
+        "39": {
+            "qn": "In the preparation of nitrobenzene from benzene, concentrated H<sub>2</sub>SO<sub>4</sub> is used with concentrated HNO<sub>3</sub> (at 323&ndash;333 K) mainly to generate:",
+            "A": "the nitrite ion, NO<sub>2</sub><sup>&minus;</sup>",
+            "B": "the nitronium ion, NO<sub>2</sub><sup>+</sup>",
+            "C": "the nitrosonium ion, NO<sup>+</sup>",
+            "D": "sulphur trioxide, SO<sub>3</sub>",
+            "image": "",
+            "correct": "B"
+        },
+        "40": {
+            "qn": "Which functional group is correctly matched with its class of compound?",
+            "A": "&ndash;CHO : ketone",
+            "B": "&ndash;NH<sub>2</sub> : amide",
+            "C": "&ndash;COCl : acid (acyl) chloride",
+            "D": "&ndash;C&equiv;N : isocyanide",
+            "image": "",
+            "correct": "C"
+        },
+        "41": {
+            "qn": "A gasoline sample knocks like a mixture of 70% isooctane and 30% n-heptane by volume. Its octane number is:",
+            "A": "70",
+            "B": "30",
+            "C": "100",
+            "D": "50",
+            "image": "",
+            "correct": "A"
+        },
+        "42": {
+            "qn": "Which statement about the S<sub>N</sub>1 mechanism is correct?",
+            "A": "Its rate = k[RX][Nu<sup>&minus;</sup>] and it occurs in a single step",
+            "B": "It always proceeds with complete inversion of configuration",
+            "C": "It is fastest for methyl halides",
+            "D": "It proceeds through a carbocation intermediate, and its rate depends only on the concentration of the alkyl halide",
+            "image": "",
+            "correct": "D"
+        },
+        "43": {
+            "qn": "In the industrial oxo process (cobalt carbonyl catalyst, high pressure), ethene reacts with CO and H<sub>2</sub> to give an aldehyde, which on hydrogenation yields:",
+            "A": "Ethanol",
+            "B": "Propan-1-ol",
+            "C": "Propan-2-ol",
+            "D": "Butan-1-ol",
+            "image": "",
+            "correct": "B"
+        },
+        "44": {
+            "qn": "Diethyl ether, when heated with excess hot concentrated HI, gives:",
+            "A": "ethanol only",
+            "B": "ethanol and ethyl iodide",
+            "C": "ethyl iodide and water",
+            "D": "ethene and water",
+            "image": "",
+            "correct": "C"
+        },
+        "45": {
+            "qn": "In the Ostwald process, the oxidation of ammonia with air at about 800 &deg;C uses which catalyst, and what is the main nitrogen-containing product?",
+            "A": "Pt&ndash;Rh gauze; NO",
+            "B": "Fe with Mo promoter; NO<sub>2</sub>",
+            "C": "V<sub>2</sub>O<sub>5</sub>; N<sub>2</sub>O",
+            "D": "Ni; N<sub>2</sub>",
+            "image": "",
+            "correct": "A"
+        },
+        "46": {
+            "qn": "White vitriol is used in the preparation of lithopone, a white pigment. Lithopone is a mixture of:",
+            "A": "ZnO and BaS",
+            "B": "ZnCO<sub>3</sub> and BaCO<sub>3</sub>",
+            "C": "ZnS and BaSO<sub>4</sub>",
+            "D": "ZnS and PbSO<sub>4</sub>",
+            "image": "",
+            "correct": "C"
+        },
+        "47": {
+            "qn": "Which buffer pair is mainly responsible for maintaining the pH of human blood at about 7.4?",
+            "A": "CH<sub>3</sub>COOH / CH<sub>3</sub>COONa",
+            "B": "NH<sub>4</sub>OH / NH<sub>4</sub>Cl",
+            "C": "HCl / NaCl",
+            "D": "H<sub>2</sub>CO<sub>3</sub> / HCO<sub>3</sub><sup>&minus;</sup>",
+            "image": "",
+            "correct": "D"
+        },
+        "48": {
+            "qn": "A protein gives a yellow colour on heating with concentrated HNO<sub>3</sub>, which turns orange on adding NaOH. This is the:",
+            "A": "Biuret test",
+            "B": "Xanthoproteic test",
+            "C": "Ninhydrin test",
+            "D": "Lucas test",
+            "image": "",
+            "correct": "B"
+        },
+        "49": {
+            "qn": "Fractional distillation is preferred over simple distillation for separating liquids that:",
+            "A": "differ widely in their boiling points",
+            "B": "decompose below their boiling points",
+            "C": "are miscible and have boiling points close to each other",
+            "D": "are completely immiscible with each other",
+            "image": "",
+            "correct": "C"
+        },
+        "50": {
+            "qn": "In the titration of ethanoic acid with NaOH, the most suitable indicator is:",
+            "A": "phenolphthalein",
+            "B": "methyl orange",
+            "C": "methyl red",
+            "D": "bromophenol blue",
+            "image": "",
+            "correct": "A"
+        }
+    },
+    {
+        "1": {
+            "qn": "Cytochrome c sequences of several vertebrates are compared with that of humans. Which species shows the fewest amino acid differences?",
+            "A": "Dog",
+            "B": "Chicken",
+            "C": "Rhesus monkey",
+            "D": "Tuna",
+            "image": "",
+            "correct": "C"
+        },
+        "2": {
+            "qn": "Weismann cut off the tails of mice for many generations, yet tailless mice never appeared. This supports that:",
+            "A": "Somatic changes do not alter the germ plasm",
+            "B": "Use and disuse produce heritable variations",
+            "C": "Injury induces mutations in the gametes",
+            "D": "Natural selection removes tailed mice",
+            "image": "",
+            "correct": "A"
+        },
+        "3": {
+            "qn": "In a population in Hardy&ndash;Weinberg equilibrium, an autosomal recessive disorder affects 1 in 10,000 people. The approximate carrier frequency is:",
+            "A": "1 in 100",
+            "B": "1 in 5,000",
+            "C": "1 in 10,000",
+            "D": "1 in 50",
+            "image": "",
+            "correct": "D"
+        },
+        "4": {
+            "qn": "Explosive eversion of the nematocyst thread is powered mainly by:",
+            "A": "Contraction of muscle fibres around the capsule",
+            "B": "Osmotic influx of water into the capsule",
+            "C": "Shortening of the cnidocil",
+            "D": "Sudden release of compressed gas",
+            "image": "",
+            "correct": "B"
+        },
+        "5": {
+            "qn": "Book lungs are the respiratory organs of:",
+            "A": "<i>Limulus</i>",
+            "B": "Scorpion",
+            "C": "Prawn",
+            "D": "Cockroach",
+            "image": "",
+            "correct": "B"
+        },
+        "6": {
+            "qn": "Coelom formed by outpocketing of the archenteron (enterocoelom) is seen in:",
+            "A": "Earthworm",
+            "B": "Cockroach",
+            "C": "Starfish",
+            "D": "<i>Pila</i>",
+            "image": "",
+            "correct": "C"
+        },
+        "7": {
+            "qn": "Which feature is diagnostic of <i>Balanoglossus</i> (Hemichordata)?",
+            "A": "Body divided into proboscis, collar and trunk",
+            "B": "Notochord running the whole length of the adult",
+            "C": "Cellulose tunic enclosing the body",
+            "D": "Water vascular system with tube feet",
+            "image": "",
+            "correct": "A"
+        },
+        "8": {
+            "qn": "Stereocilia of the epididymis and of inner-ear hair cells are best described as:",
+            "A": "Motile cilia with a 9+2 microtubule axoneme",
+            "B": "Short cilia with a 9+0 microtubule pattern",
+            "C": "Flagella with dynein arms",
+            "D": "Long, non-motile microvilli with an actin core",
+            "image": "",
+            "correct": "D"
+        },
+        "9": {
+            "qn": "In skeletal muscle, T-tubule depolarisation triggers Ca<sup>2+</sup> release from the sarcoplasmic reticulum through direct coupling between:",
+            "A": "DHP receptors and ryanodine receptors",
+            "B": "Troponin C and tropomyosin",
+            "C": "Calmodulin and myosin light-chain kinase",
+            "D": "SERCA pump and phospholamban",
+            "image": "",
+            "correct": "A"
+        },
+        "10": {
+            "qn": "Scurvy weakens connective tissue because vitamin C is required for:",
+            "A": "Transcription of collagen mRNA",
+            "B": "Synthesis of glycine",
+            "C": "Hydroxylation of proline and lysine in procollagen",
+            "D": "Copper-dependent cross-linking by lysyl oxidase",
+            "image": "",
+            "correct": "C"
+        },
+        "11": {
+            "qn": "The cerebral (suprapharyngeal) ganglia of the earthworm lie:",
+            "A": "Ventral to the pharynx in the fourth segment",
+            "B": "Dorsal to the gizzard in the eighth segment",
+            "C": "Ventral to the buccal cavity in the first segment",
+            "D": "Dorsal to the pharynx in the third segment",
+            "image": "",
+            "correct": "D"
+        },
+        "12": {
+            "qn": "In male toads, Bidder's organ is a rudimentary:",
+            "A": "Seminal vesicle",
+            "B": "Ovary",
+            "C": "Fat body",
+            "D": "Adrenal gland",
+            "image": "",
+            "correct": "B"
+        },
+        "13": {
+            "qn": "The spermathecae of the earthworm store:",
+            "A": "Sperm received from another worm",
+            "B": "Its own sperm until copulation",
+            "C": "Ova before cocoon formation",
+            "D": "Seminal fluid used to line the cocoon",
+            "image": "",
+            "correct": "A"
+        },
+        "14": {
+            "qn": "The spiral valve inside the conus arteriosus of the frog heart mainly:",
+            "A": "Prevents backflow into the ventricle",
+            "B": "Separates right and left atria",
+            "C": "Regulates venous return to the sinus venosus",
+            "D": "Directs blood into different arterial arches",
+            "image": "",
+            "correct": "D"
+        },
+        "15": {
+            "qn": "Calciferous glands of the earthworm function mainly in:",
+            "A": "Secreting proteolytic enzymes",
+            "B": "Grinding soil particles into fine bits",
+            "C": "Removing excess calcium and neutralising acidic food by secreting CaCO<sub>3</sub>",
+            "D": "Absorbing digested nutrients into the blood",
+            "image": "",
+            "correct": "C"
+        },
+        "16": {
+            "qn": "Septal nephridia of the earthworm <i>Pheretima</i> open into the:",
+            "A": "Body surface",
+            "B": "Intestine",
+            "C": "Coelomic cavity",
+            "D": "Buccal cavity",
+            "image": "",
+            "correct": "B"
+        },
+        "17": {
+            "qn": "A neuron has a resting potential of &minus;70 mV and a threshold of &minus;55 mV. At the axon hillock, three EPSPs of +6 mV each and one IPSP of &minus;5 mV arrive together. The result is:",
+            "A": "&minus;57 mV; no action potential",
+            "B": "&minus;52 mV; action potential",
+            "C": "&minus;47 mV; action potential",
+            "D": "&minus;63 mV; no action potential",
+            "image": "",
+            "correct": "A"
+        },
+        "18": {
+            "qn": "Lactase deficiency prevents formation of which monosaccharides from milk sugar?",
+            "A": "Glucose and fructose",
+            "B": "Galactose and fructose",
+            "C": "Glucose and galactose",
+            "D": "Glucose only",
+            "image": "",
+            "correct": "C"
+        },
+        "19": {
+            "qn": "The Haldane effect states that:",
+            "A": "A rise in CO<sub>2</sub> lowers the affinity of haemoglobin for O<sub>2</sub>",
+            "B": "A rise in 2,3-BPG shifts the curve to the right",
+            "C": "A fall in pH shifts the curve to the left",
+            "D": "Deoxygenation of haemoglobin increases blood's capacity to carry CO<sub>2</sub>",
+            "image": "",
+            "correct": "D"
+        },
+        "20": {
+            "qn": "After birth, the ductus arteriosus becomes the:",
+            "A": "Ligamentum venosum",
+            "B": "Ligamentum arteriosum",
+            "C": "Ligamentum teres",
+            "D": "Fossa ovalis",
+            "image": "",
+            "correct": "B"
+        },
+        "21": {
+            "qn": "Which nephron segment is impermeable to water but actively reabsorbs NaCl by Na<sup>+</sup>&ndash;K<sup>+</sup>&ndash;2Cl<sup>&minus;</sup> cotransport?",
+            "A": "Thick ascending limb of Henle's loop",
+            "B": "Proximal convoluted tubule",
+            "C": "Thin descending limb",
+            "D": "Collecting duct",
+            "image": "",
+            "correct": "A"
+        },
+        "22": {
+            "qn": "A patient understands spoken language well but speaks slowly with halting, effortful speech. The lesion is most likely in:",
+            "A": "Wernicke's area",
+            "B": "Angular gyrus",
+            "C": "Primary auditory cortex",
+            "D": "Broca's area",
+            "image": "",
+            "correct": "D"
+        },
+        "23": {
+            "qn": "On absorbing a photon, the retinal of rhodopsin changes from:",
+            "A": "All-<i>trans</i> to 11-<i>cis</i>",
+            "B": "13-<i>cis</i> to all-<i>trans</i>",
+            "C": "11-<i>cis</i> to all-<i>trans</i>",
+            "D": "11-<i>cis</i> to 9-<i>cis</i>",
+            "image": "",
+            "correct": "C"
+        },
+        "24": {
+            "qn": "Which pair of acrosomal enzymes helps the sperm penetrate the corona radiata and zona pellucida?",
+            "A": "Amylase and lipase",
+            "B": "Hyaluronidase and acrosin",
+            "C": "Pepsin and lysozyme",
+            "D": "Hyaluronidase and enterokinase",
+            "image": "",
+            "correct": "B"
+        },
+        "25": {
+            "qn": "Which absorbed product enters the lacteals rather than the blood capillaries of the villus?",
+            "A": "Glucose",
+            "B": "Short-chain fatty acids",
+            "C": "Amino acids",
+            "D": "Chylomicrons",
+            "image": "",
+            "correct": "D"
+        },
+        "26": {
+            "qn": "At high altitude, the rise in red cell 2,3-BPG:",
+            "A": "Shifts the curve right, lowering O<sub>2</sub> affinity and aiding unloading",
+            "B": "Shifts the curve left, raising O<sub>2</sub> affinity",
+            "C": "Binds CO<sub>2</sub> to form carbaminohaemoglobin",
+            "D": "Directly stimulates erythropoietin release",
+            "image": "",
+            "correct": "A"
+        },
+        "27": {
+            "qn": "A blood gas report shows pH 7.28, PaCO<sub>2</sub> 28 mmHg and HCO<sub>3</sub><sup>&minus;</sup> 12 mEq/L. The best interpretation is:",
+            "A": "Respiratory acidosis with renal compensation",
+            "B": "Metabolic alkalosis with respiratory compensation",
+            "C": "Metabolic acidosis with respiratory compensation",
+            "D": "Respiratory alkalosis with renal compensation",
+            "image": "",
+            "correct": "C"
+        },
+        "28": {
+            "qn": "Which enzyme oxidises iodide and iodinates tyrosine residues of thyroglobulin in the thyroid colloid?",
+            "A": "Type 1 deiodinase",
+            "B": "Thyroid peroxidase",
+            "C": "Tyrosine hydroxylase",
+            "D": "Carbonic anhydrase",
+            "image": "",
+            "correct": "B"
+        },
+        "29": {
+            "qn": "When arterial pressure suddenly rises, the baroreceptor reflex produces:",
+            "A": "Bradycardia and peripheral vasodilation",
+            "B": "Tachycardia and vasoconstriction",
+            "C": "Bradycardia with vasoconstriction",
+            "D": "Tachycardia with vasodilation",
+            "image": "",
+            "correct": "A"
+        },
+        "30": {
+            "qn": "Atrial natriuretic peptide lowers blood volume mainly by:",
+            "A": "Stimulating aldosterone secretion",
+            "B": "Constricting the afferent arteriole",
+            "C": "Increasing ADH release",
+            "D": "Increasing GFR and inhibiting Na<sup>+</sup> reabsorption in the collecting duct",
+            "image": "",
+            "correct": "D"
+        },
+        "31": {
+            "qn": "Activation of phospholipase C by a G<sub>q</sub>-coupled receptor yields:",
+            "A": "cAMP and PP<sub>i</sub>",
+            "B": "cGMP and GDP",
+            "C": "IP<sub>3</sub> and DAG",
+            "D": "ADP and P<sub>i</sub>",
+            "image": "",
+            "correct": "C"
+        },
+        "32": {
+            "qn": "A patient passes 15 L/day of very dilute urine. Urine osmolality stays low after water deprivation but rises after desmopressin. The diagnosis is:",
+            "A": "Nephrogenic diabetes insipidus",
+            "B": "Diabetes mellitus",
+            "C": "SIADH",
+            "D": "Central diabetes insipidus",
+            "image": "",
+            "correct": "D"
+        },
+        "33": {
+            "qn": "Diphtheria toxin kills host cells by:",
+            "A": "Cleaving SNARE proteins at nerve endings",
+            "B": "ADP-ribosylating elongation factor-2",
+            "C": "Permanently activating G<sub>s</sub> protein",
+            "D": "Forming pores in the plasma membrane",
+            "image": "",
+            "correct": "B"
+        },
+        "34": {
+            "qn": "The secretory component of secretory IgA is acquired:",
+            "A": "During transcytosis across the epithelial cell",
+            "B": "Together with J chain inside the plasma cell",
+            "C": "During class switching in lymph nodes",
+            "D": "From complement C3b in the lumen",
+            "image": "",
+            "correct": "A"
+        },
+        "35": {
+            "qn": "Hepatitis B virus replicates its DNA genome by:",
+            "A": "Semi-conservative replication by host DNA polymerase alone",
+            "B": "RNA-dependent RNA replication by viral replicase",
+            "C": "Reverse transcription of pregenomic RNA",
+            "D": "Provirus integration followed by host transcription",
+            "image": "",
+            "correct": "C"
+        },
+        "36": {
+            "qn": "In the window period of early HIV infection, which test turns positive earliest?",
+            "A": "ELISA for anti-HIV IgG",
+            "B": "Western blot",
+            "C": "CD4 cell count",
+            "D": "Viral RNA by nucleic acid test",
+            "image": "",
+            "correct": "D"
+        },
+        "37": {
+            "qn": "Rosie, the transgenic cow, secreted which human protein in her milk?",
+            "A": "Insulin",
+            "B": "&alpha;-Lactalbumin",
+            "C": "Growth hormone",
+            "D": "Factor IX",
+            "image": "",
+            "correct": "B"
+        },
+        "38": {
+            "qn": "Hyperacute graft rejection occurs within minutes to hours because of:",
+            "A": "Pre-formed antibodies against donor antigens",
+            "B": "Cytotoxic T-cell infiltration of the graft",
+            "C": "Delayed hypersensitivity by macrophages",
+            "D": "Chronic fibrosis of graft vessels",
+            "image": "",
+            "correct": "A"
+        },
+        "39": {
+            "qn": "In most female birds, the reproductive system shows:",
+            "A": "Both ovaries functional with a single right oviduct",
+            "B": "Only the left ovary and oviduct functional",
+            "C": "Only the right ovary and oviduct functional",
+            "D": "Both ovaries and oviducts functional",
+            "image": "",
+            "correct": "B"
+        },
+        "40": {
+            "qn": "Which Ramsar site is Nepal's first and the main stronghold of the wild water buffalo (arna)?",
+            "A": "Jagdishpur Reservoir",
+            "B": "Ghodaghodi Tal",
+            "C": "Koshi Tappu",
+            "D": "Rara Lake",
+            "image": "",
+            "correct": "C"
+        }
+    },
+{
+        "1": {
+            "qn": "Cytochrome c sequences of several vertebrates are compared with that of humans. Which species shows the fewest amino acid differences?",
+            "A": "Dog",
+            "B": "Chicken",
+            "C": "Rhesus monkey",
+            "D": "Tuna",
+            "image": "",
+            "correct": "C"
+        },
+        "2": {
+            "qn": "Weismann cut off the tails of mice for many generations, yet tailless mice never appeared. This supports that:",
+            "A": "Somatic changes do not alter the germ plasm",
+            "B": "Use and disuse produce heritable variations",
+            "C": "Injury induces mutations in the gametes",
+            "D": "Natural selection removes tailed mice",
+            "image": "",
+            "correct": "A"
+        },
+        "3": {
+            "qn": "In a population in Hardy&ndash;Weinberg equilibrium, an autosomal recessive disorder affects 1 in 10,000 people. The approximate carrier frequency is:",
+            "A": "1 in 100",
+            "B": "1 in 5,000",
+            "C": "1 in 10,000",
+            "D": "1 in 50",
+            "image": "",
+            "correct": "D"
+        },
+        "4": {
+            "qn": "Explosive eversion of the nematocyst thread is powered mainly by:",
+            "A": "Contraction of muscle fibres around the capsule",
+            "B": "Osmotic influx of water into the capsule",
+            "C": "Shortening of the cnidocil",
+            "D": "Sudden release of compressed gas",
+            "image": "",
+            "correct": "B"
+        },
+        "5": {
+            "qn": "Book lungs are the respiratory organs of:",
+            "A": "<i>Limulus</i>",
+            "B": "Scorpion",
+            "C": "Prawn",
+            "D": "Cockroach",
+            "image": "",
+            "correct": "B"
+        },
+        "6": {
+            "qn": "Coelom formed by outpocketing of the archenteron (enterocoelom) is seen in:",
+            "A": "Earthworm",
+            "B": "Cockroach",
+            "C": "Starfish",
+            "D": "<i>Pila</i>",
+            "image": "",
+            "correct": "C"
+        },
+        "7": {
+            "qn": "Which feature is diagnostic of <i>Balanoglossus</i> (Hemichordata)?",
+            "A": "Body divided into proboscis, collar and trunk",
+            "B": "Notochord running the whole length of the adult",
+            "C": "Cellulose tunic enclosing the body",
+            "D": "Water vascular system with tube feet",
+            "image": "",
+            "correct": "A"
+        },
+        "8": {
+            "qn": "Stereocilia of the epididymis and of inner-ear hair cells are best described as:",
+            "A": "Motile cilia with a 9+2 microtubule axoneme",
+            "B": "Short cilia with a 9+0 microtubule pattern",
+            "C": "Flagella with dynein arms",
+            "D": "Long, non-motile microvilli with an actin core",
+            "image": "",
+            "correct": "D"
+        },
+        "9": {
+            "qn": "In skeletal muscle, T-tubule depolarisation triggers Ca<sup>2+</sup> release from the sarcoplasmic reticulum through direct coupling between:",
+            "A": "DHP receptors and ryanodine receptors",
+            "B": "Troponin C and tropomyosin",
+            "C": "Calmodulin and myosin light-chain kinase",
+            "D": "SERCA pump and phospholamban",
+            "image": "",
+            "correct": "A"
+        },
+        "10": {
+            "qn": "Scurvy weakens connective tissue because vitamin C is required for:",
+            "A": "Transcription of collagen mRNA",
+            "B": "Synthesis of glycine",
+            "C": "Hydroxylation of proline and lysine in procollagen",
+            "D": "Copper-dependent cross-linking by lysyl oxidase",
+            "image": "",
+            "correct": "C"
+        },
+        "11": {
+            "qn": "The cerebral (suprapharyngeal) ganglia of the earthworm lie:",
+            "A": "Ventral to the pharynx in the fourth segment",
+            "B": "Dorsal to the gizzard in the eighth segment",
+            "C": "Ventral to the buccal cavity in the first segment",
+            "D": "Dorsal to the pharynx in the third segment",
+            "image": "",
+            "correct": "D"
+        },
+        "12": {
+            "qn": "In male toads, Bidder's organ is a rudimentary:",
+            "A": "Seminal vesicle",
+            "B": "Ovary",
+            "C": "Fat body",
+            "D": "Adrenal gland",
+            "image": "",
+            "correct": "B"
+        },
+        "13": {
+            "qn": "The spermathecae of the earthworm store:",
+            "A": "Sperm received from another worm",
+            "B": "Its own sperm until copulation",
+            "C": "Ova before cocoon formation",
+            "D": "Seminal fluid used to line the cocoon",
+            "image": "",
+            "correct": "A"
+        },
+        "14": {
+            "qn": "The spiral valve inside the conus arteriosus of the frog heart mainly:",
+            "A": "Prevents backflow into the ventricle",
+            "B": "Separates right and left atria",
+            "C": "Regulates venous return to the sinus venosus",
+            "D": "Directs blood into different arterial arches",
+            "image": "",
+            "correct": "D"
+        },
+        "15": {
+            "qn": "Calciferous glands of the earthworm function mainly in:",
+            "A": "Secreting proteolytic enzymes",
+            "B": "Grinding soil particles into fine bits",
+            "C": "Removing excess calcium and neutralising acidic food by secreting CaCO<sub>3</sub>",
+            "D": "Absorbing digested nutrients into the blood",
+            "image": "",
+            "correct": "C"
+        },
+        "16": {
+            "qn": "Septal nephridia of the earthworm <i>Pheretima</i> open into the:",
+            "A": "Body surface",
+            "B": "Intestine",
+            "C": "Coelomic cavity",
+            "D": "Buccal cavity",
+            "image": "",
+            "correct": "B"
+        },
+        "17": {
+            "qn": "A neuron has a resting potential of &minus;70 mV and a threshold of &minus;55 mV. At the axon hillock, three EPSPs of +6 mV each and one IPSP of &minus;5 mV arrive together. The result is:",
+            "A": "&minus;57 mV; no action potential",
+            "B": "&minus;52 mV; action potential",
+            "C": "&minus;47 mV; action potential",
+            "D": "&minus;63 mV; no action potential",
+            "image": "",
+            "correct": "A"
+        },
+        "18": {
+            "qn": "Lactase deficiency prevents formation of which monosaccharides from milk sugar?",
+            "A": "Glucose and fructose",
+            "B": "Galactose and fructose",
+            "C": "Glucose and galactose",
+            "D": "Glucose only",
+            "image": "",
+            "correct": "C"
+        },
+        "19": {
+            "qn": "The Haldane effect states that:",
+            "A": "A rise in CO<sub>2</sub> lowers the affinity of haemoglobin for O<sub>2</sub>",
+            "B": "A rise in 2,3-BPG shifts the curve to the right",
+            "C": "A fall in pH shifts the curve to the left",
+            "D": "Deoxygenation of haemoglobin increases blood's capacity to carry CO<sub>2</sub>",
+            "image": "",
+            "correct": "D"
+        },
+        "20": {
+            "qn": "After birth, the ductus arteriosus becomes the:",
+            "A": "Ligamentum venosum",
+            "B": "Ligamentum arteriosum",
+            "C": "Ligamentum teres",
+            "D": "Fossa ovalis",
+            "image": "",
+            "correct": "B"
+        },
+        "21": {
+            "qn": "Which nephron segment is impermeable to water but actively reabsorbs NaCl by Na<sup>+</sup>&ndash;K<sup>+</sup>&ndash;2Cl<sup>&minus;</sup> cotransport?",
+            "A": "Thick ascending limb of Henle's loop",
+            "B": "Proximal convoluted tubule",
+            "C": "Thin descending limb",
+            "D": "Collecting duct",
+            "image": "",
+            "correct": "A"
+        },
+        "22": {
+            "qn": "A patient understands spoken language well but speaks slowly with halting, effortful speech. The lesion is most likely in:",
+            "A": "Wernicke's area",
+            "B": "Angular gyrus",
+            "C": "Primary auditory cortex",
+            "D": "Broca's area",
+            "image": "",
+            "correct": "D"
+        },
+        "23": {
+            "qn": "On absorbing a photon, the retinal of rhodopsin changes from:",
+            "A": "All-<i>trans</i> to 11-<i>cis</i>",
+            "B": "13-<i>cis</i> to all-<i>trans</i>",
+            "C": "11-<i>cis</i> to all-<i>trans</i>",
+            "D": "11-<i>cis</i> to 9-<i>cis</i>",
+            "image": "",
+            "correct": "C"
+        },
+        "24": {
+            "qn": "Which pair of acrosomal enzymes helps the sperm penetrate the corona radiata and zona pellucida?",
+            "A": "Amylase and lipase",
+            "B": "Hyaluronidase and acrosin",
+            "C": "Pepsin and lysozyme",
+            "D": "Hyaluronidase and enterokinase",
+            "image": "",
+            "correct": "B"
+        },
+        "25": {
+            "qn": "Which absorbed product enters the lacteals rather than the blood capillaries of the villus?",
+            "A": "Glucose",
+            "B": "Short-chain fatty acids",
+            "C": "Amino acids",
+            "D": "Chylomicrons",
+            "image": "",
+            "correct": "D"
+        },
+        "26": {
+            "qn": "At high altitude, the rise in red cell 2,3-BPG:",
+            "A": "Shifts the curve right, lowering O<sub>2</sub> affinity and aiding unloading",
+            "B": "Shifts the curve left, raising O<sub>2</sub> affinity",
+            "C": "Binds CO<sub>2</sub> to form carbaminohaemoglobin",
+            "D": "Directly stimulates erythropoietin release",
+            "image": "",
+            "correct": "A"
+        },
+        "27": {
+            "qn": "A blood gas report shows pH 7.28, PaCO<sub>2</sub> 28 mmHg and HCO<sub>3</sub><sup>&minus;</sup> 12 mEq/L. The best interpretation is:",
+            "A": "Respiratory acidosis with renal compensation",
+            "B": "Metabolic alkalosis with respiratory compensation",
+            "C": "Metabolic acidosis with respiratory compensation",
+            "D": "Respiratory alkalosis with renal compensation",
+            "image": "",
+            "correct": "C"
+        },
+        "28": {
+            "qn": "Which enzyme oxidises iodide and iodinates tyrosine residues of thyroglobulin in the thyroid colloid?",
+            "A": "Type 1 deiodinase",
+            "B": "Thyroid peroxidase",
+            "C": "Tyrosine hydroxylase",
+            "D": "Carbonic anhydrase",
+            "image": "",
+            "correct": "B"
+        },
+        "29": {
+            "qn": "When arterial pressure suddenly rises, the baroreceptor reflex produces:",
+            "A": "Bradycardia and peripheral vasodilation",
+            "B": "Tachycardia and vasoconstriction",
+            "C": "Bradycardia with vasoconstriction",
+            "D": "Tachycardia with vasodilation",
+            "image": "",
+            "correct": "A"
+        },
+        "30": {
+            "qn": "Atrial natriuretic peptide lowers blood volume mainly by:",
+            "A": "Stimulating aldosterone secretion",
+            "B": "Constricting the afferent arteriole",
+            "C": "Increasing ADH release",
+            "D": "Increasing GFR and inhibiting Na<sup>+</sup> reabsorption in the collecting duct",
+            "image": "",
+            "correct": "D"
+        },
+        "31": {
+            "qn": "Activation of phospholipase C by a G<sub>q</sub>-coupled receptor yields:",
+            "A": "cAMP and PP<sub>i</sub>",
+            "B": "cGMP and GDP",
+            "C": "IP<sub>3</sub> and DAG",
+            "D": "ADP and P<sub>i</sub>",
+            "image": "",
+            "correct": "C"
+        },
+        "32": {
+            "qn": "A patient passes 15 L/day of very dilute urine. Urine osmolality stays low after water deprivation but rises after desmopressin. The diagnosis is:",
+            "A": "Nephrogenic diabetes insipidus",
+            "B": "Diabetes mellitus",
+            "C": "SIADH",
+            "D": "Central diabetes insipidus",
+            "image": "",
+            "correct": "D"
+        },
+        "33": {
+            "qn": "Diphtheria toxin kills host cells by:",
+            "A": "Cleaving SNARE proteins at nerve endings",
+            "B": "ADP-ribosylating elongation factor-2",
+            "C": "Permanently activating G<sub>s</sub> protein",
+            "D": "Forming pores in the plasma membrane",
+            "image": "",
+            "correct": "B"
+        },
+        "34": {
+            "qn": "The secretory component of secretory IgA is acquired:",
+            "A": "During transcytosis across the epithelial cell",
+            "B": "Together with J chain inside the plasma cell",
+            "C": "During class switching in lymph nodes",
+            "D": "From complement C3b in the lumen",
+            "image": "",
+            "correct": "A"
+        },
+        "35": {
+            "qn": "Hepatitis B virus replicates its DNA genome by:",
+            "A": "Semi-conservative replication by host DNA polymerase alone",
+            "B": "RNA-dependent RNA replication by viral replicase",
+            "C": "Reverse transcription of pregenomic RNA",
+            "D": "Provirus integration followed by host transcription",
+            "image": "",
+            "correct": "C"
+        },
+        "36": {
+            "qn": "In the window period of early HIV infection, which test turns positive earliest?",
+            "A": "ELISA for anti-HIV IgG",
+            "B": "Western blot",
+            "C": "CD4 cell count",
+            "D": "Viral RNA by nucleic acid test",
+            "image": "",
+            "correct": "D"
+        },
+        "37": {
+            "qn": "Rosie, the transgenic cow, secreted which human protein in her milk?",
+            "A": "Insulin",
+            "B": "&alpha;-Lactalbumin",
+            "C": "Growth hormone",
+            "D": "Factor IX",
+            "image": "",
+            "correct": "B"
+        },
+        "38": {
+            "qn": "Hyperacute graft rejection occurs within minutes to hours because of:",
+            "A": "Pre-formed antibodies against donor antigens",
+            "B": "Cytotoxic T-cell infiltration of the graft",
+            "C": "Delayed hypersensitivity by macrophages",
+            "D": "Chronic fibrosis of graft vessels",
+            "image": "",
+            "correct": "A"
+        },
+        "39": {
+            "qn": "In most female birds, the reproductive system shows:",
+            "A": "Both ovaries functional with a single right oviduct",
+            "B": "Only the left ovary and oviduct functional",
+            "C": "Only the right ovary and oviduct functional",
+            "D": "Both ovaries and oviducts functional",
+            "image": "",
+            "correct": "B"
+        },
+        "40": {
+            "qn": "Which Ramsar site is Nepal's first and the main stronghold of the wild water buffalo (arna)?",
+            "A": "Jagdishpur Reservoir",
+            "B": "Ghodaghodi Tal",
+            "C": "Koshi Tappu",
+            "D": "Rara Lake",
+            "image": "",
+            "correct": "C"
+        }
+    },
+{
+        "1": {
+            "qn": "A student walks 6 m east and then 8 m north. How far is the student from the starting point?",
+            "A": "14 m",
+            "B": "10 m",
+            "C": "2 m",
+            "D": "8 m",
+            "image": "",
+            "correct": "B"
+        },
+        "2": {
+            "qn": "What amount will Rs 5,000 become in 2 years at 10% annual compound interest?",
+            "A": "Rs 6,000",
+            "B": "Rs 5,500",
+            "C": "Rs 6,100",
+            "D": "Rs 6,050",
+            "image": "",
+            "correct": "D"
+        },
+        "3": {
+            "qn": "A town reports a rise in dengue cases after several weeks of rain. I. Remove stagnant water and conduct targeted public awareness. II. Close every school indefinitely. Which action is appropriate?",
+            "A": "Both I and II",
+            "B": "Only II",
+            "C": "Only I",
+            "D": "Neither I nor II",
+            "image": "",
+            "correct": "C"
+        },
+        "4": {
+            "qn": "Choose the next letter: A, C, F, J, O, ?",
+            "A": "U",
+            "B": "V",
+            "C": "T",
+            "D": "W",
+            "image": "",
+            "correct": "A"
+        },
+        "5": {
+            "qn": "An item bought for Rs 800 is sold for Rs 920. What is the profit percentage?",
+            "A": "12%",
+            "B": "20%",
+            "C": "18%",
+            "D": "15%",
+            "image": "",
+            "correct": "D"
+        },
+        "6": {
+            "qn": "A daughter is one-third her mother&rsquo;s present age. In 12 years, the daughter will be half her mother&rsquo;s age. How old is the daughter now?",
+            "A": "16 years",
+            "B": "10 years",
+            "C": "14 years",
+            "D": "12 years",
+            "image": "",
+            "correct": "D"
+        },
+        "7": {
+            "qn": "A power cut occurred at 2 p.m.; several shops immediately switched on generators. Which is the most reasonable inference?",
+            "A": "The generators caused the power cut",
+            "B": "The shops had closed for the day",
+            "C": "The power cut prompted generator use",
+            "D": "The shops caused the power cut",
+            "image": "",
+            "correct": "C"
+        },
+        "8": {
+            "qn": "P is taller than K, K is taller than M, and M is taller than N. Who is the second tallest?",
+            "A": "K",
+            "B": "M",
+            "C": "P",
+            "D": "N",
+            "image": "",
+            "correct": "A"
+        },
+        "9": {
+            "qn": "How many different groups of 3 students can be selected from 7 students?",
+            "A": "42",
+            "B": "28",
+            "C": "21",
+            "D": "35",
+            "image": "",
+            "correct": "D"
+        },
+        "10": {
+            "qn": "What is the smaller angle between the hands of a clock at 3:30?",
+            "A": "60&deg;",
+            "B": "90&deg;",
+            "C": "75&deg;",
+            "D": "105&deg;",
+            "image": "",
+            "correct": "C"
+        },
+        "11": {
+            "qn": "A shop has 120 litres of juice. Each bottle holds 750 mL. How many completely full bottles can be filled?",
+            "A": "160",
+            "B": "120",
+            "C": "180",
+            "D": "150",
+            "image": "",
+            "correct": "A"
+        },
+        "12": {
+            "qn": "Five people C, A, B, D and E sit in a row facing north. C is at the left end; A sits immediately left of B; E sits to the right of B; and D is not next to C. Who must sit in seat 2 from the left?",
+            "A": "B",
+            "B": "D",
+            "C": "A",
+            "D": "E",
+            "image": "",
+            "correct": "C"
+        },
+        "13": {
+            "qn": "From a point on level ground 20 m from a tree, the angle of elevation to its top is 45&deg;. What is the tree&rsquo;s height?",
+            "A": "20 m",
+            "B": "20&radic;3 m",
+            "C": "10 m",
+            "D": "40 m",
+            "image": "",
+            "correct": "A"
+        },
+        "14": {
+            "qn": "Statements: No metal is transparent. Some utensils are metal. Conclusions: I. Some utensils are not transparent. II. No utensil is transparent. Which follows?",
+            "A": "Only II",
+            "B": "Only I",
+            "C": "Neither I nor II",
+            "D": "Both I and II",
+            "image": "",
+            "correct": "B"
+        },
+        "15": {
+            "qn": "Using the reverse-alphabet code A&harr;Z, B&harr;Y, C&harr;X, and so on, how is DOG coded?",
+            "A": "WLT",
+            "B": "VKS",
+            "C": "WOG",
+            "D": "XLT",
+            "image": "",
+            "correct": "A"
+        },
+        "16": {
+            "qn": "The circle gains one dot in the first pair. Apply the same change to the square. (Figure: a circle with 1 dot &rarr; a circle with 2 dots :: a square with 1 dot &rarr; ?)",
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "image": "current_assets/1.png",
+            "correct": "D"
+        },
+        "17": {
+            "qn": "Two views of the same die are shown. Faces A, B, C are visible in one view; A, D, E in the other. Which face is opposite A?",
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "image": "current_assets/2.png",
+            "correct": "D"
+        },
+        "18": {
+            "qn": "The paper is folded once vertically and once horizontally. A triangular cut is made at the folded outer corner. Which unfolded pattern is possible?",
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "image": "current_assets/3.png",
+            "correct": "A"
+        },
+        "19": {
+            "qn": "The dot moves clockwise around the outer middle cells of a 3 &times; 3 grid (top-middle &rarr; middle-right &rarr; bottom-middle). Where should it appear next?",
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "image": "current_assets/4.png",
+            "correct": "C"
+        },
+        "20": {
+            "qn": "Which small triangle can be traced continuously within the complex figure?",
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": "",
+            "image": "current_assets/5.png",
+            "correct": "D"
+        }
+    }
+]
